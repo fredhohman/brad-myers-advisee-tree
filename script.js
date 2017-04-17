@@ -1,5 +1,5 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 1500 - margin.right - margin.left,
+    width = 1800 - margin.right - margin.left,
     height = 1200 - margin.top - margin.bottom;
 
 var i = 0,
@@ -59,7 +59,7 @@ function update(source) {
       links = nodes.slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
+  nodes.forEach(function(d) { d.y = d.depth * 280; });
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
