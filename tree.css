@@ -6,6 +6,7 @@
 
 .node text {
   font: 12px sans-serif;
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
 }
 
 .node:hover {
@@ -17,3 +18,4 @@
   stroke: #ccc;
   stroke-width: 2px;
 }
+
