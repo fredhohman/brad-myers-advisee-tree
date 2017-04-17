@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 960 - margin.right - margin.left,
-    height = 800 - margin.top - margin.bottom;
+    width = 1500 - margin.right - margin.left,
+    height = 1200 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 750,
@@ -23,12 +23,17 @@ var stratify = d3.stratify()
     return d.parent; //What position this position reports to
   });
 
-d3.json('test-data.json', function(error, data) {
-  
-  console.log(data);
+function collapse(d) {
+  if (d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
+};
 
+d3.csv("brad-test-after-clean.csv", function(error, data) {
+  
   root = stratify(data);
-  console.log(root);
 
   root.each(function(d) {
     
@@ -41,16 +46,7 @@ d3.json('test-data.json', function(error, data) {
   root.x0 = height / 2;
   root.y0 = 0;
 
-  function collapse(d) {
-    if (d.children) {
-      d._children = d.children;
-      d._children.forEach(collapse);
-      d.children = null;
-    }
-  }
-
   root.children.forEach(collapse);
-  console.log(root);
   update(root);
 });
 
@@ -169,4 +165,29 @@ function connector(d) {
     "C" + (d.y + d.parent.y) / 2 + "," + d.x +
     " " + (d.y + d.parent.y) / 2 + "," + d.parent.x +
     " " + d.parent.y + "," + d.parent.x;
+}
+
+
+//TESTS
+function expand(d){   
+    var children = (d.children)?d.children:d._children;
+    if (d._children) {        
+        d.children = d._children;
+        d._children = null;       
+    }
+    if(children)
+      children.forEach(expand);
+}
+
+
+
+function expandAll(){
+    expand(root); 
+    update(root);
+}
+
+function collapseAll(){
+    root.children.forEach(collapse);
+    collapse(root);
+    update(root);
 }
