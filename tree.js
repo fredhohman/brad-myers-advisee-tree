@@ -45,7 +45,7 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
 
   root.x0 = height / 2;
   root.y0 = 0;
-  
+
   root.children.forEach(collapse);
   update(root);
 });
@@ -59,7 +59,7 @@ function update(source) {
       links = nodes.slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 100; });
+  nodes.forEach(function(d) { d.y = d.depth * 280; }); //100 for ribbon
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -73,7 +73,8 @@ function update(source) {
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .style("fill", function(d) { return d._children ? "#845fb4" : "#fff"; })
+      .style("stroke", "#542988");
 
   nodeEnter.append("a")
       .attr("href", function(d) { return d.data.img; })
@@ -91,8 +92,8 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 2.5) //4.5
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      .attr("r", 4.5) //2.5 for ribbon
+      .style("fill", function(d) { return d._children ? "#845fb4" : "#fff"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1);
