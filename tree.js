@@ -84,7 +84,7 @@ function update(source) {
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6)
-      .style("font-size", "14px");
+      .style("font-size", "10px");
 
   // Transition nodes to their new position.
   var nodeUpdate = node.merge(nodeEnter).transition()
