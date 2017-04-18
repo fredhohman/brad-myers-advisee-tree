@@ -1,5 +1,5 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 1800 - margin.right - margin.left,
+    width = 1600 - margin.right - margin.left,
     height = 1200 - margin.top - margin.bottom;
 
 var i = 0,
@@ -45,7 +45,7 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
 
   root.x0 = height / 2;
   root.y0 = 0;
-
+  
   root.children.forEach(collapse);
   update(root);
 });
@@ -59,7 +59,7 @@ function update(source) {
       links = nodes.slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 280; });
+  nodes.forEach(function(d) { d.y = d.depth * 100; });
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -82,7 +82,8 @@ function update(source) {
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
-      .style("fill-opacity", 1e-6);
+      .style("fill-opacity", 1e-6)
+      .style("font-size", "14px");
 
   // Transition nodes to their new position.
   var nodeUpdate = node.merge(nodeEnter).transition()
@@ -90,7 +91,7 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", 2.5) //4.5
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
@@ -178,8 +179,6 @@ function expand(d){
     if(children)
       children.forEach(expand);
 }
-
-
 
 function expandAll(){
     expand(root); 
