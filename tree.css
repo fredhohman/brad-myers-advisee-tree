@@ -1,12 +1,12 @@
 .node circle {
-  fill: #fff;
-  stroke: steelblue;
-  stroke-width: 3px;
+  /*fill: #542988;*/
+  /*stroke-width: 3px;*/
 }
 
 .node text {
   font: 12px sans-serif;
   text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+  /*fill: white;*/
 }
 
 .node:hover {
@@ -16,6 +16,7 @@
 .link {
   fill: none;
   stroke: #ccc;
+  stroke: #/*4CAF50*/;
   stroke-width: 2px;
 }
 

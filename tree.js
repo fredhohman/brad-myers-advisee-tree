@@ -9,7 +9,7 @@ var i = 0,
 var tree = d3.tree()
     .size([height, width]);
 
-var svg = d3.select("body").append("svg")
+var svg = d3.select("#tree").append("svg")
     .attr("width", width + margin.right + margin.left)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -29,7 +29,15 @@ function collapse(d) {
     d._children.forEach(collapse);
     d.children = null;
   }
-};
+}
+
+var nodeColor = "#845fb4";
+var nodeColorNoChildren = "#ffffff";
+var NodeStrokeColor = "#542988";
+
+// var nodeColor = "#ffffff";
+// var nodeColorNoChildren = "#ffffff";
+// var NodeStrokeColor = "#cccccc";
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
   
@@ -47,6 +55,7 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.y0 = 0;
 
   root.children.forEach(collapse);
+  // root.children.reverse();
   update(root);
 });
 
@@ -73,8 +82,7 @@ function update(source) {
 
   nodeEnter.append("circle")
       .attr("r", 1e-6)
-      .style("fill", function(d) { return d._children ? "#845fb4" : "#fff"; })
-      .style("stroke", "#542988");
+      .style("fill", nodeColor);
 
   nodeEnter.append("a")
       .attr("href", function(d) { return d.data.img; })
@@ -92,8 +100,10 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5) //2.5 for ribbon
-      .style("fill", function(d) { return d._children ? "#845fb4" : "#fff"; });
+      .attr("r", 4.55) //2.5 for ribbon
+      .style("fill", nodeColor)
+      .style("stroke", function(d) { return d._children ? NodeStrokeColor : nodeColorNoChildren; })
+      .style("stroke-width", function(d) { return d._children ? "5" : "0"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1);
@@ -109,7 +119,6 @@ function update(source) {
 
   nodeExit.select("text")
       .style("fill-opacity", 1e-6);
-
 
   // Update the links…
   var link = svg.selectAll("path.link")
@@ -170,7 +179,7 @@ function connector(d) {
 }
 
 
-//TESTS
+// Expand and Collapse all
 function expand(d){   
     var children = (d.children)?d.children:d._children;
     if (d._children) {        
@@ -189,5 +198,10 @@ function expandAll(){
 function collapseAll(){
     root.children.forEach(collapse);
     collapse(root);
+    update(root);
+}
+
+function expandOne(){
+    root.children.forEach(click); 
     update(root);
 }
