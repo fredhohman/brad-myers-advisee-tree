@@ -4,12 +4,28 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="tree.css">
 
+<title>Brad Myer's Advisee Tree</title>
+
 <body>
 <h1>
   Brad Myers's Academic Tree
 </h1>
+
+<p>
+  At ACM CHI 2017 Brad Myer's was award the CHI Lifetime Achievement Award. 
+  <br>
+  In his keynote talk, he presented his advisee tree &mdash; all 6 generations!
+</p>
+
+<p>
+  <a href="http://www.github.com/fredhohman/brad-myers-academic-tree">Data availble here.</a>
+</p>
+
 <button onclick="expandAll()">Expand All</button>
 <button onclick="collapseAll()">Collapse All</button>
+<button onclick="expandOne()">Expand One</button>
+
+<div id="tree"></div>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script type="text/javascript" src="tree.js"></script>
