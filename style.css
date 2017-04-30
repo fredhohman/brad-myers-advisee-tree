@@ -66,8 +66,8 @@ a:hover {
 
 .border button:hover,
 .border button.hover {
-  border-color: #B39DDB;
-  background-color: #B39DDB;
+  border-color: #845fb4;
+  background-color: #845fb4;
   color: #ffffff;
     cursor: pointer;
 }

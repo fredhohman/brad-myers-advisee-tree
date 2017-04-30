@@ -1,10 +1,12 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
-    width = 1600 - margin.right - margin.left,
-    height = 1200 - margin.top - margin.bottom;
+    width = 1700 - margin.right - margin.left,
+    height = 1400 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 750,
     root;
+
+var depthCounter = 0;
 
 var tree = d3.tree()
     .size([height, width]);
@@ -57,6 +59,10 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.children.forEach(collapse);
   // root.children.reverse();
   update(root);
+
+  d3.select();
+
+  depthCounter = 1;
 });
 
 d3.select(self.frameElement).style("height", "800px");
@@ -67,8 +73,10 @@ function update(source) {
   var nodes = tree(root).descendants(),
       links = nodes.slice(1);
 
+  // console.log(nodes);
+
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 280; }); //100 for ribbon
+  nodes.forEach(function(d) { d.y = d.depth * 260; }); //100 for ribbon
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -92,7 +100,11 @@ function update(source) {
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6)
-      .style("font-size", "10px");
+      .style("font-size", function(d) { 
+        if (d.depth === 1 || d.depth === 0) {
+          return "14px";
+        }
+      });
 
   // Transition nodes to their new position.
   var nodeUpdate = node.merge(nodeEnter).transition()
@@ -168,6 +180,7 @@ function click(d) {
     d._children = null;
   }
   update(d);
+  console.log('clicked!');
 }
 
 // replaces d3 v3 diagonal
@@ -202,6 +215,65 @@ function collapseAll(){
 }
 
 function expandOne(){
-    root.children.forEach(click); 
-    update(root);
+    // root.children.forEach(click); 
+    // update(root);
+
+    getDescendants(root);
+
+}
+
+function getDescendants(root) {
+  // root.children.forEach(function(d) {
+
+  //     getDescendants(d);
+
+  // });
+
+    var nodes = tree(root).descendants();
+    console.log('nodes', nodes);
+    nodes.forEach(function(d) {
+    
+      console.log(d.depth);
+
+      if (d.depth === depthCounter && d.children !== undefined){
+        console.log(d.children);
+        click(d);
+      }
+  });
+
+  depthCounter = depthCounter + 1;
+  console.log(depthCounter);
+
+}
+
+function collapseOne(){
+    // root.children.forEach(click); 
+    // update(root);
+
+    getDescendantsCollapse(root);
+
+}
+
+function getDescendantsCollapse(root) {
+  // root.children.forEach(function(d) {
+
+  //     getDescendants(d);
+
+  // });
+
+    var nodes = tree(root).descendants();
+    console.log('nodes', nodes);
+    nodes.forEach(function(d) {
+    
+      console.log(d.depth);
+
+      if (d.depth === depthCounter-1 && d.children !== undefined){
+        console.log(d.children);
+        click(d);
+      }
+  });
+
+  depthCounter = depthCounter - 1;
+  console.log(depthCounter);
+
 }
