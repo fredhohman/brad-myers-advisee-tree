@@ -7,8 +7,6 @@ var i = 0,
     root,
     playing = false;
 
-var depthCounter = 0;
-
 var tree = d3.tree()
     .size([height, width]);
 
@@ -43,34 +41,17 @@ var NodeStrokeColor = "#542988";
 // var nodeColorNoChildren = "#ffffff";
 // var NodeStrokeColor = "#cccccc";
 
-var allChildren = [];
-
-function getChildren(root) {
-
-  root.children.each(function(d) {
-
-    allChildren.push(d);
-
-    if (d._children) {
-      console.log(d);
-      getChildren(d);
-    }
-  });
-
-  return allChildren;
-}
-
-function reversy_boy(toor) {
-  if (toor.children) {
-    toor.children.reverse()
-    toor.children.forEach(function(nod) {
-      reversy_boy(nod);
+function reverseData(rootNode) {
+  if (rootNode.children) {
+    rootNode.children.reverse();
+    rootNode.children.forEach(function(node) {
+      reverseData(node);
     });
   }
-  if (toor._children) {
-    toor._children.reverse()
-    toor._children.forEach(function(nod) {
-      reversy_boy(nod);
+  if (rootNode._children) {
+    rootNode._children.reverse();
+    rootNode._children.forEach(function(node) {
+      reverseData(node);
     });
   }
 }
@@ -90,34 +71,22 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.x0 = height / 2;
   root.y0 = 0;
 
-  // allChildren = getChildren(root);
-  reversy_boy(root);
-
+  reverseData(root);
   root.children.forEach(collapse);
-
-  // root.children.reverse();
   update(root);
 
-
-  depthCounter = 1;
 });
 
 d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
-  // Force intterupt?
-  d3.selectAll('.node').interrupt().selectAll("*").interrupt();
 
-  // console.log(source.name)
-  // console.log('update');
+  // Force interrupt?
+  d3.selectAll('.node').interrupt().selectAll("*").interrupt();
 
   // Compute the new tree layout.
   var nodes = tree(root).descendants(),
       links = nodes.slice(1);
-
-  // console.log(nodes);
-
-  allChildren = nodes;
 
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 260; }); //100 for ribbon
@@ -211,7 +180,7 @@ function update(source) {
       })
       .remove();
 
-  // Stash the old positions for transition.
+  // Stash the old positions for transition. 
   // nodes.forEach(function(d) {
   //   d.x0 = d.x;
   //   d.y0 = d.y;
@@ -229,7 +198,6 @@ function click(d) {
     d._children = null;
   }
   update(d);
-  console.log('clicked!');
 }
 
 // replaces d3 v3 diagonal
@@ -240,144 +208,19 @@ function connector(d) {
     " " + d.parent.y + "," + d.parent.x;
 }
 
-
-// Expand and Collapse all
-function expand(d){
-    var children = (d.children)?d.children:d._children;
-
-    if (d._children) {
-        d.children = d._children;
-        d._children = null;
-    }
-    if(children)
-      children.forEach(expand);
-}
-
-function expandAll(){
-    expand(root);
-    update(root);
-}
-
-function collapseAll(){
-    root.children.forEach(collapse);
-    collapse(root);
-    update(root);
-}
-
-function expandOne(){
-    // root.children.forEach(click);
-    // update(root);
-
-    getDescendants(root);
-
-}
-
-function getDescendants(root) {
-  // root.children.forEach(function(d) {
-
-  //     getDescendants(d);
-
-  // });
-
-    var nodes = tree(root).descendants();
-    console.log('nodes', nodes);
-    nodes.forEach(function(d) {
-
-      console.log(d.depth);
-
-      if (d.depth === depthCounter && d.children !== undefined){
-        console.log(d.children);
-        expand_node(d);
-        update(d);
-      }
-  });
-
-  depthCounter = depthCounter + 1;
-  console.log(depthCounter);
-
-}
-
-function collapseOne(){
-    // root.children.forEach(click);
-    // update(root);
-
-    getDescendantsCollapse(root);
-
-}
-
-function getDescendantsCollapse(root) {
-  // root.children.forEach(function(d) {
-
-  //     getDescendants(d);
-
-  // });
-
-    var nodes = tree(root).descendants();
-    console.log('nodes', nodes);
-    nodes.forEach(function(d) {
-
-      console.log(d.depth);
-
-      if (d.depth === depthCounter-1 && d.children !== undefined){
-        console.log(d.children);
-        click(d);
-      }
-  });
-
-  depthCounter = depthCounter - 1;
-  console.log(depthCounter);
-
-}
-
-var clicked = 2;
-var pastClicked = 2;
-
-function expandOrCollapse() {
-
-}
-
-function expand_node(nod){
+function expand(nod){
   if (nod._children) {
       nod.children = nod._children;
       nod._children = null;
   }
 }
 
-// function collapse_node(nod) {
-//   if (nod.children) {
-//     nod._children = nod.children;
-//     nod.children = null;
-//   }
-// }
-
-// function show_depth_n(cur_node, n){
-//   console.log(cur_node.name);
-
-//   if (cur_node._children){
-//     if (d.depth < n) {
-//       expand_node(cur_node);
-//     }
-//   }
-//   if (cur_node.children){
-//     cur_node.children.forEach(function(d) {
-//       if (d.depth < n) {
-//       	expand_node(d);
-//         show_depth_n(d, n);
-
-//       } else {
-//         collapse_node(d);
-//       }
-//     });
-//   }
-//   update(cur_node);
-// }
-
-function show_depth_n2(cur_node, n){
+function showDepthN(cur_node, n){
   if (cur_node.children) {
     if (cur_node.depth < n) {
-      // expand_node(cur_node);
+      // expand(cur_node);
       cur_node.children.forEach(function(d) {
-        show_depth_n2(d, n);
+        showDepthN(d, n);
       });
     } else {
       collapse(cur_node);
@@ -386,17 +229,16 @@ function show_depth_n2(cur_node, n){
   } else {
 
     if (cur_node.depth < n) {
-      expand_node(cur_node);
+      expand(cur_node);
       if(cur_node.children) {
         update(cur_node);
         cur_node.children.forEach(function(d) {
-        show_depth_n2(d, n);
+        showDepthN(d, n);
         });
       }
     }
   }
 }
-
 
 function changeFontSize() {
   d3.selectAll('.node text').style('font-size', function(d) {
@@ -422,56 +264,60 @@ function changeFontSize() {
 }
 
 function gen1() {
-  show_depth_n2(root, 0);
+  showDepthN(root, 0);
   changeFontSize();
 }
 
 function gen2() {
-  show_depth_n2(root, 1);
+  showDepthN(root, 1);
   changeFontSize();
 }
 
 function gen3() {
-  show_depth_n2(root, 2);
+  showDepthN(root, 2);
   changeFontSize();
 }
 
 function gen4() {
-  show_depth_n2(root, 3);
+  showDepthN(root, 3);
   changeFontSize();
 }
 
 function gen5() {
-  show_depth_n2(root, 4);
+  showDepthN(root, 4);
   changeFontSize();
 }
 
 function gen6() {
-  show_depth_n2(root, 5);
+  showDepthN(root, 5);
   changeFontSize();
 }
 
 function play() {
   if (!playing){
     playing = true;
-    gen1()
-    d3.select('#gen1b').transition().duration(1800).style('background-color', 'black')
+    gen1();
+    d3.select('#gen1b').transition().duration(1800).style('background-color', 'black');
     setTimeout(function(){
-        gen2()
-        d3.select('#gen1b').transition().duration(1800).style('background-color', 'white')
-        d3.select('#gen2b').transition().duration(1800).style('background-color', 'black')
+        gen2();
+        d3.select('#gen1b').transition().duration(1800).style('background-color', 'white');
+        d3.select('#gen2b').transition().duration(1800).style('background-color', 'black');
     }, 3000);
+
     setTimeout(function(){
-        gen3()
+        gen3();
     }, 6000);
+
     setTimeout(function(){
-        gen4()
+        gen4();
     }, 9000);
+
     setTimeout(function(){
-        gen5()
+        gen5();
     }, 12000);
+
     setTimeout(function(){
-        gen6()
+        gen6();
         playing = false;
     }, 15000);
   }
