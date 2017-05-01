@@ -77,9 +77,11 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.y0 = 0;
 
   reverseData(root);
-  root.children.forEach(collapse);
+  // root.children.forEach(collapse);
+  
+  gen1();
   update(root);
-  gen2();
+  play();
 
 });
 
