@@ -3,8 +3,9 @@ var margin = {top: 20, right: 120, bottom: 20, left: 120},
     height = 1400 - margin.top - margin.bottom;
 
 var i = 0,
-    duration = 750,
-    root;
+    duration = 2000,
+    root,
+    playing = false;
 
 var depthCounter = 0;
 
@@ -19,7 +20,7 @@ var svg = d3.select("#tree").append("svg")
 
 var stratify = d3.stratify()
   .id(function(d) {
-    return d.name;//This position
+    return d.name; //This position
   })
   .parentId(function(d) {
     return d.parent; //What position this position reports to
@@ -47,9 +48,9 @@ var allChildren = [];
 function getChildren(root) {
 
   root.children.each(function(d) {
-    
+
     allChildren.push(d);
-    
+
     if (d._children) {
       console.log(d);
       getChildren(d);
@@ -57,6 +58,21 @@ function getChildren(root) {
   });
 
   return allChildren;
+}
+
+function reversy_boy(toor) {
+  if (toor.children) {
+    toor.children.reverse()
+    toor.children.forEach(function(nod) {
+      reversy_boy(nod);
+    });
+  }
+  if (toor._children) {
+    toor._children.reverse()
+    toor._children.forEach(function(nod) {
+      reversy_boy(nod);
+    });
+  }
 }
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
@@ -75,8 +91,10 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.y0 = 0;
 
   // allChildren = getChildren(root);
+  reversy_boy(root);
 
   root.children.forEach(collapse);
+
   // root.children.reverse();
   update(root);
 
@@ -87,8 +105,11 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
 d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
+  // Force intterupt?
+  d3.selectAll('.node').interrupt().selectAll("*").interrupt();
 
-  console.log('update');
+  // console.log(source.name)
+  // console.log('update');
 
   // Compute the new tree layout.
   var nodes = tree(root).descendants(),
@@ -130,9 +151,13 @@ function update(source) {
       });
 
   // Transition nodes to their new position.
-  var nodeUpdate = node.merge(nodeEnter).interrupt().transition()
-      .duration(duration)
-      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+  var nodeUpdate = node.merge(nodeEnter)
+      .transition().duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .on('end', function(d) {
+        d.x0 = d.x;
+        d.y0 = d.y;
+      });
 
   nodeUpdate.select("circle")
       .attr("r", 4.55) //2.5 for ribbon
@@ -160,9 +185,8 @@ function update(source) {
       .data(links, function(link) { var id = link.id + '->' + link.parent.id; return id; });
 
   // Transition links to their new position.
-  link.interrupt().transition()
-      .duration(duration)
-      .attr("d", connector);
+  link.transition().duration(duration)
+    .attr("d", connector);
 
   // Enter any new links at the parent's previous position.
   var linkEnter = link.enter().insert("path", "g")
@@ -177,6 +201,7 @@ function update(source) {
       .duration(duration)
       .attr("d", connector);
 
+
   // Transition exiting nodes to the parent's new position.
   link.exit().interrupt().transition()
       .duration(duration)
@@ -187,10 +212,10 @@ function update(source) {
       .remove();
 
   // Stash the old positions for transition.
-  nodes.forEach(function(d) {
-    d.x0 = d.x;
-    d.y0 = d.y;
-  });
+  // nodes.forEach(function(d) {
+  //   d.x0 = d.x;
+  //   d.y0 = d.y;
+  // });
 
 }
 
@@ -362,8 +387,8 @@ function show_depth_n2(cur_node, n){
 
     if (cur_node.depth < n) {
       expand_node(cur_node);
-      update(cur_node);
       if(cur_node.children) {
+        update(cur_node);
         cur_node.children.forEach(function(d) {
         show_depth_n2(d, n);
         });
@@ -397,49 +422,57 @@ function changeFontSize() {
 }
 
 function gen1() {
-  console.log(allChildren);
   show_depth_n2(root, 0);
-  // update(root);
   changeFontSize();
 }
 
 function gen2() {
-  console.log(allChildren);
   show_depth_n2(root, 1);
-  // update(root);
   changeFontSize();
 }
 
 function gen3() {
-  console.log(allChildren);
   show_depth_n2(root, 2);
-  // update(root);
   changeFontSize();
 }
 
 function gen4() {
-  console.log(allChildren);
   show_depth_n2(root, 3);
-  // update(root);
   changeFontSize();
 }
 
 function gen5() {
-  console.log(allChildren);
   show_depth_n2(root, 4);
-  // update(root);
   changeFontSize();
 }
 
 function gen6() {
-  console.log(allChildren);
   show_depth_n2(root, 5);
-  // update(root);
   changeFontSize();
 }
 
-
-
-
-
-
+function play() {
+  if (!playing){
+    playing = true;
+    gen1()
+    d3.select('#gen1b').transition().duration(1800).style('background-color', 'black')
+    setTimeout(function(){
+        gen2()
+        d3.select('#gen1b').transition().duration(1800).style('background-color', 'white')
+        d3.select('#gen2b').transition().duration(1800).style('background-color', 'black')
+    }, 3000);
+    setTimeout(function(){
+        gen3()
+    }, 6000);
+    setTimeout(function(){
+        gen4()
+    }, 9000);
+    setTimeout(function(){
+        gen5()
+    }, 12000);
+    setTimeout(function(){
+        gen6()
+        playing = false;
+    }, 15000);
+  }
+}
