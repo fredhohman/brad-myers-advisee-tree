@@ -44,20 +44,20 @@ var NodeStrokeColor = "#542988";
 
 var allChildren = [];
 
-// function getChildren(root) {
+function getChildren(root) {
 
-//   root.children.forEach(function(d) {
+  root.children.each(function(d) {
     
-//     allChildren.push(d);
+    allChildren.push(d);
     
-//     if (d._children) {
-//       console.log(d);
-//       getChildren(d);
-//     }
-//   });
+    if (d._children) {
+      console.log(d);
+      getChildren(d);
+    }
+  });
 
-//   return allChildren;
-// }
+  return allChildren;
+}
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
   
@@ -302,8 +302,16 @@ function getDescendantsCollapse(root) {
 
 }
 
+var clicked = 2;
+var pastClicked = 2;
+
+function expandOrCollapse() {
+
+}
+
 function gen1() {
   console.log(allChildren);
+  clicked = 1;
   // d3.select();
 }
 
