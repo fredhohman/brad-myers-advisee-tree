@@ -47,9 +47,9 @@ var allChildren = [];
 // function getChildren(root) {
 
 //   root.children.forEach(function(d) {
-    
+
 //     allChildren.push(d);
-    
+
 //     if (d._children) {
 //       console.log(d);
 //       getChildren(d);
@@ -60,15 +60,15 @@ var allChildren = [];
 // }
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
-  
+
   root = stratify(data);
 
   root.each(function(d) {
-    
+
       d.name = d.id; //transferring name to a name variable
       d.id = i; //Assigning numerical Ids
       i++;
-    
+
     });
 
   root.x0 = height / 2;
@@ -94,7 +94,7 @@ function update(source) {
   var nodes = tree(root).descendants(),
       links = nodes.slice(1);
 
-  console.log(nodes);
+  // console.log(nodes);
 
   allChildren = nodes;
 
@@ -123,7 +123,7 @@ function update(source) {
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6)
-      .style("font-size", function(d) { 
+      .style("font-size", function(d) {
         if (d.depth === 1 || d.depth === 0) {
           return "14px";
         }
@@ -158,7 +158,7 @@ function update(source) {
   // Update the links…
   var link = svg.selectAll("path.link")
       .data(links, function(link) { var id = link.id + '->' + link.parent.id; return id; });
-  
+
   // Transition links to their new position.
   link.transition()
       .duration(duration)
@@ -191,6 +191,7 @@ function update(source) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
+
 }
 
 // Toggle children on click.
@@ -216,19 +217,19 @@ function connector(d) {
 
 
 // Expand and Collapse all
-function expand(d){   
+function expand(d){
     var children = (d.children)?d.children:d._children;
 
-    if (d._children) {   
+    if (d._children) {
         d.children = d._children;
-        d._children = null;       
+        d._children = null;
     }
     if(children)
       children.forEach(expand);
 }
 
 function expandAll(){
-    expand(root); 
+    expand(root);
     update(root);
 }
 
@@ -239,7 +240,7 @@ function collapseAll(){
 }
 
 function expandOne(){
-    // root.children.forEach(click); 
+    // root.children.forEach(click);
     // update(root);
 
     getDescendants(root);
@@ -256,7 +257,7 @@ function getDescendants(root) {
     var nodes = tree(root).descendants();
     console.log('nodes', nodes);
     nodes.forEach(function(d) {
-    
+
       console.log(d.depth);
 
       if (d.depth === depthCounter && d.children !== undefined){
@@ -271,7 +272,7 @@ function getDescendants(root) {
 }
 
 function collapseOne(){
-    // root.children.forEach(click); 
+    // root.children.forEach(click);
     // update(root);
 
     getDescendantsCollapse(root);
@@ -288,7 +289,7 @@ function getDescendantsCollapse(root) {
     var nodes = tree(root).descendants();
     console.log('nodes', nodes);
     nodes.forEach(function(d) {
-    
+
       console.log(d.depth);
 
       if (d.depth === depthCounter-1 && d.children !== undefined){
@@ -302,28 +303,70 @@ function getDescendantsCollapse(root) {
 
 }
 
+function expand_node(nod){
+  if (nod._children) {
+      nod.children = nod._children;
+      nod._children = null;
+  }
+}
+
+function collapse_node(nod) {
+  if (nod.children) {
+    nod._children = nod.children;
+    nod.children = null;
+  }
+}
+
+function show_depth_n(cur_node, n){
+  console.log(cur_node.name)
+  if (cur_node._children){
+    if (d.depth < n) {
+      expand_node(cur_node);
+    }
+  }
+  if (cur_node.children){
+    cur_node.children.forEach(function(d) {
+      if (d.depth < n) {
+      	expand_node(d);
+        show_depth_n(d, n);
+      } else {
+        collapse_node(d);
+      }
+    });
+  }
+}
+
+
 function gen1() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n(root, 1);
+  update(root)
 }
 
 function gen2() {
   console.log(allChildren);
+  show_depth_n(root, 2);
+  update(root)
   // d3.select();
 }
 
 function gen3() {
   console.log(allChildren);
+  show_depth_n(root, 3);
+  update(root)
   // d3.select();
 }
 
 function gen4() {
   console.log(allChildren);
+  show_depth_n(root, 4);
+  update(root)
   // d3.select();
 }
 
 function gen5() {
   console.log(allChildren);
+  show_depth_n(root, 5);
   // d3.select();
 }
 
