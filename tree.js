@@ -398,42 +398,42 @@ function changeFontSize() {
 
 function gen1() {
   console.log(allChildren);
-  show_depth_n2(root, 1);
+  show_depth_n2(root, 0);
   // update(root);
   changeFontSize();
 }
 
 function gen2() {
   console.log(allChildren);
-  show_depth_n2(root, 2);
+  show_depth_n2(root, 1);
   // update(root);
   changeFontSize();
 }
 
 function gen3() {
   console.log(allChildren);
-  show_depth_n2(root, 3);
+  show_depth_n2(root, 2);
   // update(root);
   changeFontSize();
 }
 
 function gen4() {
   console.log(allChildren);
-  show_depth_n2(root, 4);
+  show_depth_n2(root, 3);
   // update(root);
   changeFontSize();
 }
 
 function gen5() {
   console.log(allChildren);
-  show_depth_n2(root, 5);
+  show_depth_n2(root, 4);
   // update(root);
   changeFontSize();
 }
 
 function gen6() {
   console.log(allChildren);
-  show_depth_n2(root, 6);
+  show_depth_n2(root, 5);
   // update(root);
   changeFontSize();
 }
