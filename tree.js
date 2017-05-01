@@ -4,8 +4,13 @@ var margin = {top: 20, right: 120, bottom: 20, left: 120},
 
 var i = 0,
     duration = 2000,
+    pause = 1000,
+    buttonTransTime = 1400,
     root,
     playing = false;
+
+var buttonColor = '#845fb4',
+    buttonBackgroundColor = '#ffffff';
 
 var tree = d3.tree()
     .size([height, width]);
@@ -295,30 +300,63 @@ function gen6() {
 
 function play() {
   if (!playing){
+
     playing = true;
+    
     gen1();
-    d3.select('#gen1b').transition().duration(1800).style('background-color', 'black');
+    d3.select('#gen1button').transition().duration(buttonTransTime)
+                            .style('background-color', buttonColor)
+                            .style('color', buttonBackgroundColor);
+
     setTimeout(function(){
         gen2();
-        d3.select('#gen1b').transition().duration(1800).style('background-color', 'white');
-        d3.select('#gen2b').transition().duration(1800).style('background-color', 'black');
-    }, 3000);
+        d3.select('#gen1button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonBackgroundColor)
+                                .style('color', buttonColor);
+        d3.select('#gen2button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonColor)
+                                .style('color', buttonBackgroundColor);
+    }, duration + pause);
 
     setTimeout(function(){
         gen3();
-    }, 6000);
+        d3.select('#gen2button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonBackgroundColor)
+                                .style('color', buttonColor);
+        d3.select('#gen3button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonColor)
+                                .style('color', buttonBackgroundColor);
+    }, (duration + pause)*2);
 
     setTimeout(function(){
         gen4();
-    }, 9000);
+        d3.select('#gen3button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonBackgroundColor)
+                                .style('color', buttonColor);
+        d3.select('#gen4button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonColor)
+                                .style('color', buttonBackgroundColor);
+    }, (duration + pause)*3);
 
     setTimeout(function(){
         gen5();
-    }, 12000);
+        d3.select('#gen4button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonBackgroundColor)
+                                .style('color', buttonColor);
+        d3.select('#gen5button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonColor)
+                                .style('color', buttonBackgroundColor);
+    }, (duration + pause)*4);
 
     setTimeout(function(){
         gen6();
+        d3.select('#gen5button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonBackgroundColor)
+                                .style('color', buttonColor);
+        d3.select('#gen6button').transition().duration(buttonTransTime)
+                                .style('background-color', buttonColor)
+                                .style('color', buttonBackgroundColor);
         playing = false;
-    }, 15000);
+    }, (duration + pause)*5);
   }
 }
