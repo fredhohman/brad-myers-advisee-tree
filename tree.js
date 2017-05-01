@@ -3,9 +3,9 @@ var margin = {top: 20, right: 120, bottom: 20, left: 120},
     height = 1400 - margin.top - margin.bottom;
 
 var i = 0,
-    duration = 2000,
-    pause = 1000,
-    buttonTransTime = 1400,
+    duration = 1500,
+    pause = 800,
+    buttonTransTime = 1000,
     root,
     playing = false;
 
@@ -79,6 +79,7 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   reverseData(root);
   root.children.forEach(collapse);
   update(root);
+  gen2();
 
 });
 
@@ -134,10 +135,10 @@ function update(source) {
       });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.55) //2.5 for ribbon
+      .attr("r", 4.25) //2.5 for ribbon
       .style("fill", nodeColor)
       .style("stroke", function(d) { return d._children ? NodeStrokeColor : nodeColorNoChildren; })
-      .style("stroke-width", function(d) { return d._children ? "5" : "0"; });
+      .style("stroke-width", function(d) { return d._children ? "4" : "0"; });
 
   nodeUpdate.select("text")
       .style("fill-opacity", 1);
@@ -251,19 +252,19 @@ function changeFontSize() {
       case 0:
         return '16px';
       case 1:
-        return '16x';
+        return '14x';
       case 2:
-        return '16px';
+        return '12px';
       case 3:
-        return '16px';
+        return '10px';
       case 4:
-        return '16px';
+        return '10px';
       case 5:
-        return '16px';
+        return '10px';
       case 6:
-        return '16px';
+        return '10px';
       default:
-        return '16px';
+        return '10px';
     }
   });
 }
@@ -271,31 +272,73 @@ function changeFontSize() {
 function gen1() {
   showDepthN(root, 0);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen1button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function gen2() {
   showDepthN(root, 1);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen2button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function gen3() {
   showDepthN(root, 2);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen3button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function gen4() {
   showDepthN(root, 3);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen4button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function gen5() {
   showDepthN(root, 4);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen5button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function gen6() {
   showDepthN(root, 5);
   changeFontSize();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen6button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
 }
 
 function play() {
@@ -358,5 +401,9 @@ function play() {
                                 .style('color', buttonBackgroundColor);
         playing = false;
     }, (duration + pause)*5);
+
+    d3.select('#gen6button').transition().duration(buttonTransTime)
+                            .style('background-color', buttonBackgroundColor)
+                            .style('color', buttonColor);
   }
 }
