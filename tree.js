@@ -60,15 +60,15 @@ function getChildren(root) {
 }
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
-  
+
   root = stratify(data);
 
   root.each(function(d) {
-    
+
       d.name = d.id; //transferring name to a name variable
       d.id = i; //Assigning numerical Ids
       i++;
-    
+
     });
 
   root.x0 = height / 2;
@@ -94,7 +94,7 @@ function update(source) {
   var nodes = tree(root).descendants(),
       links = nodes.slice(1);
 
-  console.log(nodes);
+  // console.log(nodes);
 
   allChildren = nodes;
 
@@ -123,14 +123,14 @@ function update(source) {
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
       .text(function(d) { return d.name; })
       .style("fill-opacity", 1e-6)
-      .style("font-size", function(d) { 
+      .style("font-size", function(d) {
         if (d.depth === 1 || d.depth === 0) {
           return "14px";
         }
       });
 
   // Transition nodes to their new position.
-  var nodeUpdate = node.merge(nodeEnter).transition()
+  var nodeUpdate = node.merge(nodeEnter).interrupt().transition()
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
@@ -144,7 +144,7 @@ function update(source) {
       .style("fill-opacity", 1);
 
   // Transition exiting nodes to the parent's new position.
-  var nodeExit = node.exit().transition()
+  var nodeExit = node.exit().interrupt().transition()
       .duration(duration)
       .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
       .remove();
@@ -158,9 +158,9 @@ function update(source) {
   // Update the links…
   var link = svg.selectAll("path.link")
       .data(links, function(link) { var id = link.id + '->' + link.parent.id; return id; });
-  
+
   // Transition links to their new position.
-  link.transition()
+  link.interrupt().transition()
       .duration(duration)
       .attr("d", connector);
 
@@ -173,12 +173,12 @@ function update(source) {
       });
 
   // Transition links to their new position.
-  link.merge(linkEnter).transition()
+  link.merge(linkEnter).interrupt().transition()
       .duration(duration)
       .attr("d", connector);
 
   // Transition exiting nodes to the parent's new position.
-  link.exit().transition()
+  link.exit().interrupt().transition()
       .duration(duration)
       .attr("d",  function(d) {
         var o = {x: source.x, y: source.y, parent:{x: source.x, y: source.y}};
@@ -191,6 +191,7 @@ function update(source) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
+
 }
 
 // Toggle children on click.
@@ -216,19 +217,19 @@ function connector(d) {
 
 
 // Expand and Collapse all
-function expand(d){   
+function expand(d){
     var children = (d.children)?d.children:d._children;
 
-    if (d._children) {   
+    if (d._children) {
         d.children = d._children;
-        d._children = null;       
+        d._children = null;
     }
     if(children)
       children.forEach(expand);
 }
 
 function expandAll(){
-    expand(root); 
+    expand(root);
     update(root);
 }
 
@@ -239,7 +240,7 @@ function collapseAll(){
 }
 
 function expandOne(){
-    // root.children.forEach(click); 
+    // root.children.forEach(click);
     // update(root);
 
     getDescendants(root);
@@ -256,12 +257,13 @@ function getDescendants(root) {
     var nodes = tree(root).descendants();
     console.log('nodes', nodes);
     nodes.forEach(function(d) {
-    
+
       console.log(d.depth);
 
       if (d.depth === depthCounter && d.children !== undefined){
         console.log(d.children);
-        click(d);
+        expand_node(d);
+        update(d);
       }
   });
 
@@ -271,7 +273,7 @@ function getDescendants(root) {
 }
 
 function collapseOne(){
-    // root.children.forEach(click); 
+    // root.children.forEach(click);
     // update(root);
 
     getDescendantsCollapse(root);
@@ -288,7 +290,7 @@ function getDescendantsCollapse(root) {
     var nodes = tree(root).descendants();
     console.log('nodes', nodes);
     nodes.forEach(function(d) {
-    
+
       console.log(d.depth);
 
       if (d.depth === depthCounter-1 && d.children !== undefined){
@@ -309,33 +311,135 @@ function expandOrCollapse() {
 
 }
 
+function expand_node(nod){
+  if (nod._children) {
+      nod.children = nod._children;
+      nod._children = null;
+  }
+}
+
+// function collapse_node(nod) {
+//   if (nod.children) {
+//     nod._children = nod.children;
+//     nod.children = null;
+//   }
+// }
+
+// function show_depth_n(cur_node, n){
+//   console.log(cur_node.name);
+
+//   if (cur_node._children){
+//     if (d.depth < n) {
+//       expand_node(cur_node);
+//     }
+//   }
+//   if (cur_node.children){
+//     cur_node.children.forEach(function(d) {
+//       if (d.depth < n) {
+//       	expand_node(d);
+//         show_depth_n(d, n);
+
+//       } else {
+//         collapse_node(d);
+//       }
+//     });
+//   }
+//   update(cur_node);
+// }
+
+function show_depth_n2(cur_node, n){
+  if (cur_node.children) {
+    if (cur_node.depth < n) {
+      // expand_node(cur_node);
+      cur_node.children.forEach(function(d) {
+        show_depth_n2(d, n);
+      });
+    } else {
+      collapse(cur_node);
+    }
+    update(cur_node);
+  } else {
+
+    if (cur_node.depth < n) {
+      expand_node(cur_node);
+      update(cur_node);
+      if(cur_node.children) {
+        cur_node.children.forEach(function(d) {
+        show_depth_n2(d, n);
+        });
+      }
+    }
+  }
+}
+
+
+function changeFontSize() {
+  d3.selectAll('.node text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '16px';
+      case 1:
+        return '16x';
+      case 2:
+        return '16px';
+      case 3:
+        return '16px';
+      case 4:
+        return '16px';
+      case 5:
+        return '16px';
+      case 6:
+        return '16px';
+      default:
+        return '16px';
+    }
+  });
+}
+
 function gen1() {
   console.log(allChildren);
-  clicked = 1;
-  // d3.select();
+  show_depth_n2(root, 1);
+  // update(root);
+  changeFontSize();
 }
 
 function gen2() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n2(root, 2);
+  // update(root);
+  changeFontSize();
 }
 
 function gen3() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n2(root, 3);
+  // update(root);
+  changeFontSize();
 }
 
 function gen4() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n2(root, 4);
+  // update(root);
+  changeFontSize();
 }
 
 function gen5() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n2(root, 5);
+  // update(root);
+  changeFontSize();
 }
 
 function gen6() {
   console.log(allChildren);
-  // d3.select();
+  show_depth_n2(root, 6);
+  // update(root);
+  changeFontSize();
 }
+
+
+
+
+
+
