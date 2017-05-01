@@ -27,7 +27,8 @@ var stratify = d3.stratify()
 
 function collapse(d) {
   if (d.children) {
-    d._children = d.children;
+      d._children = d.children;
+
     d._children.forEach(collapse);
     d.children = null;
   }
@@ -40,6 +41,23 @@ var NodeStrokeColor = "#542988";
 // var nodeColor = "#ffffff";
 // var nodeColorNoChildren = "#ffffff";
 // var NodeStrokeColor = "#cccccc";
+
+var allChildren = [];
+
+// function getChildren(root) {
+
+//   root.children.forEach(function(d) {
+    
+//     allChildren.push(d);
+    
+//     if (d._children) {
+//       console.log(d);
+//       getChildren(d);
+//     }
+//   });
+
+//   return allChildren;
+// }
 
 d3.csv("brad-test-after-clean.csv", function(error, data) {
   
@@ -56,11 +74,12 @@ d3.csv("brad-test-after-clean.csv", function(error, data) {
   root.x0 = height / 2;
   root.y0 = 0;
 
+  // allChildren = getChildren(root);
+
   root.children.forEach(collapse);
   // root.children.reverse();
   update(root);
 
-  d3.select();
 
   depthCounter = 1;
 });
@@ -69,11 +88,15 @@ d3.select(self.frameElement).style("height", "800px");
 
 function update(source) {
 
+  console.log('update');
+
   // Compute the new tree layout.
   var nodes = tree(root).descendants(),
       links = nodes.slice(1);
 
-  // console.log(nodes);
+  console.log(nodes);
+
+  allChildren = nodes;
 
   // Normalize for fixed-depth.
   nodes.forEach(function(d) { d.y = d.depth * 260; }); //100 for ribbon
@@ -173,10 +196,10 @@ function update(source) {
 // Toggle children on click.
 function click(d) {
   if (d.children) {
-    d._children = d.children;
+    d._children = d.children;//.reverse(); // senior students at top
     d.children = null;
   } else {
-    d.children = d._children;
+    d.children = d._children;//.reverse(); // senior students at top
     d._children = null;
   }
   update(d);
@@ -195,7 +218,8 @@ function connector(d) {
 // Expand and Collapse all
 function expand(d){   
     var children = (d.children)?d.children:d._children;
-    if (d._children) {        
+
+    if (d._children) {   
         d.children = d._children;
         d._children = null;       
     }
@@ -276,4 +300,34 @@ function getDescendantsCollapse(root) {
   depthCounter = depthCounter - 1;
   console.log(depthCounter);
 
+}
+
+function gen1() {
+  console.log(allChildren);
+  // d3.select();
+}
+
+function gen2() {
+  console.log(allChildren);
+  // d3.select();
+}
+
+function gen3() {
+  console.log(allChildren);
+  // d3.select();
+}
+
+function gen4() {
+  console.log(allChildren);
+  // d3.select();
+}
+
+function gen5() {
+  console.log(allChildren);
+  // d3.select();
+}
+
+function gen6() {
+  console.log(allChildren);
+  // d3.select();
 }
