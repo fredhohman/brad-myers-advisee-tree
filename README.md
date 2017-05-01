@@ -1,20 +1,25 @@
 # Brad Myers's Advisee Tree
 
-At the [ACM CHI 2017][chi] conference, [Brad Myers][brad]</a> was awarded the [CHI Lifetime Research Award][award].  
+At the [ACM CHI 2017][chi] conference, [Brad Myers][brad] was awarded the [CHI Lifetime Research Award][award].  
 In his keynote talk, he presented his advisee tree &mdash; all **6** generations, totaling **172** students!
 
+[Original hierarchal document][doc] with affiliations, or [raw data available][data].
 
-<p>
-  <a href="https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj">Original hierarchal document</a> with affiliations, or <a href="http://www.github.com/fredhohman/brad-myers-academic-tree">raw data available.</a>
-</p>
+*Design and implementation by [Fred Hohman][fred] (generation 5), [Robert Pienta][robert] (generation 5), and [Polo Chau][polo] (generation 4).*
 
-<p id="author">
-  <i>Design and implementation by <a href="http://fredhohman.com">Fred Hohman</a> (generation 5).</i>
-</p>
+***
 
-
-https://bl.ocks.org/mbostock/4339083
+[View the visualization here][vis].
 
 [chi]: https://chi2017.acm.org
 [brad]: http://www.cs.cmu.edu/~bam
 [award]: http://www.sigchi.org/about/awards/2017-sigchi-awards#brad-a-myers
+
+[doc]: https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj
+[data]: http://www.github.com/fredhohman/brad-myers-academic-tree
+
+[fred]: http://fredhohman.com
+[robert]: http://www.cc.gatech.edu/~rpienta3/
+[polo]: http://www.cc.gatech.edu/~dchau/
+
+[vis]: http://fredhohman.com/brad-myers-advisee-tree
