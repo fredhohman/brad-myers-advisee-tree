@@ -5,7 +5,7 @@ In his keynote talk, he presented his advisee tree &mdash; all **6** generations
 
 [Original hierarchal document][doc] with affiliations, or [raw data available][data].
 
-*Design and implementation by [Fred Hohman][fred] (generation 5), [Robert Pienta][robert] (generation 5), and [Polo Chau][polo] (generation 4).*
+*Design and implementation by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
 
 ***
 
