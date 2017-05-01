@@ -3,6 +3,7 @@
 
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="tree.css">
+<script src="https://use.fontawesome.com/b5426df074.js"></script>
 
 <title>Brad Myer's Advisee Tree</title>
 
@@ -24,24 +25,20 @@
 </p>
 
 <p id="author">
-  <i>Design and implementation by <a href="http://fredhohman.com">Fred Hohman</a> (generation 5), <a href="http://www.cc.gatech.edu/~rpienta3/">Robert Pienta</a> (generation 5), and <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> (generation 4).</i>
+  <i>Design and implementation by <a href="http://fredhohman.com">Fred Hohman</a> (gen. 5), <a href="http://www.cc.gatech.edu/~rpienta3/">Robert Pienta</a> (gen. 5), and <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a> (gen. 4).</i>
 </p>
 
 <span class="border">
-  <button onclick="expandAll()">Expand All</button>
-  <button onclick="collapseAll()">Collapse All</button>
-  <button onclick="expandOne()">Expand One</button>
-  <button onclick="collapseOne()">Collapse One</button>
-  <br>
-  <br>
-  <span>Generation: </span>
-  <button onclick="gen1()">1</button>
-  <button onclick="gen2()">2</button>
-  <button onclick="gen3()">3</button>
-  <button onclick="gen4()">4</button>
-  <button onclick="gen5()">5</button>
-  <button onclick="gen6()">6</button>
-  <button onclick="play()">Spiel</button>
+  <span><b>Generation:&nbsp;</b></span>
+  <button id="gen1button" onclick="gen1()">1</button>
+  <button id="gen2button" onclick="gen2()">2</button>
+  <button id="gen3button" onclick="gen3()">3</button>
+  <button id="gen4button" onclick="gen4()">4</button>
+  <button id="gen5button" onclick="gen5()">5</button>
+  <button id="gen6button" onclick="gen6()">6</button>
+  <span><b>&nbsp;or&nbsp;</b></span>
+  <button onclick="play()">Play&nbsp;<i class="fa fa-play" aria-hidden="true"></i>
+</button>
 </span>
 
 </div>
