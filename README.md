@@ -3,7 +3,7 @@
 At the [ACM CHI 2017][chi] conference, [Brad Myers][brad] was awarded the [CHI Lifetime Research Award][award].  
 In his keynote talk, he presented his advisee tree &mdash; all **6** generations, totaling **172** students!
 
-[Original hierarchal document][doc] with affiliations, or [raw data available][data].
+The [original hierarchal document][doc] with affiliations, or the [raw data][data] is available.
 
 *Design and implementation by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
 
