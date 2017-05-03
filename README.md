@@ -3,7 +3,7 @@
 At the [ACM CHI 2017][chi] conference, [Brad Myers][brad] was awarded the [CHI Lifetime Research Award][award].  
 In his keynote talk, he presented his advisee tree &mdash; all **6** generations, totaling **172** students!
 
-The [original hierarchal document][doc] with affiliations, or the [raw data][data] is available.
+The [original hierarchal document][doc] with affiliations, and the [visualizec data][data], is available.
 
 *Design and implementation by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
 
@@ -16,7 +16,7 @@ The [original hierarchal document][doc] with affiliations, or the [raw data][dat
 [award]: http://www.sigchi.org/about/awards/2017-sigchi-awards#brad-a-myers
 
 [doc]: https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj
-[data]: http://www.github.com/fredhohman/brad-myers-academic-tree
+[data]: http://www.github.com/fredhohman/brad-myers-academic-tree/cleaned-data.csv
 
 [fred]: http://fredhohman.com
 [robert]: http://www.cc.gatech.edu/~rpienta3/
