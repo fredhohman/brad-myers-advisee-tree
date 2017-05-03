@@ -148,6 +148,7 @@ function update(source) {
   // Transition exiting nodes to the parent's new position.
   var nodeExit = node.exit().interrupt().transition()
       .duration(duration)
+      // .attr("fill", "#ffffff")
       .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
       .remove();
 
@@ -250,7 +251,7 @@ function showDepthN(cur_node, n){
 }
 
 function changeFontSizeGen1() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
@@ -261,7 +262,7 @@ function changeFontSizeGen1() {
 }
 
 function changeFontSizeGen2() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
@@ -274,7 +275,7 @@ function changeFontSizeGen2() {
 }
 
 function changeFontSizeGen3() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
@@ -289,7 +290,7 @@ function changeFontSizeGen3() {
 }
 
 function changeFontSizeGen4() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
@@ -306,7 +307,7 @@ function changeFontSizeGen4() {
 }
 
 function changeFontSizeGen5() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
@@ -325,7 +326,7 @@ function changeFontSizeGen5() {
 }
 
 function changeFontSizeGen6() {
-  d3.selectAll('text').style('font-size', function(d) {
+  d3.selectAll('.node text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
         return '20px';
