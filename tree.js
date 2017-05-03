@@ -1,4 +1,4 @@
-var margin = {top: 20, right: 120, bottom: 20, left: 120},
+var margin = {top: 20, right: 120, bottom: 20, left: 140},
     width = 1700 - margin.right - margin.left,
     height = 1500 - margin.top - margin.bottom;
 
@@ -61,7 +61,7 @@ function reverseData(rootNode) {
   }
 }
 
-d3.csv("brad-test-after-clean.csv", function(error, data) {
+d3.csv("data.csv", function(error, data) {
 
   root = stratify(data);
 
@@ -114,7 +114,7 @@ function update(source) {
       .style("fill", nodeColor);
 
   nodeEnter.append("a")
-      .attr("href", function(d) { return d.data.img; })
+      // .attr("title", function(d) { return d.name; })
       .append("text")
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
