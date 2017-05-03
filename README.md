@@ -16,7 +16,7 @@ The [original hierarchal document][doc] with affiliations, and the [visualizec d
 [award]: http://www.sigchi.org/about/awards/2017-sigchi-awards#brad-a-myers
 
 [doc]: https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj
-[data]: http://www.github.com/fredhohman/brad-myers-academic-tree/cleaned-data.csv
+[data]: https://github.com/fredhohman/brad-myers-advisee-tree/blob/master/data.csv
 
 [fred]: http://fredhohman.com
 [robert]: http://www.cc.gatech.edu/~rpienta3/
