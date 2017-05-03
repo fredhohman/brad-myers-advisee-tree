@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 120},
     width = 1700 - margin.right - margin.left,
-    height = 1400 - margin.top - margin.bottom;
+    height = 1500 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 1500,
@@ -249,32 +249,104 @@ function showDepthN(cur_node, n){
   }
 }
 
-function changeFontSize() {
-  d3.selectAll('.node text').style('font-size', function(d) {
+function changeFontSizeGen1() {
+  d3.selectAll('text').style('font-size', function(d) {
     switch (d.depth) {
       case 0:
-        return '16px';
-      case 1:
-        return '12x';
-      case 2:
-        return '10px';
-      case 3:
-        return '10px';
-      case 4:
-        return '10px';
-      case 5:
-        return '10px';
-      case 6:
-        return '10px';
+        return '20px';
       default:
-        return '10px';
+        return '12px';
     }
   });
 }
 
+function changeFontSizeGen2() {
+  d3.selectAll('text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '18px';
+      default:
+        return '12px';
+    }
+  });
+}
+
+function changeFontSizeGen3() {
+  d3.selectAll('text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '18px';
+      case 2:
+        return '16px';
+      default:
+        return '12px';
+    }
+  });
+}
+
+function changeFontSizeGen4() {
+  d3.selectAll('text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '12px';
+      case 2:
+        return '12px';
+      case 3:
+        return '12px';
+      default:
+        return '12px';
+    }
+  });
+}
+
+function changeFontSizeGen5() {
+  d3.selectAll('text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '12px';
+      case 2:
+        return '12px';
+      case 3:
+        return '12px';
+      case 4:
+        return '12px';
+      default:
+        return '12px';
+    }
+  });
+}
+
+function changeFontSizeGen6() {
+  d3.selectAll('text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '12px';
+      case 2:
+        return '12px';
+      case 3:
+        return '12px';
+      case 4:
+        return '12px';
+      case 5:
+        return '12px';
+      default:
+        return '12px';
+    }
+  });
+}
 function gen1() {
   showDepthN(root, 0);
-  changeFontSize();
+  changeFontSizeGen1();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
@@ -286,7 +358,7 @@ function gen1() {
 
 function gen2() {
   showDepthN(root, 1);
-  changeFontSize();
+  changeFontSizeGen2();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
@@ -298,7 +370,7 @@ function gen2() {
 
 function gen3() {
   showDepthN(root, 2);
-  changeFontSize();
+  changeFontSizeGen3();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
@@ -310,7 +382,7 @@ function gen3() {
 
 function gen4() {
   showDepthN(root, 3);
-  changeFontSize();
+  changeFontSizeGen4();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
@@ -322,7 +394,7 @@ function gen4() {
 
 function gen5() {
   showDepthN(root, 4);
-  changeFontSize();
+  changeFontSizeGen5();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
@@ -334,7 +406,7 @@ function gen5() {
 
 function gen6() {
   showDepthN(root, 5);
-  changeFontSize();
+  changeFontSizeGen6();
 
   d3.selectAll('button').transition().duration(buttonTransTime)
                         .style('background-color', buttonBackgroundColor)
