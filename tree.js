@@ -97,7 +97,7 @@ function update(source) {
       links = nodes.slice(1);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 260; }); //100 for ribbon
+  nodes.forEach(function(d) { d.y = d.depth * 260; }); //100 for ribbon, 210 for print out and slides
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
