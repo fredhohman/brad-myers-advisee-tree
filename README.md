@@ -5,11 +5,13 @@ In his keynote talk, he presented his advisee tree &mdash; all **6** generations
 
 The [original hierarchical document][doc] with affiliations, and the [visualized data][data], are available.
 
-*Design and implementation by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
+*Designed by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
+
+**[View the interactive visualization here][vis].**
 
 ***
 
-[View the visualization here][vis].
+![tree](tree.png)
 
 [chi]: https://chi2017.acm.org
 [brad]: http://www.cs.cmu.edu/~bam
