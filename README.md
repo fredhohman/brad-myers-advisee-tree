@@ -1,7 +1,7 @@
 # Brad Myers's Advisee Tree
 
 At the [ACM CHI 2017][chi] conference, [Brad Myers][brad] was awarded the [CHI Lifetime Research Award][award].  
-In his keynote talk, he presented his advisee tree &mdash; all **6** generations, totaling **176** students!
+In his keynote talk, he presented his advisee tree &mdash; all **6** generations, totaling **179** students!
 
 The [original hierarchical document][doc] with affiliations, and the [visualized data][data], are available.
 
