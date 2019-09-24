@@ -21,22 +21,22 @@ id,name,parent
 10.4,Maryam Arab,Thomas LaToza
 10.5,David I. Samudio,Thomas LaToza
 11,Jeffrey Stylos,Brad Myers
-12,Andrew J. Ko,Brad Myers
-12.1,Greg Nelson,Andrew J. Ko
-12.2,Dastyni Loksa,Andrew J. Ko
-12.3,Amanda Swearngin,Andrew J. Ko
-12.4,Kyle Thayer,Andrew J. Ko
-12.5,Benjamin Xie,Andrew J. Ko
-12.6,Yim Register,Andrew J. Ko
-12.7,Alannah Oleson,Andrew J. Ko
-12.8,Brian Burg,Andrew J. Ko
-12.9,Paul Luo Li,Andrew J. Ko
-12.10,Michael J. Lee,Andrew J. Ko
+12,Amy J. Ko,Brad Myers
+12.1,Greg Nelson,Amy J. Ko
+12.2,Dastyni Loksa,Amy J. Ko
+12.3,Amanda Swearngin,Amy J. Ko
+12.4,Kyle Thayer,Amy J. Ko
+12.5,Benjamin Xie,Amy J. Ko
+12.6,Yim Register,Amy J. Ko
+12.7,Alannah Oleson,Amy J. Ko
+12.8,Brian Burg,Amy J. Ko
+12.9,Paul Luo Li,Amy J. Ko
+12.10,Michael J. Lee,Amy J. Ko
 12.10.1,Yu Xu,Michael J. Lee
 12.10.2,Eric W. Nersesian,Michael J. Lee
 12.10.3,Ruiqi (Rachel) Shen,Michael J. Lee
 12.10.4,Joseph Chiou,Michael J. Lee
-12.11,Parmit K. Chilana,Andrew J. Ko
+12.11,Parmit K. Chilana,Amy J. Ko
 12.11.1,Laton Vermette,Parmit K. Chilana
 12.11.2,Megha Nawhal,Parmit K. Chilana
 13,Jeffrey Nichols,Brad Myers
@@ -121,7 +121,7 @@ id,name,parent
 18.9,Kayur Patel,James Landay
 18.10,Jon Froehlich,James Landay
 18.10.1,Kotaro Hara,Jon Froehlich
-18.10.2,Matthew Mauriello,Jon Froehlich
+18.10.2,Matthew Louis Mauriello,Jon Froehlich
 18.10.3,Lee Stearns,Jon Froehlich
 18.10.4,Seokbin Kang,Jon Froehlich
 18.10.5,Manaswi Saha,Jon Froehlich
@@ -155,6 +155,8 @@ id,name,parent
 18.17.2.7,Nilaksh Das,Polo Chau
 18.17.2.8,Scott Freitas,Polo Chau
 18.17.2.9,Haekyu Park,Polo Chau
+18.17.2.10,Austin Wright,Polo Chau
+18.17.2.11,Zijie (Jay) Wang,Polo Chau
 18.17.3,Guang Xiang,Jason Hong
 18.17.4,Jialiu Lin,Jason Hong
 18.17.5,Shahriyar Amini,Jason Hong
