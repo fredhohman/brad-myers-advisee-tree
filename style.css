@@ -5,31 +5,31 @@ body {
 }
 
 #container {
-	margin-left: 25px;
+    margin-left: 25px;
 }
 
 h1 {
-	margin-bottom: 10px;
-	color: #212121;
-	font-weight: 500;
+    margin-bottom: 10px;
+    color: #212121;
+    font-weight: 500;
 }
 
 p {
-	margin-top: 0px;
-	margin-bottom: 10px;
-	font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
-
     -webkit-transition: 0.15s color ease;
-       -moz-transition: 0.15s color ease;
-        -ms-transition: 0.15s color ease;
-         -o-transition: 0.15s color ease;
-            transition: 0.15s color ease;
+    -moz-transition: 0.15s color ease;
+    -ms-transition: 0.15s color ease;
+    -o-transition: 0.15s color ease;
+    transition: 0.15s color ease;
 }
+
 a {
     color: #845fb4;
 }
@@ -44,36 +44,32 @@ a:hover {
 }
 
 .border button {
-  font-size: 14px;
-  font-weight: 500;
-  padding-top: 8px;
-  padding-bottom: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  color: #845fb4;
-  background: #ffffff;
-  border: solid 1px #845fb4;
-  border-radius: 4px;
-
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #845fb4;
+    background: #ffffff;
+    border: solid 1px #845fb4;
+    border-radius: 4px;
     -webkit-transition: 0.35s color ease, 0.35s background-color ease;
-       -moz-transition: 0.35s color ease, 0.35s background-color ease;
-        -ms-transition: 0.35s color ease, 0.35s background-color ease;
-         -o-transition: 0.35s color ease, 0.35s background-color ease;
-            transition: 0.35s color ease, 0.35s background-color ease;
-
-
+    -moz-transition: 0.35s color ease, 0.35s background-color ease;
+    -ms-transition: 0.35s color ease, 0.35s background-color ease;
+    -o-transition: 0.35s color ease, 0.35s background-color ease;
+    transition: 0.35s color ease, 0.35s background-color ease;
 }
 
-.border button:hover,
-.border button.hover {
-  border-color: #845fb4;
-  background-color: #845fb4;
-  color: #ffffff;
-  cursor: pointer;
+.border button:hover, .border button.hover {
+    border-color: #845fb4;
+    background-color: #845fb4;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .border button:active {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .border button:focus {
