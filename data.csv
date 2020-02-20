@@ -29,53 +29,62 @@ id,name,parent
 12.5,Benjamin Xie,Amy J. Ko
 12.6,Yim Register,Amy J. Ko
 12.7,Alannah Oleson,Amy J. Ko
-12.8,Brian Burg,Amy J. Ko
-12.9,Paul Luo Li,Amy J. Ko
-12.10,Michael J. Lee,Amy J. Ko
-12.10.1,Yu Xu,Michael J. Lee
-12.10.2,Eric W. Nersesian,Michael J. Lee
-12.10.3,Ruiqi (Rachel) Shen,Michael J. Lee
-12.10.4,Joseph Chiou,Michael J. Lee
-12.11,Parmit K. Chilana,Amy J. Ko
-12.11.1,Laton Vermette,Parmit K. Chilana
-12.11.2,Megha Nawhal,Parmit K. Chilana
+12.8,Neil Ryan,Amy J. Ko
+12.9,Brian Burg,Amy J. Ko
+12.10,Paul Luo Li,Amy J. Ko
+12.11,Michael J. Lee,Amy J. Ko
+12.11.1,Yu Xu,Michael J. Lee
+12.11.2,Eric W. Nersesian,Michael J. Lee
+12.11.3,Ruiqi (Rachel) Shen,Michael J. Lee
+12.12,Parmit K. Chilana,Amy J. Ko
+12.12.1,Laton Vermette,Parmit K. Chilana
+12.12.2,Megha Nawhal,Parmit K. Chilana
+12.12.3,Rimika Chaudhury,Parmit K. Chilana
+12.12.4,Amir Jahanlou,Parmit K. Chilana
 13,Jeffrey Nichols,Brad Myers
 14,Jacob O. Wobbrock,Brad Myers
-14.1,Annie Ross,Jacob O. Wobbrock
-14.2,Tony Tung,Jacob O. Wobbrock
-14.3,Abdullah Ali,Jacob O. Wobbrock
-14.4,Alex Mariakakis,Jacob O. Wobbrock
-14.5,Martez Mott,Jacob O. Wobbrock
-14.6,Katie O'Leary,Jacob O. Wobbrock
-14.7,Abigail Evans,Jacob O. Wobbrock
-14.8,Kristen Shinohara,Jacob O. Wobbrock
-14.9,Shiri Azenkot,Jacob O. Wobbrock
-14.9.1,Lei Shi,Shiri Azenkot
-14.9.2,Yuhang Zhao,Shiri Azenkot
-14.9.3,Neta Tamir,Shiri Azenkot
-14.10,Jessica J. Tran,Jacob O. Wobbrock
-14.12,Jeff Huang,Jacob O. Wobbrock
-14.12.1,Alexandra Papoutsaki,Jeff Huang
-14.12.2,Nediyana Daskalova,Jeff Huang
-14.12.3,Jing Qian,Jeff Huang
-14.12.4,Shaun Wallace,Jeff Huang
-14.13,Shaun K. Kane,Jacob O. Wobbrock
-14.13.1,Michele A. Williams,Shaun K. Kane
-14.13.2,Halley Profita,Shaun K. Kane
-14.13.3,Darren Guinness,Shaun K. Kane
-14.13.4,Varsha Koushik,Shaun K. Kane
-14.13.5,Annika Muehlbradt,Shaun K. Kane
-14.13.6,Kyle Reinholt,Shaun K. Kane
-14.13.7,Abigail Zimmermann-Niefield,Shaun K. Kane
-14.13.8,Gabriella Johnson,Shaun K. Kane
-14.13.9,Vinitha Gadiraju,Shaun K. Kane
-14.14,Susumu Harada,Jacob O. Wobbrock
-14.15,Krzysztof Z. Gajos,Jacob O. Wobbrock
-14.15.2,Ofra Amir,Krzysztof Z. Gajos
-14.15.3,Kanya (Pao) Siangliulue,Krzysztof Z. Gajos
-14.15.4,Bernd Huber,Krzysztof Z. Gajos
-14.15.5,Kenneth Arnold,Krzysztof Z. Gajos
-14.15.6,Alexandra Cabral,Krzysztof Z. Gajos
+14.1,Mingyuan Zhong,Jacob O. Wobbrock
+14.2,Anastasia Schaadhardt,Jacob O. Wobbrock
+14.3,Ather Sharif,Jacob O. Wobbrock
+14.4,Lisa A. Elkin,Jacob O. Wobbrock
+14.5,Mingrui Zhang,Jacob O. Wobbrock
+14.6,Rachel L. Franz,Jacob O. Wobbrock
+14.7,Annie Ross,Jacob O. Wobbrock
+14.8,Tony Tung,Jacob O. Wobbrock
+14.9,Abdullah Ali,Jacob O. Wobbrock
+14.10,Alex Mariakakis,Jacob O. Wobbrock
+14.11,Martez Mott,Jacob O. Wobbrock
+14.12,Katie O'Leary,Jacob O. Wobbrock
+14.13,Abigail Evans,Jacob O. Wobbrock
+14.14,Kristen Shinohara,Jacob O. Wobbrock
+14.15,Shiri Azenkot,Jacob O. Wobbrock
+14.15.1,Lei Shi,Shiri Azenkot
+14.15.2,Yuhang Zhao,Shiri Azenkot
+14.16,Jessica J. Tran,Jacob O. Wobbrock
+14.18,Jeff Huang,Jacob O. Wobbrock
+14.18.1,Alexandra Papoutsaki,Jeff Huang
+14.18.2,Nediyana Daskalova,Jeff Huang
+14.18.3,Jing Qian,Jeff Huang
+14.18.4,Shaun Wallace,Jeff Huang
+14.19,Shaun K. Kane,Jacob O. Wobbrock
+14.19.1,Michele A. Williams,Shaun K. Kane
+14.19.2,Halley Profita,Shaun K. Kane
+14.19.3,Darren Guinness,Shaun K. Kane
+14.19.4,Varsha Koushik,Shaun K. Kane
+14.19.5,Annika Muehlbradt,Shaun K. Kane
+14.19.6,Kyle Reinholt,Shaun K. Kane
+14.19.7,Abigail Zimmermann-Niefield,Shaun K. Kane
+14.19.8,Gabriella Johnson,Shaun K. Kane
+14.19.9,Vinitha Gadiraju,Shaun K. Kane
+14.20,Susumu Harada,Jacob O. Wobbrock
+14.21,Krzysztof Z. Gajos,Jacob O. Wobbrock
+14.21.2,Ofra Amir,Krzysztof Z. Gajos
+14.21.3,Kanya (Pao) Siangliulue,Krzysztof Z. Gajos
+14.21.4,Bernd Huber,Krzysztof Z. Gajos
+14.21.5,Kenneth Arnold,Krzysztof Z. Gajos
+14.21.6,Alexandra Cabral,Krzysztof Z. Gajos
+14.21.7,Zana Bucinca,Krzysztof Z. Gajos
+14.21.8,Zilin Ma,Krzysztof Z. Gajos
 15,Rob Miller,Brad Myers
 15.1,Simson Garfinkel,Rob Miller
 15.2,Min Wu,Rob Miller
@@ -85,17 +94,17 @@ id,name,parent
 15.6,Michael Bernstein,Rob Miller
 15.6.1,Chinmay Kulkarni,Michael Bernstein
 15.6.1.1,Yasmine Kotturi,Chinmay Kulkarni
-15.6.1.2,Zheng Yao,Chinmay Kulkarni
-15.6.1.3,Julia Cambre,Chinmay Kulkarni
+15.6.1.2,Julia Cambre,Chinmay Kulkarni
+15.6.1.3,Sara Kingsley,Chinmay Kulkarni
 15.6.2,Joy Kim,Michael Bernstein
 15.6.3,Daniela Retelny,Michael Bernstein
 15.6.4,Justin Cheng,Michael Bernstein
-15.6.5,Ali Alkhatib,Michael Bernstein
-15.6.6,Ethan Fast,Michael Bernstein
-15.6.7,Geza Kovacs,Michael Bernstein
-15.6.8,Niloufar Salehi,Michael Bernstein
-15.6.9,Ranjay Krishna,Michael Bernstein
-15.6.10,Sharon Zhou,Michael Bernstein
+15.6.5,Ethan Fast,Michael Bernstein
+15.6.6,Geza Kovacs,Michael Bernstein
+15.6.7,Niloufar Salehi,Michael Bernstein
+15.6.8,Ranjay Krishna,Michael Bernstein
+15.6.9,Mitchell Gordon,Michael Bernstein
+15.6.10,Catherine Mullings,Michael Bernstein
 15.7,Sean Chang,Rob Miller
 15.8,Max Goldman,Rob Miller
 15.9,Chen-Hsiang (Jones) Yu,Rob Miller
@@ -118,6 +127,8 @@ id,name,parent
 18.6,Kesler Tanner,James Landay
 18.7,Jane E,James Landay
 18.8,Lydia Chilton,James Landay
+18.8.1,Katy Ilonka Gero,Lydia Chilton
+18.8.2,Savvas Petridis,Lydia Chilton
 18.9,Kayur Patel,James Landay
 18.10,Jon Froehlich,James Landay
 18.10.1,Kotaro Hara,Jon Froehlich
@@ -127,18 +138,17 @@ id,name,parent
 18.10.5,Manaswi Saha,Jon Froehlich
 18.10.6,Liang He,Jon Froehlich
 18.10.7,Dhruv Jain,Jon Froehlich
-18.10.8,Venkatesh Potluri,Jon Froehlich
 18.11,T. Scott Saponas,James Landay
 18.13,Katherine Everitt,James Landay
 18.14,Richard Davis,James Landay
-18.114.1,Kenny Choo Tsu Wei,Richard Davis
+18.14.1,Kenny Choo Tsu Wei,Richard Davis
 18.14.2,Camellia Zakaria,Richard Davis
 18.15,Mark Newman,James Landay
 18.15.1,Tao Dong,Mark Newman
 18.15.2,Yung-ju (Stanley) Chang,Mark Newman
 18.15.3,Rayoung Yang,Mark Newman
 18.15.4,Gaurav Paruthi,Mark Newman
-18.15.5,Chuan-che Jeff Huang,Mark Newman
+18.15.5,Chuan-che "Jeff" Huang,Mark Newman
 18.15.6,Shriti Raj,Mark Newman
 18.15.7,Meghan Clark,Mark Newman
 18.15.8,Xinghui Yan,Mark Newman
@@ -157,6 +167,7 @@ id,name,parent
 18.17.2.9,Haekyu Park,Polo Chau
 18.17.2.10,Austin Wright,Polo Chau
 18.17.2.11,Zijie (Jay) Wang,Polo Chau
+18.17.2.12,Rahul Duggal,Polo Chau
 18.17.3,Guang Xiang,Jason Hong
 18.17.4,Jialiu Lin,Jason Hong
 18.17.5,Shahriyar Amini,Jason Hong
@@ -164,14 +175,19 @@ id,name,parent
 18.17.7,Jason Wiese,Jason Hong
 18.17.7.1,Jimmy Moore,Jason Wiese
 18.17.7.2,Kazi Sinthia Kabir,Jason Wiese
+18.17.7.3,Ahmad Alsaleem,Jason Wiese
+18.17.7.4,John Lund,Jason Wiese
 18.17.8,Sauvik Das,Jason Hong
+18.17.8.1,Youngwook Do,Sauvik Das
+18.17.8.2,Yuxi Wu,Sauvik Das
+18.17.8.3,P. Jacob Logas,Sauvik Das
 18.17.9,Dan Tasse,Jason Hong
 18.17.10,Fanglin Chen,Jason Hong
-18.17.11,Alex Sciuto,Jason Hong
-18.17.12,Siyan Zhao,Jason Hong
-18.17.13,Haojian Jin,Jason Hong
-18.17.14,Tianshi Li,Jason Hong
-18.17.15,Cori Faklaris,Jason Hong
+18.17.11,Siyan Zhao,Jason Hong
+18.17.12,Haojian Jin,Jason Hong
+18.17.13,Tianshi Li,Jason Hong
+18.17.14,Cori Faklaris,Jason Hong
+18.17.15,Angel (Alex) Cabrera,Jason Hong
 18.18,Scott Klemmer,James Landay
 18.18.1,Ron Yeh,Scott Klemmer
 18.18.2,Brian Lee,Scott Klemmer
@@ -189,9 +205,9 @@ id,name,parent
 18.18.3.11,Lora Oehlberg,Bjoern Hartmann
 18.18.3.11.1,David Ledo,Lora Oehlberg
 18.18.3.11.2,Peyman Pootschi,Lora Oehlberg
-18.18.3.11.3,Sandeep George,Lora Oehlberg
-18.18.3.11.4,Fatemeh Rajabiyazdi,Lora Oehlberg
-18.18.3.11.5,Kathryn Blair,Lora Oehlberg
+18.18.3.11.3,Fatemeh Rajabiyazdi,Lora Oehlberg
+18.18.3.11.4,Kathryn Blair,Lora Oehlberg
+18.18.3.11.5,Terrance Mok,Lora Oehlberg
 18.18.4,Joel Brandt,Scott Klemmer
 18.18.5,Neil Patel,Scott Klemmer
 18.18.6,Nicolas Kokkalis,Scott Klemmer
@@ -200,13 +216,14 @@ id,name,parent
 18.18.7.2,Kristen Vaccaro,Ranjitha Kumar
 18.18.7.3,Jinda Han,Ranjitha Kumar
 18.18.7.4,Deniz Arsan,Ranjitha Kumar
-18.18.7.5,Kedan Li,Ranjitha Kumar
+18.18.7.5,Jason Situ,Ranjitha Kumar
+18.18.7.6,Muhammad Rizky Wellyanto,Ranjitha Kumar
+18.18.7.7,Yuan Shen,Ranjitha Kumar
 18.18.8,Jesse Cirimele,Scott Klemmer
 18.18.10,Vineet Pandey,Scott Klemmer
 18.18.11,Ailie Fraser,Scott Klemmer
 18.18.12,Tricia Ngoon,Scott Klemmer
-18.18.13,Celia Durkin,Scott Klemmer
-18.18.14,Ariel Weingarten,Scott Klemmer
+18.18.13,Ariel Weingarten,Scott Klemmer
 18.19,Hesham M. Kamel,James Landay
 18.20,Anoop Sinha,James Landay
 18.21,Allan Chris Long Jr.,James Landay
