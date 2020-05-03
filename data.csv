@@ -27,20 +27,19 @@ id,name,parent
 12.3,Amanda Swearngin,Amy J. Ko
 12.4,Kyle Thayer,Amy J. Ko
 12.5,Benjamin Xie,Amy J. Ko
-12.6,Yim Register,Amy J. Ko
-12.7,Alannah Oleson,Amy J. Ko
-12.8,Neil Ryan,Amy J. Ko
-12.9,Brian Burg,Amy J. Ko
-12.10,Paul Luo Li,Amy J. Ko
-12.11,Michael J. Lee,Amy J. Ko
-12.11.1,Yu Xu,Michael J. Lee
-12.11.2,Eric W. Nersesian,Michael J. Lee
-12.11.3,Ruiqi (Rachel) Shen,Michael J. Lee
-12.12,Parmit K. Chilana,Amy J. Ko
-12.12.1,Laton Vermette,Parmit K. Chilana
-12.12.2,Megha Nawhal,Parmit K. Chilana
-12.12.3,Rimika Chaudhury,Parmit K. Chilana
-12.12.4,Amir Jahanlou,Parmit K. Chilana
+12.6,Alannah Oleson,Amy J. Ko
+12.7,Neil Ryan,Amy J. Ko
+12.8,Brian Burg,Amy J. Ko
+12.9,Paul Luo Li,Amy J. Ko
+12.10,Michael J. Lee,Amy J. Ko
+12.10.1,Yu Xu,Michael J. Lee
+12.10.2,Eric W. Nersesian,Michael J. Lee
+12.10.3,Ruiqi (Rachel) Shen,Michael J. Lee
+12.11,Parmit K. Chilana,Amy J. Ko
+12.11.1,Laton Vermette,Parmit K. Chilana
+12.11.2,Megha Nawhal,Parmit K. Chilana
+12.11.3,Rimika Chaudhury,Parmit K. Chilana
+12.11.4,Amir Jahanlou,Parmit K. Chilana
 13,Jeffrey Nichols,Brad Myers
 14,Jacob O. Wobbrock,Brad Myers
 14.1,Mingyuan Zhong,Jacob O. Wobbrock
@@ -115,6 +114,8 @@ id,name,parent
 15.10.4,Hyungyu Shin,Juho Kim
 15.10.5,Eunyoung Ko,Juho Kim
 15.11,Elena Glassman,Rob Miller
+15.11.1,Tyler Holloway,Elena Glassman
+15.11.2,Priyan Vaithilingam,Elena Glassman
 15.12,Carrie Cai,Rob Miller
 16,John Pane,Brad Myers
 17,Rich McDaniel,Brad Myers
@@ -192,22 +193,24 @@ id,name,parent
 18.18.1,Ron Yeh,Scott Klemmer
 18.18.2,Brian Lee,Scott Klemmer
 18.18.3,Bjoern Hartmann,Scott Klemmer
-18.18.3.1,Richard Lin,Bjoern Hartmann
-18.18.3.2,Bala Kumaravel,Bjoern Hartmann
-18.18.3.3,Jeremy Warner,Bjoern Hartmann
-18.18.3.4,Eldon Schoop,Bjoern Hartmann
-18.18.3.5,Andrew Head,Bjoern Hartmann
-18.18.3.6,Will McGrath,Bjoern Hartmann
-18.18.3.7,Amy Pavel,Bjoern Hartmann
-18.18.3.8,Peggy Chi,Bjoern Hartmann
-18.18.3.9,Valkyrie Savage,Bjoern Hartmann
-18.18.3.10,Kenrick Kin,Bjoern Hartmann
-18.18.3.11,Lora Oehlberg,Bjoern Hartmann
-18.18.3.11.1,David Ledo,Lora Oehlberg
-18.18.3.11.2,Peyman Pootschi,Lora Oehlberg
-18.18.3.11.3,Fatemeh Rajabiyazdi,Lora Oehlberg
-18.18.3.11.4,Kathryn Blair,Lora Oehlberg
-18.18.3.11.5,Terrance Mok,Lora Oehlberg
+18.18.3.1,J.D. Zamfirescu-Pereira,Bjoern Hartmann
+18.18.3.2,James Smith,Bjoern Hartmann
+18.18.3.3,Richard Lin,Bjoern Hartmann
+18.18.3.4,Bala Kumaravel,Bjoern Hartmann
+18.18.3.5,Jeremy Warner,Bjoern Hartmann
+18.18.3.6,Eldon Schoop,Bjoern Hartmann
+18.18.3.7,Andrew Head,Bjoern Hartmann
+18.18.3.8,Will McGrath,Bjoern Hartmann
+18.18.3.9,Amy Pavel,Bjoern Hartmann
+18.18.3.10,Peggy Chi,Bjoern Hartmann
+18.18.3.11,Valkyrie Savage,Bjoern Hartmann
+18.18.3.12,Kenrick Kin,Bjoern Hartmann
+18.18.3.13,Lora Oehlberg,Bjoern Hartmann
+18.18.3.13.1,David Ledo,Lora Oehlberg
+18.18.3.13.2,Peyman Pootschi,Lora Oehlberg
+18.18.3.13.3,Fatemeh Rajabiyazdi,Lora Oehlberg
+18.18.3.13.4,Kathryn Blair,Lora Oehlberg
+18.18.3.13.5,Terrance Mok,Lora Oehlberg
 18.18.4,Joel Brandt,Scott Klemmer
 18.18.5,Neil Patel,Scott Klemmer
 18.18.6,Nicolas Kokkalis,Scott Klemmer
