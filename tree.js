@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 140},
-    width = 1700 - margin.right - margin.left,
-    height = 2200 - margin.top - margin.bottom;
+    width = 1300 - margin.right - margin.left,
+    height = 4150 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 1500,
@@ -113,19 +113,19 @@ function update(source) {
       .attr("r", 1e-6)
       .style("fill", nodeColor);
 
-  nodeEnter.append("a")
-      // .attr("title", function(d) { return d.name; })
-      .append("text")
-      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-      .attr("dy", ".35em")
-      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
-      .style("fill-opacity", 1e-6)
-      .style("font-size", function(d) {
-        if (d.depth === 1 || d.depth === 0) {
-          return "14px";
-        }
-      });
+  // nodeEnter.append("a")
+  //     // .attr("title", function(d) { return d.name; })
+  //     .append("text")
+  //     .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+  //     .attr("dy", ".35em")
+  //     .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+  //     .text(function(d) { return d.name; })
+  //     .style("fill-opacity", 1e-6)
+  //     .style("font-size", function(d) {
+  //       if (d.depth === 1 || d.depth === 0) {
+  //         return "14px";
+  //       }
+  //     });
 
   // Transition nodes to their new position.
   var nodeUpdate = node.merge(nodeEnter)
