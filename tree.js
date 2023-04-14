@@ -1,5 +1,5 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 140},
-    width = 1700 - margin.right - margin.left,
+    width = 1900 - margin.right - margin.left,
     height = 2200 - margin.top - margin.bottom;
 
 var i = 0,
@@ -345,6 +345,28 @@ function changeFontSizeGen6() {
     }
   });
 }
+
+function changeFontSizeGen7() {
+  d3.selectAll('.node text').style('font-size', function(d) {
+    switch (d.depth) {
+      case 0:
+        return '20px';
+      case 1:
+        return '12px';
+      case 2:
+        return '12px';
+      case 3:
+        return '12px';
+      case 4:
+        return '12px';
+      case 5:
+        return '12px';
+      default:
+        return '12px';
+    }
+  });
+}
+
 function gen1() {
   showDepthN(root, 0);
   changeFontSizeGen1();
@@ -417,6 +439,18 @@ function gen6() {
                           .style('color', buttonBackgroundColor);
 }
 
+function gen7() {
+  showDepthN(root, 6);
+  changeFontSizeGen7();
+
+  d3.selectAll('button').transition().duration(buttonTransTime)
+                        .style('background-color', buttonBackgroundColor)
+                        .style('color', buttonColor);
+  d3.select('#gen7button').transition().duration(buttonTransTime)
+                          .style('background-color', buttonColor)
+                          .style('color', buttonBackgroundColor);
+}
+
 function play() {
   if (!playing){
 
@@ -442,9 +476,13 @@ function play() {
 
     setTimeout(function(){
         gen6();
+    }, (duration + pause)*5);
+
+    setTimeout(function(){
+        gen7();
 
         playing = false;
-    }, (duration + pause)*5);
+    }, (duration + pause)*6);
 
   }
 }
