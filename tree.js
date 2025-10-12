@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 140},
-    width = 2100 - margin.right - margin.left,
-    height = 2800 - margin.top - margin.bottom;
+    width = 1900 - margin.right - margin.left,
+    height = 3200 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 1500,
@@ -367,29 +367,6 @@ function changeFontSizeGen7() {
   });
 }
 
-function changeFontSizeGen8() {
-  d3.selectAll('.node text').style('font-size', function(d) {
-    switch (d.depth) {
-      case 0:
-        return '20px';
-      case 1:
-        return '12px';
-      case 2:
-        return '12px';
-      case 3:
-        return '12px';
-      case 4:
-        return '12px';
-      case 5:
-        return '12px';
-      case 6:
-        return '12px';
-      default:
-        return '12px';
-    }
-  });
-}
-
 function gen1() {
   showDepthN(root, 0);
   changeFontSizeGen1();
@@ -474,18 +451,6 @@ function gen7() {
                           .style('color', buttonBackgroundColor);
 }
 
-function gen8() {
-  showDepthN(root, 7);
-  changeFontSizeGen8();
-
-  d3.selectAll('button').transition().duration(buttonTransTime)
-                        .style('background-color', buttonBackgroundColor)
-                        .style('color', buttonColor);
-  d3.select('#gen8button').transition().duration(buttonTransTime)
-                          .style('background-color', buttonColor)
-                          .style('color', buttonBackgroundColor);
-}
-
 function play() {
   if (!playing){
 
@@ -514,14 +479,10 @@ function play() {
     }, (duration + pause)*5);
 
     setTimeout(function(){
-    gen7();
-  }, (duration + pause)*6);
+      gen7();
 
-  setTimeout(function(){
-    gen8();
-
-    playing = false;
-  }, (duration + pause)*7);
+      playing = false;
+    }, (duration + pause)*6);
 
   }
 }
