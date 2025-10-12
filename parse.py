@@ -43,9 +43,19 @@ def clean_name(content):
     return text
 
 
+def match_depth(prev_id, indent_len):
+    candidates = [0]
+    for c in prev_id.split("."):
+        candidates.append(candidates[-1] + 2 + len(c))
+
+    depth = candidates.index(indent_len)
+    return depth
+
+
 def parse_markdown(md_file, csv_file):
     rows = []
     stack = []
+    prev_id = "0"
 
     with open(md_file, "r", encoding="utf-8") as f:
         lines = f.readlines()
@@ -58,13 +68,15 @@ def parse_markdown(md_file, csv_file):
             continue
 
         indent, number, content = match.groups()
-        depth = len(indent) // 3
+        indent_len = len(indent)
+        depth = match_depth(prev_id, indent_len)
 
         if depth == 0:
             stack = [number]
         else:
             stack = stack[:depth] + [number]
         full_id = ".".join(stack)
+        prev_id = full_id
 
         if depth == 0:
             parent = "Brad Myers"
