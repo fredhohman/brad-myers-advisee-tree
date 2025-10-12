@@ -1,337 +1,422 @@
-id,name,parent
-0,Brad Myers,
-1,Jenny T. Liang,Brad Myers
-2,Matthew C. Davis,Brad Myers
-3,Amber Horvath,Brad Myers
-4,Daye Nam,Brad Myers
-5,Xieyang (Michael) Liu,Brad Myers
-6,Jia-Jun (Toby) Li,Brad Myers
-6.1,Zheng Zhang,Jia-Jun (Toby) Li
-6.2,Yuwen Lu,Jia-Jun (Toby) Li
-6.3,Zheng Ning,Jia-Jun (Toby) Li
-6.4,Simret Araya Gebreegziabher,Jia-Jun (Toby) Li
-6.5,Chaoran Chen,Jia-Jun (Toby) Li
-7,Mary Beth Kery,Brad Myers
-8,Michael Coblenz,Brad Myers
-9,Kerry Shih-Ping Chang,Brad Myers
-10,YoungSeok Yoon,Brad Myers
-11,Stephen Oney,Brad Myers
-11.1,Yan Chen,Stephen Oney
-11.2,Rebecca Krosnick,Stephen Oney
-11.3,April Wang,Stephen Oney
-11.4,Lei Zhang,Stephen Oney
-11.5,Mauli Pandey,Stephen Oney
-11.6,Ashley Zhang,Stephen Oney
-12,Thomas LaToza,Brad Myers
-12.1,Sajed Jalil,Thomas LaToza
-12.2,Divesh Upreti,Thomas LaToza
-12.3,Abdulaziz Alaboudi,Thomas LaToza
-12.4,Emad Aghayi,Thomas LaToza
-12.5,Sahar Mehrpour,Thomas LaToza
-12.6,Maryam Arab,Thomas LaToza
-12.7,David I. Samudio,Thomas LaToza
-13,Jeffrey Stylos,Brad Myers
-14,Amy J. Ko,Brad Myers
-14.1,Greg Nelson,Amy J. Ko
-14.2,Dastyni Loksa,Amy J. Ko
-14.2.1,Olarinde Farayola,Dastyni Loksa
-14.3,Amanda Swearngin,Amy J. Ko
-14.4,Kyle Thayer,Amy J. Ko
-14.5,Benjamin Xie,Amy J. Ko
-14.6,Alannah Oleson,Amy J. Ko
-14.7,Mara Kirdani-Ryan,Amy J. Ko
-14.8,Stefania Druga,Amy J. Ko
-14.9,Jayne Everson,Amy J. Ko
-14.10,Megumi Kivuva,Amy J. Ko
-14.11,Eman Sherif,Amy J. Ko
-14.12,Rotem Landesman,Amy J. Ko
-14.13,BJ Burg,Amy J. Ko
-14.14,Paul Luo Li,Amy J. Ko
-14.15,Michael J. Lee,Amy J. Ko
-14.15.1,Yu Xu,Michael J. Lee
-14.15.2,Eric W. Nersesian,Michael J. Lee
-14.15.3,Ruiqi (Rachel) Shen,Michael J. Lee
-14.15.4,Yi Li,Michael J. Lee
-14.15.5,Kantida Nanon,Michael J. Lee
-14.16,Parmit K. Chilana,Amy J. Ko
-14.16.1,Laton Vermette,Parmit K. Chilana
-14.16.2,Narges Ashtari,Parmit K. Chilana
-14.16.3,Rimika Chaudhury,Parmit K. Chilana
-14.16.4,Amir Jahanlou,Parmit K. Chilana
-14.16.5,Anjali Khurana,Parmit K. Chilana
-14.16.6,David A. Wong,Parmit K. Chilana
-15,Jeffrey Nichols,Brad Myers
-16,Jacob O. Wobbrock,Brad Myers
-16.1,Claire Mitchell,Jacob O. Wobbrock
-16.2,Zhuohao (Jerry) Zhang,Jacob O. Wobbrock
-16.3,Junhan Kong,Jacob O. Wobbrock
-16.4,Mingyuan Zhong,Jacob O. Wobbrock
-16.5,Anastasia Schaadhardt,Jacob O. Wobbrock
-16.6,Ather Sharif,Jacob O. Wobbrock
-16.7,Lisa A. Elkin,Jacob O. Wobbrock
-16.8,Mingrui Zhang,Jacob O. Wobbrock
-16.9,Rachel L. Franz,Jacob O. Wobbrock
-16.10,Anne Ross,Jacob O. Wobbrock
-16.11,Abdullah Ali,Jacob O. Wobbrock
-16.12,Alex Mariakakis,Jacob O. Wobbrock
-16.12.1,Brenna Li,Alex Mariakakis
-16.12.2,Blue Lin,Alex Mariakakis
-16.12.3,Ken Christofferson,Alex Mariakakis
-16.12.4,Dhruv Verma,Alex Mariakakis
-16.12.5,Sejal Bhalla,Alex Mariakakis
-16.12.6,Ian Ruffolo,Alex Mariakakis
-16.13,Martez Mott,Jacob O. Wobbrock
-16.14,Katie O'Leary,Jacob O. Wobbrock
-16.15,Abigail Evans,Jacob O. Wobbrock
-16.16,Kristen Shinohara,Jacob O. Wobbrock
-16.16.1,Murtaza Tamjeed,Kristen Shinohara
-16.16.2,Emily Kuang,Kristen Shinohara
-16.17,Shiri Azenkot,Jacob O. Wobbrock
-16.17.1,Lei Shi,Shiri Azenkot
-16.17.2,Yuhang Zhao,Shiri Azenkot
-16.18,Jessica J. Tran,Jacob O. Wobbrock
-16.20,Jeff Huang,Jacob O. Wobbrock
-16.20.1,Alexandra Papoutsaki,Jeff Huang
-16.20.2,Nediyana Daskalova,Jeff Huang
-16.20.3,Jing Qian,Jeff Huang
-16.20.4,Shaun Wallace,Jeff Huang
-16.20.5,Talie Massachi,Jeff Huang
-16.20.6,Tongyu Zhou,Jeff Huang
-16.20.7,Zainab Iftikhar,Jeff Huang
-16.20.8,Ji Won Chung,Jeff Huang
-16.20.9,Brandon Woodard,Jeff Huang
-16.21,Shaun K. Kane,Jacob O. Wobbrock
-16.21.1,Michele A. Williams,Shaun K. Kane
-16.21.2,Halley Profita,Shaun K. Kane
-16.21.3,Darren Guinness,Shaun K. Kane
-16.21.4,Varsha Koushik,Shaun K. Kane
-16.21.5,Annika Muehlbradt,Shaun K. Kane
-16.21.6,Kyle Reinholt,Shaun K. Kane
-16.21.7,Abigail Zimmermann-Niefield,Shaun K. Kane
-16.21.8,Gabriella Johnson,Shaun K. Kane
-16.21.9,Vinitha Gadiraju,Shaun K. Kane
-16.22,Susumu Harada,Jacob O. Wobbrock
-16.23,Krzysztof Z. Gajos,Jacob O. Wobbrock
-16.23.2,Ofra Amir,Krzysztof Z. Gajos
-16.23.3,Kanya (Pao) Siangliulue,Krzysztof Z. Gajos
-16.23.4,Bernd Huber,Krzysztof Z. Gajos
-16.23.5,Kenneth Arnold,Krzysztof Z. Gajos
-16.23.6,Alexandra Cabral,Krzysztof Z. Gajos
-16.23.7,Zana Bucinca,Krzysztof Z. Gajos
-16.23.8,Zilin Ma,Krzysztof Z. Gajos
-16.23.9,Lance Ying,Krzysztof Z. Gajos
-17,Rob Miller,Brad Myers
-17.1,Simson Garfinkel,Rob Miller
-17.2,Min Wu,Rob Miller
-17.3,David Huynh,Rob Miller
-17.4,Vineet Sinha,Rob Miller
-17.5,Greg Little,Rob Miller
-17.6,Michael Bernstein,Rob Miller
-17.6.1,Chinmay Kulkarni,Michael Bernstein
-17.6.1.1,Yasmine Kotturi,Chinmay Kulkarni
-17.6.1.2,Julia Cambre,Chinmay Kulkarni
-17.6.1.3,Sara Kingsley,Chinmay Kulkarni
-17.6.1.4,Pranac Khadpe,Chinmay Kulkarni
-17.6.2,Joy Kim,Michael Bernstein
-17.6.3,Daniela Retelny,Michael Bernstein
-17.6.4,Justin Cheng,Michael Bernstein
-17.6.5,Ethan Fast,Michael Bernstein
-17.6.6,Geza Kovacs,Michael Bernstein
-17.6.7,Niloufar Salehi,Michael Bernstein
-17.6.7.1,Sijia Xiao,Niloufar Salehi
-17.6.7.2,Samantha Robertson,Niloufar Salehi
-17.6.7.3,Tonya Nguyen,Niloufar Salehi
-17.6.7.4,Liza Gak,Niloufar Salehi
-17.6.7.5,Sabriya Alam,Niloufar Salehi
-17.6.7.6,Seyi Olojo,Niloufar Salehi
-17.6.8,Ranjay Krishna,Michael Bernstein
-17.6.9,Mitchell Gordon,Michael Bernstein
-17.6.10,Catherine Mullings,Michael Bernstein
-17.6.11,Joon Sung Park,Michael Bernstein
-17.6.12,Michelle Lam,Michael Bernstein
-17.6.13,Beleicia Bullock,Michael Bernstein
-17.6.14,Lindsay Popowski,Michael Bernstein
-17.6.15,Jordan Troutman,Michael Bernstein
-17.7,Sean Chang,Rob Miller
-17.8,Max Goldman,Rob Miller
-17.9,Chen-Hsiang (Jones) Yu,Rob Miller
-17.10,Juho Kim,Rob Miller
-17.10.1,Minsuk Chang,Juho Kim
-17.10.2,Sung-Chul Lee,Juho Kim
-17.10.3,Seoyoung Kim,Juho Kim
-17.10.4,Hyungyu Shin,Juho Kim
-17.10.5,Eunyoung Ko,Juho Kim
-17.10.6,Hyunwoo Kim,Juho Kim
-17.10.7,Yoonjoo Lee,Juho Kim
-17.10.8,Saelyne Yang,Juho Kim
-17.10.9,Yoonseo Choi,Juho Kim
-17.10.10,Tae Soo Kim,Juho Kim
-17.10.11,Kihoon Son,Juho Kim
-17.11,Elena Glassman,Rob Miller
-17.11.1,Tyler Holloway,Elena Glassman
-17.11.2,Priyan Vaithilingam,Elena Glassman
-17.11.3,Sonia Murthy,Elena Glassman
-17.11.4,Ziwei Gu,Elena Glassman
-17.12,Carrie Cai,Rob Miller
-18,John Pane,Brad Myers
-19,Rich McDaniel,Brad Myers
-20,James Landay,Brad Myers
-20.2,Matthew Jörke,James Landay
-20.3,Nava Haghighi,James Landay
-20.4,Alan Cheng,James Landay
-20.6,Jacob Ritchie,James Landay
-20.7,Griffin Dietz,James Landay
-20.8,Jackie Yang,James Landay
-20.9,Parastoo Abatahi,James Landay
-20.10,Sherry Ruan,James Landay
-20.11,Danaë Metaxa-Kakavouli,James Landay
-20.11.1,Princess Sampson,Danaë Metaxa-Kakavouli
-20.11.2,Ro Encarnacion,Danaë Metaxa-Kakavouli
-20.12,Kesler Tanner,James Landay
-20.13,Jane E,James Landay
-20.14,Lydia Chilton,James Landay
-20.14.1,Katy Ilonka Gero,Lydia Chilton
-20.14.2,Savvas Petridis,Lydia Chilton
-20.14.3,Vivian Liu,Lydia Chilton
-20.14.4,Sitong Wang,Lydia Chilton
-20.14.5,Tao Long,Lydia Chilton
-20.15,Kayur Patel,James Landay
-20.16,Jon Froehlich,James Landay
-20.16.1,Kotaro Hara,Jon Froehlich
-20.16.1.1,Rosiana Natalie,Kotaro Hara
-20.16.1.2,Smitha Sheshadri,Kotaro Hara
-20.16.2,Matthew Louis Mauriello,Jon Froehlich
-20.16.2.1,Aishwarya Chandrasekaran,Matthew Louis Mauriello
-20.16.2.2,Prerana Khatiwada,Matthew Louis Mauriello
-20.16.2.3,Kyle Wang,Matthew Louis Mauriello
-20.16.2.4,Moath Talal M Erqsous,Matthew Louis Mauriello
-20.16.3,Lee Stearns,Jon Froehlich
-20.16.4,Seokbin Kang,Jon Froehlich
-20.16.5,Manaswi Saha,Jon Froehlich
-20.16.6,Liang He,Jon Froehlich
-20.16.7,Dhruv Jain,Jon Froehlich
-20.16.8,Chu Li,Jon Froehlich
-20.16.9,Xia Su,Jon Froehlich
-20.16.10,Jaewook Lee,Jon Froehlich
-20.17,T. Scott Saponas,James Landay
-20.19,Katherine Everitt,James Landay
-20.20,Richard Davis,James Landay
-20.20.1,Kenny Choo Tsu Wei,Richard Davis
-20.20.2,Camellia Zakaria,Richard Davis
-20.21,Mark Newman,James Landay
-20.21.1,Tao Dong,Mark Newman
-20.21.2,Yung-ju (Stanley) Chang,Mark Newman
-20.21.3,Rayoung Yang,Mark Newman
-20.21.4,Gaurav Paruthi,Mark Newman
-20.21.5,Chuan-che (Jeff) Huang,Mark Newman
-20.21.6,Shriti Raj,Mark Newman
-20.21.7,Meghan Clark,Mark Newman
-20.21.8,Xinghui Yan,Mark Newman
-20.21.9,Yuxuan Li,Mark Newman
-20.21.10,Yoonjeong Cha,Mark Newman
-20.21.11,Soo Ji Choi,Mark Newman
-20.22,James Lin,James Landay
-20.23,Jason Hong,James Landay
-20.23.1,Karen Tang,Jason Hong
-20.23.2,Polo Chau,Jason Hong
-20.23.2.1,Acar Tamersoy,Polo Chau
-20.23.2.2,Robert Pienta,Polo Chau
-20.23.2.3,Charles Stolper,Polo Chau
-20.23.2.4,Minsuk (Brian) Kahng,Polo Chau
-20.23.2.4.1,Md Montaser Hamid,Minsuk (Brian) Kahng
-20.23.2.4.2,Eric Slyman,Minsuk (Brian) Kahng
-20.23.2.5,Shang-Tse Chen,Polo Chau
-20.23.2.5.1,Bo-Han Kung,Shang-Tse Chen
-20.23.2.5.2,Hsuan Su,Shang-Tse Chen
-20.23.2.6,Fred Hohman,Polo Chau
-20.23.2.7,Nilaksh Das,Polo Chau
-20.23.2.8,Scott Freitas,Polo Chau
-20.23.2.9,Haekyu Park,Polo Chau
-20.23.2.10,Austin Wright,Polo Chau
-20.23.2.11,Zijie (Jay) Wang,Polo Chau
-20.23.2.12,Rahul Duggal,Polo Chau
-20.23.2.13,Seongmin Lee,Polo Chau
-20.23.2.14,Ben Hoover,Polo Chau
-20.23.2.15,ShengYun (Anthony) Peng,Polo Chau
-20.23.2.16,Matthew Hull,Polo Chau
-20.23.3,Guang Xiang,Jason Hong
-20.23.4,Jialiu Lin,Jason Hong
-20.23.5,Shahriyar Amini,Jason Hong
-20.23.6,Eiji Hayashi,Jason Hong
-20.23.7,Jason Wiese,Jason Hong
-20.23.7.1,Jimmy Moore,Jason Wiese
-20.23.7.2,Kazi Sinthia Kabir,Jason Wiese
-20.23.7.3,Ahmad Alsaleem,Jason Wiese
-20.23.7.4,Tamanna Motahar,Jason Wiese
-20.23.7.5,Joshua Jared Dawson,Jason Wiese
-20.23.7.6,Jordan Pyper,Jason Wiese
-20.23.8,Sauvik Das,Jason Hong
-20.23.8.1,Youngwook Do,Sauvik Das
-20.23.8.2,Yuxi Wu,Sauvik Das
-20.23.8.3,P. Jacob Logas,Sauvik Das
-20.23.8.4,Hao-Ping (Hank) Lee,Sauvik Das
-20.23.8.5,Ezra Awumey,Sauvik Das
-20.23.9,Dan Tasse,Jason Hong
-20.23.10,Fanglin Chen,Jason Hong
-20.23.11,Siyan Zhao,Jason Hong
-20.23.12,Haojian Jin,Jason Hong
-20.23.13,Tianshi Li,Jason Hong
-20.23.14,Cori Faklaris,Jason Hong
-20.23.15,Angel (Alex) Cabrera,Jason Hong
-20.24,Scott Klemmer,James Landay
-20.24.1,Ron Yeh,Scott Klemmer
-20.24.2,Brian Lee,Scott Klemmer
-20.24.3,Bjoern Hartmann,Scott Klemmer
-20.24.3.1,Peitong Duan,Bjoern Hartmann
-20.24.3.2,Shm Garanganao Almeda,Bjoern Hartmann
-20.24.3.3,J.D. Zamfirescu-Pereira,Bjoern Hartmann
-20.24.3.4,James Smith,Bjoern Hartmann
-20.24.3.5,Richard Lin,Bjoern Hartmann
-20.24.3.6,Bala Kumaravel,Bjoern Hartmann
-20.24.3.7,Jeremy Warner,Bjoern Hartmann
-20.24.3.8,Eldon Schoop,Bjoern Hartmann
-20.24.3.9,Andrew Head,Bjoern Hartmann
-20.24.3.9.1,Alyssa Hwang,Andrew Head
-20.24.3.9.2,Hita Kambhamettu,Andrew Head
-20.24.3.9.3,Litao Yan,Andrew Head
-20.24.3.10,Will McGrath,Bjoern Hartmann
-20.24.3.11,Amy Pavel,Bjoern Hartmann
-20.24.3.11.1,Mina Huh,Amy Pavel
-20.24.3.12,Peggy Chi,Bjoern Hartmann
-20.24.3.13,Valkyrie Savage,Bjoern Hartmann
-20.24.3.13.1,Bhaskar Dutt,Valkyrie Savage
-20.24.3.13.2,Atul Chaudhary,Valkyrie Savage
-20.24.3.14,Kenrick Kin,Bjoern Hartmann
-20.24.3.15,Lora Oehlberg,Bjoern Hartmann
-20.24.3.15.1,David Ledo,Lora Oehlberg
-20.24.3.15.2,Peyman Pootschi,Lora Oehlberg
-20.24.3.15.3,Fatemeh Rajabiyazdi,Lora Oehlberg
-20.24.3.15.3.1,Mahsa Sinaei,Fatemeh Rajabiyazdi
-20.24.3.15.4,Kathryn Blair,Lora Oehlberg
-20.24.3.15.5,Terrance Mok,Lora Oehlberg
-20.24.4,Joel Brandt,Scott Klemmer
-20.24.5,Neil Patel,Scott Klemmer
-20.24.6,Nicolas Kokkalis,Scott Klemmer
-20.24.7,Ranjitha Kumar,Scott Klemmer
-20.24.7.1,Biplab Deka,Ranjitha Kumar
-20.24.7.2,Kristen Vaccaro,Ranjitha Kumar
-20.24.7.3,Jinda Han,Ranjitha Kumar
-20.24.7.4,Deniz Arsan,Ranjitha Kumar
-20.24.7.5,Muhammad Rizky Wellyanto,Ranjitha Kumar
-20.24.7.6,Ali Zaidi,Ranjitha Kumar
-20.24.8,Jesse Cirimele,Scott Klemmer
-20.24.10,Vineet Pandey,Scott Klemmer
-20.24.11,Ailie Fraser,Scott Klemmer
-20.24.12,Tricia Ngoon,Scott Klemmer
-20.24.13,Ariel Weingarten,Scott Klemmer
-20.25,Hesham M. Kamel,James Landay
-20.26,Anoop Sinha,James Landay
-20.27,Allan Chris Long Jr.,James Landay
-21,Francesmary Modugno,Brad Myers
-21.1,Jennifer Simpson,Francesmary Modugno
-21.2,Gretchen Gierach,Francesmary Modugno
-21.3,Alana Hudson,Francesmary Modugno
-21.4,Claudia Leiras,Francesmary Modugno
-21.5,Katherine Reeves,Francesmary Modugno
-21.6,Jessica Albano,Francesmary Modugno
-21.7,Zhuxuan Fu,Francesmary Modugno
+id,name,parent,parent_id
+0,Brad Myers,,
+1,Jenny T. Liang,Brad Myers,0
+2,Matthew C. Davis,Brad Myers,0
+3,Amber Horvath,Brad Myers,0
+4,Daye Nam,Brad Myers,0
+5,Michael Xieyang Liu,Brad Myers,0
+6,Toby Li,Brad Myers,0
+6.1,Zheng Zhang,Toby Li,6
+6.2,Yuwen Lu,Toby Li,6
+6.3,Zheng Ning,Toby Li,6
+6.4,Simret Araya Gebreegziabher,Toby Li,6
+6.5,Chaoran Chen,Toby Li,6
+6.6,Ningzhi Tang,Toby Li,6
+6.7,Sumin Hong,Toby Li,6
+6.8,Yinuo Yang,Toby Li,6
+7,Mary Beth Kery,Brad Myers,0
+8,Michael Coblenz,Brad Myers,0
+8.1,Savitha Ravi,Michael Coblenz,8
+8.2,Ayla Kurdak,Michael Coblenz,8
+8.3,Jacob Yim,Michael Coblenz,8
+8.4,Shun Kashiwa,Michael Coblenz,8
+9,Kerry Shih-Ping Chang,Brad Myers,0
+10,YoungSeok Yoon,Brad Myers,0
+11,Stephen Oney,Brad Myers,0
+11.1,Yan Chen,Stephen Oney,11
+11.1.1,Kevin Pu,Yan Chen,11.1
+11.1.2,Xiaohang Tang,Yan Chen,11.1
+11.2,Rebecca Krosnick,Stephen Oney,11
+11.3,April Wang,Stephen Oney,11
+11.3.1,Zeyu Xiong,April Wang,11.3
+11.3.2,Xiaotian Su,April Wang,11.3
+11.3.3,Junling Wang,April Wang,11.3
+11.4,Lei Zhang,Stephen Oney,11
+11.5,Mauli Pandey,Stephen Oney,11
+11.6,Ashley Zhang,Stephen Oney,11
+11.7,Jiacheng Zhang,Stephen Oney,11
+12,Thomas LaToza,Brad Myers,0
+12.1,Mainul Hossain,Thomas LaToza,12
+12.2,Ruochen Wang,Thomas LaToza,12
+12.3,Abdulaziz Alaboudi,Thomas LaToza,12
+12.4,Emad Aghayi,Thomas LaToza,12
+12.5,Sahar Mehrpour,Thomas LaToza,12
+12.6,Maryam Arab,Thomas LaToza,12
+12.7,David I. Samudio,Thomas LaToza,12
+13,Jeffrey Stylos,Brad Myers,0
+14,Amy J. Ko,Brad Myers,0
+14.1,Greg Nelson,Amy J. Ko,14
+14.2,Dastyni Loksa,Amy J. Ko,14
+14.2.1,Olarinde Farayola,Dastyni Loksa,14.2
+14.3,Amanda Swearngin,Amy J. Ko,14
+14.4,Kyle Thayer,Amy J. Ko,14
+14.5,Benjamin Xie,Amy J. Ko,14
+14.6,Alannah Oleson,Amy J. Ko,14
+14.7,Mara Kirdani-Ryan,Amy J. Ko,14
+14.8,Stefania Druga,Amy J. Ko,14
+14.9,Jayne Everson,Amy J. Ko,14
+14.10,Megumi Kivuva,Amy J. Ko,14
+14.11,Eman Sherif,Amy J. Ko,14
+14.12,Rotem Landesman,Amy J. Ko,14
+14.13,Elli Beres,Amy J. Ko,14
+14.14,Blaze Burg,Amy J. Ko,14
+14.15,Paul Luo Li,Amy J. Ko,14
+14.16,Michael J. Lee,Amy J. Ko,14
+14.16.1,Yu Xu,Michael J. Lee,14.16
+14.16.2,Eric W. Nersesian,Michael J. Lee,14.16
+14.16.3,Ruiqi (Rachel) Shen,Michael J. Lee,14.16
+14.16.4,Yi Li,Michael J. Lee,14.16
+14.16.5,Kantida Nanon,Michael J. Lee,14.16
+14.16.6,Jiaxing Zhang,Michael J. Lee,14.16
+14.17,Parmit K. Chilana,Amy J. Ko,14
+14.17.1,Laton Vermette,Parmit K. Chilana,14.17
+14.17.2,Narges Ashtari,Parmit K. Chilana,14.17
+14.17.3,Rimika Chaudhury,Parmit K. Chilana,14.17
+14.17.4,Amir Jahanlou,Parmit K. Chilana,14.17
+14.17.5,Anjali Khurana,Parmit K. Chilana,14.17
+14.17.6,David A. Wong,Parmit K. Chilana,14.17
+14.17.7,Haidan Liu,Parmit K. Chilana,14.17
+15,Jeffrey Nichols,Brad Myers,0
+16,Jacob O. Wobbrock,Brad Myers,0
+16.1,Claire Mitchell,Jacob O. Wobbrock,16
+16.2,Zhuohao (Jerry) Zhang,Jacob O. Wobbrock,16
+16.3,Junhan Kong,Jacob O. Wobbrock,16
+16.4,Mingyuan Zhong,Jacob O. Wobbrock,16
+16.5,Anastasia Schaadhardt,Jacob O. Wobbrock,16
+16.6,Ather Sharif,Jacob O. Wobbrock,16
+16.7,Lisa A. Elkin,Jacob O. Wobbrock,16
+16.8,Mingrui Zhang,Jacob O. Wobbrock,16
+16.9,Rachel L. Franz,Jacob O. Wobbrock,16
+16.10,Anne Spencer Ross,Jacob O. Wobbrock,16
+16.11,Abdullah Ali,Jacob O. Wobbrock,16
+16.12,Alex Mariakakis,Jacob O. Wobbrock,16
+16.12.1,Salaar Liaqat,Alex Mariakakis,16.12
+16.12.2,Brenna Li,Alex Mariakakis,16.12
+16.12.3,Blue Lin,Alex Mariakakis,16.12
+16.12.4,Ken Christofferson,Alex Mariakakis,16.12
+16.12.5,Dhruv Verma,Alex Mariakakis,16.12
+16.12.6,Sejal Bhalla,Alex Mariakakis,16.12
+16.12.7,Ian Ruffolo,Alex Mariakakis,16.12
+16.12.8,Andrii Lenyshyn,Alex Mariakakis,16.12
+16.13,Martez Mott,Jacob O. Wobbrock,16
+16.14,Katie O’Leary,Jacob O. Wobbrock,16
+16.15,Abigail Evans,Jacob O. Wobbrock,16
+16.15.1,Steph Carter,Abigail Evans,16.15
+16.15.2,Océane Le Treust Lissillour,Abigail Evans,16.15
+16.16,Kristen Shinohara,Jacob O. Wobbrock,16
+16.16.1,Emily Kuang,Kristen Shinohara,16.16
+16.16.2,Paul Ezeamii,Kristen Shinohara,16.16
+16.17,Shiri Azenkot,Jacob O. Wobbrock,16
+16.17.1,Lei Shi,Shiri Azenkot,16.17
+16.17.2,Yuhang Zhao,Shiri Azenkot,16.17
+16.17.2.1,Kassie Povinelli,Yuhang Zhao,16.17.2
+16.17.2.2,Ruijia Chen,Yuhang Zhao,16.17.2
+16.17.2.3,Kexin Zhang,Yuhang Zhao,16.17.2
+16.17.3,Sharon Heung,Shiri Azenkot,16.17
+16.17.4,Ricardo Gonzalez,Shiri Azenkot,16.17
+16.17.5,Jazmin Collins,Shiri Azenkot,16.17
+16.18,Jessica J. Tran,Jacob O. Wobbrock,16
+16.19,Parmit K. Chilana,Jacob O. Wobbrock,16
+16.20,Jeff Huang,Jacob O. Wobbrock,16
+16.20.1,Alexandra Papoutsaki,Jeff Huang,16.20
+16.20.2,Nediyana Daskalova,Jeff Huang,16.20
+16.20.3,Jing Qian,Jeff Huang,16.20
+16.20.4,Shaun Wallace,Jeff Huang,16.20
+16.20.5,Talie Massachi,Jeff Huang,16.20
+16.20.6,Tongyu Zhou,Jeff Huang,16.20
+16.20.7,Zainab Iftikhar,Jeff Huang,16.20
+16.20.8,Ji Won Chung,Jeff Huang,16.20
+16.20.9,Brandon Woodard,Jeff Huang,16.20
+16.21,Shaun K. Kane,Jacob O. Wobbrock,16
+16.21.1,Michele A. Williams,Shaun K. Kane,16.21
+16.21.2,Halley Profita,Shaun K. Kane,16.21
+16.21.3,Darren Guinness,Shaun K. Kane,16.21
+16.21.4,Varsha Koushik,Shaun K. Kane,16.21
+16.21.5,Annika Muehlbradt,Shaun K. Kane,16.21
+16.21.6,Kyle Reinholt,Shaun K. Kane,16.21
+16.21.7,Abigail Zimmermann-Niefield,Shaun K. Kane,16.21
+16.21.8,Gabriella Johnson,Shaun K. Kane,16.21
+16.21.9,Vinitha Gadiraju,Shaun K. Kane,16.21
+16.22,Susumu Harada,Jacob O. Wobbrock,16
+16.23,Krzysztof Z. Gajos,Jacob O. Wobbrock,16
+16.23.1,Juho Kim,Krzysztof Z. Gajos,16.23
+16.23.2,Ofra Amir,Krzysztof Z. Gajos,16.23
+16.23.3,Kanya (Pao) Siangliulue,Krzysztof Z. Gajos,16.23
+16.23.4,Bernd Huber,Krzysztof Z. Gajos,16.23
+16.23.5,Kenneth Arnold,Krzysztof Z. Gajos,16.23
+16.23.6,Alexandra Cabral,Krzysztof Z. Gajos,16.23
+16.23.7,Zana Bucinca,Krzysztof Z. Gajos,16.23
+16.23.8,Zilin Ma,Krzysztof Z. Gajos,16.23
+16.23.9,Lance Ying,Krzysztof Z. Gajos,16.23
+17,Rob Miller,Brad Myers,0
+17.1,Simson Garfinkel,Rob Miller,17
+17.2,Min Wu,Rob Miller,17
+17.3,David Huynh,Rob Miller,17
+17.4,Vineet Sinha,Rob Miller,17
+17.5,Greg Little,Rob Miller,17
+17.6,Michael Bernstein,Rob Miller,17
+17.6.1,Chinmay Kulkarni,Michael Bernstein,17.6
+17.6.1.1,Yasmine Kotturi,Chinmay Kulkarni,17.6.1
+17.6.1.2,Julia Cambre,Chinmay Kulkarni,17.6.1
+17.6.1.3,Sara Kingsley,Chinmay Kulkarni,17.6.1
+17.6.1.4,Pranav Khadpe,Chinmay Kulkarni,17.6.1
+17.6.2,Joy Kim,Michael Bernstein,17.6
+17.6.3,Daniela Retelny,Michael Bernstein,17.6
+17.6.4,Justin Cheng,Michael Bernstein,17.6
+17.6.5,Ethan Fast,Michael Bernstein,17.6
+17.6.6,Geza Kovacs,Michael Bernstein,17.6
+17.6.7,Niloufar Salehi,Michael Bernstein,17.6
+17.6.7.1,Sijia Xiao,Niloufar Salehi,17.6.7
+17.6.7.2,Samantha Robertson,Niloufar Salehi,17.6.7
+17.6.7.3,Tonya Nguyen,Niloufar Salehi,17.6.7
+17.6.7.4,Liza Gak,Niloufar Salehi,17.6.7
+17.6.7.5,Sabriya Alam,Niloufar Salehi,17.6.7
+17.6.7.6,Seyi Olojo,Niloufar Salehi,17.6.7
+17.6.7.7,Angela Jin,Niloufar Salehi,17.6.7
+17.6.8,Ranjay Krishna,Michael Bernstein,17.6
+17.6.8.1,Cheng-Yu Hsieh,Ranjay Krishna,17.6.8
+17.6.8.2,Jieyu Zhang,Ranjay Krishna,17.6.8
+17.6.8.3,Jae Sung Park,Ranjay Krishna,17.6.8
+17.6.8.4,Benlin Liu,Ranjay Krishna,17.6.8
+17.6.8.5,George Stoica,Ranjay Krishna,17.6.8
+17.6.8.6,Ainaz Eftekhar,Ranjay Krishna,17.6.8
+17.6.8.7,Amita Kamath,Ranjay Krishna,17.6.8
+17.6.8.8,Enhao Zhang,Ranjay Krishna,17.6.8
+17.6.8.9,Mahtab Bigverdi,Ranjay Krishna,17.6.8
+17.6.8.10,Zixian Ma,Ranjay Krishna,17.6.8
+17.6.8.11,Scott K. Geng,Ranjay Krishna,17.6.8
+17.6.8.12,Xiang Fan,Ranjay Krishna,17.6.8
+17.6.8.13,Linjie Li,Ranjay Krishna,17.6.8
+17.6.8.14,Chnhao Zheng,Ranjay Krishna,17.6.8
+17.6.8.15,Jiafei Duan,Ranjay Krishna,17.6.8
+17.6.9,Mitchell Gordon,Michael Bernstein,17.6
+17.6.10,Catherine Mullings,Michael Bernstein,17.6
+17.6.11,Joon Sung Park,Michael Bernstein,17.6
+17.6.12,Michelle Lam,Michael Bernstein,17.6
+17.6.13,Beleicia Bullock,Michael Bernstein,17.6
+17.6.14,Lindsay Popowski,Michael Bernstein,17.6
+17.6.15,Jordan Troutman,Michael Bernstein,17.6
+17.6.16,Omar Shaikh,Michael Bernstein,17.6
+17.6.17,Dora Zhao,Michael Bernstein,17.6
+17.6.18,Carolyn Zou,Michael Bernstein,17.6
+17.7,Sean Chang,Rob Miller,17
+17.8,Max Goldman,Rob Miller,17
+17.9,Chen-Hsiang (Jones) Yu,Rob Miller,17
+17.10,Juho Kim,Rob Miller,17
+17.10.1,Minsuk Chang,Juho Kim,17.10
+17.10.2,Sung-Chul Lee,Juho Kim,17.10
+17.10.3,Seoyoung Kim,Juho Kim,17.10
+17.10.4,Hyungyu Shin,Juho Kim,17.10
+17.10.5,Eunyoung Ko,Juho Kim,17.10
+17.10.6,Hyunwoo Kim,Juho Kim,17.10
+17.10.7,Yoonjoo Lee,Juho Kim,17.10
+17.10.8,Saelyne Yang,Juho Kim,17.10
+17.10.9,Yoonseo Choi,Juho Kim,17.10
+17.10.10,Tae Soo Kim,Juho Kim,17.10
+17.10.11,Kihoon Son,Juho Kim,17.10
+17.10.12,DaEun Choi,Juho Kim,17.10
+17.10.13,Yoonsu Kim,Juho Kim,17.10
+17.11,Elena Glassman,Rob Miller,17
+17.11.1,Tyler Holloway,Elena Glassman,17.11
+17.11.2,Priyan Vaithilingam,Elena Glassman,17.11
+17.11.3,Ziwei Gu,Elena Glassman,17.11
+17.11.4,Chelse Swoopes,Elena Glassman,17.11
+17.12,Carrie Cai,Rob Miller,17
+18,John Pane,Brad Myers,0
+19,Rich McDaniel,Brad Myers,0
+20,James Landay,Brad Myers,0
+20.1,Michelle Lam,James Landay,20
+20.2,Matthew Jörke,James Landay,20
+20.3,Nava Haghighi,James Landay,20
+20.4,Alan Cheng,James Landay,20
+20.5,Mitchell Gordon,James Landay,20
+20.6,Jacob Ritchie,James Landay,20
+20.7,Griffin Dietz,James Landay,20
+20.8,Jackie Yang,James Landay,20
+20.9,Parastoo Abtahi,James Landay,20
+20.9.1,Kiyosu Maeda,Parastoo Abtahi,20.9
+20.10,Sherry Ruan,James Landay,20
+20.11,Danaë Metaxa,James Landay,20
+20.11.1,Princess Sampson,Danaë Metaxa,20.11
+20.11.2,Ro Encarnacion,Danaë Metaxa,20.11
+20.11.3,Mialy Rasetarinera,Danaë Metaxa,20.11
+20.12,Kesler Tanner,James Landay,20
+20.13,Jane E,James Landay,20
+20.14,Lydia Chilton,James Landay,20
+20.14.1,Katy Ilonka Gero,Lydia Chilton,20.14
+20.14.2,Savvas Petridis,Lydia Chilton,20.14
+20.14.3,Daniel Li,Lydia Chilton,20.14
+20.14.4,Vivian Liu,Lydia Chilton,20.14
+20.14.5,Sitong Wang,Lydia Chilton,20.14
+20.14.6,Tao Long,Lydia Chilton,20.14
+20.14.7,Xuanming Zhang,Lydia Chilton,20.14
+20.15,Kayur Patel,James Landay,20
+20.16,Jon Froehlich,James Landay,20
+20.16.1,Kotaro Hara,Jon Froehlich,20.16
+20.16.1.1,Rosiana Natalie,Kotaro Hara,20.16.1
+20.16.1.2,Smitha Sheshadri,Kotaro Hara,20.16.1
+20.16.2,Matthew Louis Mauriello,Jon Froehlich,20.16
+20.16.2.1,Aishwarya Chandrasekaran,Matthew Louis Mauriello,20.16.2
+20.16.2.2,Prerana Khatiwada,Matthew Louis Mauriello,20.16.2
+20.16.2.3,Kyle (Qile) Wang,Matthew Louis Mauriello,20.16.2
+20.16.2.4,Moath Talal M Erqsous,Matthew Louis Mauriello,20.16.2
+20.16.2.5,Abhishek Karwankar,Matthew Louis Mauriello,20.16.2
+20.16.2.6,Fatimah Alhassan,Matthew Louis Mauriello,20.16.2
+20.16.2.7,John Aromando,Matthew Louis Mauriello,20.16.2
+20.16.2.8,Abbey Liu,Matthew Louis Mauriello,20.16.2
+20.16.3,Lee Stearns,Jon Froehlich,20.16
+20.16.4,Seokbin Kang,Jon Froehlich,20.16
+20.16.5,Manaswi Saha,Jon Froehlich,20.16
+20.16.6,Liang He,Jon Froehlich,20.16
+20.16.7,Dhruv Jain,Jon Froehlich,20.16
+20.16.8,Chu Li,Jon Froehlich,20.16
+20.16.9,Xia Su,Jon Froehlich,20.16
+20.16.10,Jaewook (Jae) Lee,Jon Froehlich,20.16
+20.16.11,Daniel Campos Zamora,Jon Froehlich,20.16
+20.17,T. Scott Saponas,James Landay,20
+20.18,Susumu Harada,James Landay,20
+20.19,Katherine Everitt,James Landay,20
+20.20,Richard Davis,James Landay,20
+20.20.1,Kenny Choo Tsu Wei,Richard Davis,20.20
+20.20.1.1,Kellie Sim Yu Hui,Kenny Choo Tsu Wei,20.20.1
+20.20.1.2,Shi Weiyan,Kenny Choo Tsu Wei,20.20.1
+20.20.2,Camellia Zakaria,Richard Davis,20.20
+20.21,Mark Newman,James Landay,20
+20.21.1,Tao Dong,Mark Newman,20.21
+20.21.2,Yung-Ju “Stanley” Chang,Mark Newman,20.21
+20.21.3,Rayoung Yang,Mark Newman,20.21
+20.21.4,Gaurav Paruthi,Mark Newman,20.21
+20.21.5,Chuan-che “Jeff” Huang,Mark Newman,20.21
+20.21.6,Shriti Raj,Mark Newman,20.21
+20.21.7,Meghan Clark,Mark Newman,20.21
+20.21.8,Xinghui Yan,Mark Newman,20.21
+20.21.9,Yuxuan Li,Mark Newman,20.21
+20.21.10,Yoonjeong Cha,Mark Newman,20.21
+20.21.11,Soo Ji Choi,Mark Newman,20.21
+20.22,James Lin,James Landay,20
+20.23,Jason Hong,James Landay,20
+20.23.1,Karen Tang,Jason Hong,20.23
+20.23.2,Duen Horng (Polo) Chau,Jason Hong,20.23
+20.23.2.1,Acar Tamersoy,Duen Horng (Polo) Chau,20.23.2
+20.23.2.2,Robert Pienta,Duen Horng (Polo) Chau,20.23.2
+20.23.2.3,Charles D. (Chad) Stolper,Duen Horng (Polo) Chau,20.23.2
+20.23.2.4,Minsuk Kahng,Duen Horng (Polo) Chau,20.23.2
+20.23.2.4.1,Md Montaser Hamid,Minsuk Kahng,20.23.2.4
+20.23.2.4.2,Eric Slyman,Minsuk Kahng,20.23.2.4
+20.23.2.5,Shang-Tse Chen,Duen Horng (Polo) Chau,20.23.2
+20.23.2.5.1,Bo-Han Kung,Shang-Tse Chen,20.23.2.5
+20.23.2.5.2,Hsuan Su,Shang-Tse Chen,20.23.2.5
+20.23.2.6,Fred Hohman,Duen Horng (Polo) Chau,20.23.2
+20.23.2.7,Nilaksh Das,Duen Horng (Polo) Chau,20.23.2
+20.23.2.8,Scott Freitas,Duen Horng (Polo) Chau,20.23.2
+20.23.2.9,Haekyu Park,Duen Horng (Polo) Chau,20.23.2
+20.23.2.10,Austin Wright,Duen Horng (Polo) Chau,20.23.2
+20.23.2.11,Zijie (Jay) Wang,Duen Horng (Polo) Chau,20.23.2
+20.23.2.12,Rahul Duggal,Duen Horng (Polo) Chau,20.23.2
+20.23.2.13,Seongmin Lee,Duen Horng (Polo) Chau,20.23.2
+20.23.2.14,Ben Hoover,Duen Horng (Polo) Chau,20.23.2
+20.23.2.15,ShengYun (Anthony) Peng,Duen Horng (Polo) Chau,20.23.2
+20.23.2.16,Matthew Hull,Duen Horng (Polo) Chau,20.23.2
+20.23.2.17,Alec Helbling,Duen Horng (Polo) Chau,20.23.2
+20.23.2.18,Mansi Phute,Duen Horng (Polo) Chau,20.23.2
+20.23.2.19,Aeree Cho,Duen Horng (Polo) Chau,20.23.2
+20.23.2.20,Alex Yang,Duen Horng (Polo) Chau,20.23.2
+20.23.3,Guang Xiang,Jason Hong,20.23
+20.23.4,Jialiu Lin,Jason Hong,20.23
+20.23.5,Shahriyar Amini,Jason Hong,20.23
+20.23.6,Eiji Hayashi,Jason Hong,20.23
+20.23.7,Jason Wiese,Jason Hong,20.23
+20.23.7.1,Jimmy Moore,Jason Wiese,20.23.7
+20.23.7.2,Kazi Sinthia Kabir,Jason Wiese,20.23.7
+20.23.7.3,Ahmad Alsaleem,Jason Wiese,20.23.7
+20.23.7.4,Tamanna Motahar,Jason Wiese,20.23.7
+20.23.7.5,Joshua Jared Dawson,Jason Wiese,20.23.7
+20.23.7.6,Jordan Pyper,Jason Wiese,20.23.7
+20.23.7.7,Rebecca Moore,Jason Wiese,20.23.7
+20.23.7.8,Wageesha Bangamuarachchi,Jason Wiese,20.23.7
+20.23.8,Sauvik Das,Jason Hong,20.23
+20.23.8.1,Youngwook Do,Sauvik Das,20.23.8
+20.23.8.2,Yuxi Wu,Sauvik Das,20.23.8
+20.23.8.3,P. Jacob Logas,Sauvik Das,20.23.8
+20.23.8.4,Hao-Ping (Hank) Lee,Sauvik Das,20.23.8
+20.23.8.5,Isadora Krsek,Sauvik Das,20.23.8
+20.23.8.6,Kyzyl Monteiro,Sauvik Das,20.23.8
+20.23.9,Dan Tasse,Jason Hong,20.23
+20.23.10,Fanglin Chen,Jason Hong,20.23
+20.23.11,Siyan Zhao,Jason Hong,20.23
+20.23.12,Haojian Jin,Jason Hong,20.23
+20.23.13,Tianshi Li,Jason Hong,20.23
+20.23.13.1,Zhiping Zhang,Tianshi Li,20.23.13
+20.23.13.1.2,Ziwen Li,Zhiping Zhang,20.23.13.1
+20.23.13.1.3,Jianing Wen,Zhiping Zhang,20.23.13.1
+20.23.14,Cori Faklaris,Jason Hong,20.23
+20.23.14.1,Sarah Tabassum,Cori Faklaris,20.23.14
+20.23.14.1.2,Narges Zare,Sarah Tabassum,20.23.14.1
+20.23.14.1.3,Christian Chavis,Sarah Tabassum,20.23.14.1
+20.23.15,Angel (Alex) Cabrera,Jason Hong,20.23
+20.24,Scott Klemmer,James Landay,20
+20.24.1,Ron Yeh,Scott Klemmer,20.24
+20.24.2,Brian Lee,Scott Klemmer,20.24
+20.24.3,Bjoern Hartmann,Scott Klemmer,20.24
+20.24.3.1,Peitong Duan,Bjoern Hartmann,20.24.3
+20.24.3.2,Shm Garanganao Almeda,Bjoern Hartmann,20.24.3
+20.24.3.3,J.D. Zamfirescu-Pereira,Bjoern Hartmann,20.24.3
+20.24.3.4,James Smith,Bjoern Hartmann,20.24.3
+20.24.3.5,Richard Lin,Bjoern Hartmann,20.24.3
+20.24.3.6,Bala Kumaravel,Bjoern Hartmann,20.24.3
+20.24.3.7,Jeremy Warner,Bjoern Hartmann,20.24.3
+20.24.3.8,Eldon Schoop,Bjoern Hartmann,20.24.3
+20.24.3.9,Andrew Head,Bjoern Hartmann,20.24.3
+20.24.3.9.1,Alyssa Hwang,Andrew Head,20.24.3.9
+20.24.3.9.2,Hita Kambhamettu,Andrew Head,20.24.3.9
+20.24.3.9.3,Litao Yan,Andrew Head,20.24.3.9
+20.24.3.9.4,Jeff Tao,Andrew Head,20.24.3.9
+20.24.3.9.5,Jessica Shi,Andrew Head,20.24.3.9
+20.24.3.10,Will McGrath,Bjoern Hartmann,20.24.3
+20.24.3.11,Amy Pavel,Bjoern Hartmann,20.24.3
+20.24.3.11.1,Mina Huh,Amy Pavel,20.24.3.11
+20.24.3.11.1.2,Karim Benharrak,Mina Huh,20.24.3.11.1
+20.24.3.12,Peggy Chi,Bjoern Hartmann,20.24.3
+20.24.3.13,Valkyrie Savage,Bjoern Hartmann,20.24.3
+20.24.3.13.1,Bhaskar Dutt,Valkyrie Savage,20.24.3.13
+20.24.3.13.1.2,Atul Chaudhary,Bhaskar Dutt,20.24.3.13.1
+20.24.3.14,Kenrick Kin,Bjoern Hartmann,20.24.3
+20.24.3.15,Lora Oehlberg,Bjoern Hartmann,20.24.3
+20.24.3.15.1,David Ledo,Lora Oehlberg,20.24.3.15
+20.24.3.15.1.2,Peyman Pootschi,David Ledo,20.24.3.15.1
+20.24.3.15.1.3,Fateme Rajabiyazdi,David Ledo,20.24.3.15.1
+20.24.3.15.1.3.1,Mahsa Sinaei,Fateme Rajabiyazdi,20.24.3.15.1.3
+20.24.3.15.1.3.2,Shri Harini Ramesh,Fateme Rajabiyazdi,20.24.3.15.1.3
+20.24.3.15.1.3.3,Connor Haberl,Fateme Rajabiyazdi,20.24.3.15.1.3
+20.24.3.15.1.4,Kathryn Blair,David Ledo,20.24.3.15.1
+20.24.3.15.1.5,Sydney Pratte,David Ledo,20.24.3.15.1
+20.24.3.15.1.6,Terrance Mok,David Ledo,20.24.3.15.1
+20.24.3.15.1.7,Tania Villialobos Lujan,David Ledo,20.24.3.15.1
+20.24.3.16,Timothy J. Aveni,Bjoern Hartmann,20.24.3
+20.24.4,Joel Brandt,Scott Klemmer,20.24
+20.24.5,Neil Patel,Scott Klemmer,20.24
+20.24.6,Nicolas Kokkalis,Scott Klemmer,20.24
+20.24.7,Ranjitha Kumar,Scott Klemmer,20.24
+20.24.7.1,Biplab Deka,Ranjitha Kumar,20.24.7
+20.24.7.2,Kristen Vaccaro,Ranjitha Kumar,20.24.7
+20.24.7.3,Jinda Han,Ranjitha Kumar,20.24.7
+20.24.7.4,Deniz Arsan,Ranjitha Kumar,20.24.7
+20.24.7.5,Muhammad Rizky Wellyanto,Ranjitha Kumar,20.24.7
+20.24.7.6,Ali Zaidi,Ranjitha Kumar,20.24.7
+20.24.8,Jesse Cirimele,Scott Klemmer,20.24
+20.24.9,Chinmay Kulkarni,Scott Klemmer,20.24
+20.24.10,Vineet Pandey,Scott Klemmer,20.24
+20.24.11,Ailie Fraser,Scott Klemmer,20.24
+20.24.12,Tricia Ngoon,Scott Klemmer,20.24
+20.24.13,Ariel Weingarten,Scott Klemmer,20.24
+20.25,Hesham M. Kamel,James Landay,20
+20.26,Anoop Sinha,James Landay,20
+20.27,Allan Chris Long,James Landay,20
+21,Francesmary Modugno,Brad Myers,0
+21.1,Jennifer Simpson,Francesmary Modugno,21
+21.2,Gretchen Gierach,Francesmary Modugno,21
+21.3,Alana Hudson,Francesmary Modugno,21
+21.4,Claudia Leiras,Francesmary Modugno,21
+21.5,Katherine Reeves,Francesmary Modugno,21
+21.6,Jessica Albano,Francesmary Modugno,21
+21.7,Zhuxuan Fu,Francesmary Modugno,21
