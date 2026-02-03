@@ -1,6 +1,6 @@
 var margin = {top: 20, right: 120, bottom: 20, left: 140},
     width = 1900 - margin.right - margin.left,
-    height = 2200 - margin.top - margin.bottom;
+    height = 3200 - margin.top - margin.bottom;
 
 var i = 0,
     duration = 1500,
@@ -23,10 +23,10 @@ var svg = d3.select("#tree").append("svg")
 
 var stratify = d3.stratify()
   .id(function(d) {
-    return d.name; //This position
+    return d.id; //This position
   })
   .parentId(function(d) {
-    return d.parent; //What position this position reports to
+    return d.parent_id; //What position this position reports to
   });
 
 function collapse(d) {
@@ -119,7 +119,7 @@ function update(source) {
       .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
       .attr("dy", ".35em")
       .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-      .text(function(d) { return d.name; })
+      .text(function(d) { return d.data.name; })
       .style("fill-opacity", 1e-6)
       .style("font-size", function(d) {
         if (d.depth === 1 || d.depth === 0) {
@@ -479,9 +479,9 @@ function play() {
     }, (duration + pause)*5);
 
     setTimeout(function(){
-        gen7();
+      gen7();
 
-        playing = false;
+      playing = false;
     }, (duration + pause)*6);
 
   }
