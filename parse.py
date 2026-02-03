@@ -33,10 +33,6 @@ def clean_name(content):
     if phd_match:
         text = text[: phd_match.start()].strip()
 
-    # --- Special hard fix for known duplicated case ---
-    if "LiuMIchael" in text or "LiuMI" in text:
-        text = "Michael Xieyang Liu"
-
     # Strip trailing punctuation (.,;)
     text = text.rstrip(".,;:").strip()
 
