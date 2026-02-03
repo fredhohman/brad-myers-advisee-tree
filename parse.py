@@ -12,6 +12,7 @@ The script extracts clean names, removes extra annotations
 
 import re
 import csv
+from collections import Counter
 
 
 def clean_name(content):
@@ -99,8 +100,38 @@ def parse_markdown(md_file, csv_file):
         )  # Add root
         writer.writerows(rows)
 
-    print(f"Parsed {len(rows)} unique entries (+ root) into {csv_file}")
+    unique_names = len(set(row["name"] for row in rows))
+    print(f"Parsed {len(rows)} entries ({unique_names} unique) (+ root) into {csv_file}")
+
+    # Calculate generation statistics
+    generation_counts = Counter()
+    max_generation = 0
+
+    for row in rows:
+        # Generation is the number of dots in the ID + 1 (for Brad Myers's direct advisees)
+        # e.g., "1" = generation 2, "1.1" = generation 3, "1.1.1" = generation 4
+        generation = row["id"].count(".") + 2  # +2 because Brad Myers is gen 1, his advisees are gen 2
+        generation_counts[generation] += 1
+        max_generation = max(max_generation, generation)
+
+    print(f"\nGeneration breakdown (Brad Myers = generation 1):")
+    for gen in range(1, max_generation + 1):
+        if gen == 1:
+            print(f"  Gen {gen}: 1 (Brad Myers)")
+        else:
+            print(f"  Gen {gen}: {generation_counts[gen]}")
+
+    print(f"\nTotal generations: {max_generation}")
+
+    # Find and print duplicates
+    name_counts = Counter(row["name"] for row in rows)
+    duplicates = {name: count for name, count in name_counts.items() if count > 1}
+
+    if duplicates:
+        print(f"\nFound {len(duplicates)} duplicate names:")
+        for name, count in sorted(duplicates.items()):
+            print(f"  - {name} (appears {count} times)")
 
 
 if __name__ == "__main__":
-    parse_markdown("raw.md", "data.csv")
+    parse_markdown("Brad Myers advisee tree.md", "data.csv")
