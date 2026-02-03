@@ -1,6 +1,6 @@
 # Brad Myers advisee tree
 
-*(Last update, 4/24//2025)*  
+*(Last update, 2/1/2026)*  
 **This page has the short address: [http://tinyurl.com/myersadviseetree](http://tinyurl.com/myersadviseetree)**
 
 **See also a [cool animation](http://fredhohman.com/brad-myers-advisee-tree/) by [*Fred Hohman*](http://fredhohman.com/) *(gen. 5), [Robert Pienta](https://www.linkedin.com/in/robert-pienta/) (gen. 5), and [Polo Chau](http://www.cc.gatech.edu/~dchau/) (gen. 4\)* of the list as of 2023:  [http://fredhohman.com/brad-myers-advisee-tree/](http://fredhohman.com/brad-myers-advisee-tree/)**
@@ -20,17 +20,19 @@ For my [award talk](http://www.sigchi.org/about/awards/2017-sigchi-awards#brad-a
   * For the **2023** version: here is the [updated ribbon](http://www.cs.cmu.edu/~bam/CHI-award-talk/brad-ribbon-2023.png) (white), the [ribbon on my badge](https://www.cs.cmu.edu/%7Ebam/chibadges/chi2023ribbons.JPG), and a [pdf of the whole tree](https://www.cs.cmu.edu/~bam/CHI-award-talk/2023-tree.pdf).  
   * Updated the list in April, **2025**, but didn’t make a new ribbon  
 * See [a picture of the about 34 of these advisees](http://www.cs.cmu.edu/~bam/CHI-award-talk/IMG_3473%20Brad's%20advisee%20tree%20people%20\(34\).JPG) who attended my talk at the CHI’2017 conference.  
-* As of 4/24/2025, there were **379** advisees on the tree (6 co-advised duplicates counted only once). This is up from **332** advisees on 3/4/2023 (14% bigger in one year), **293** advisees on 3/21/2022, and **238** on 5/5/2020, and **179** on 5/5/2017 for CHI’2017 \-- 85% more in 6 years\! Of these, about **75** are (or were) professors (not counting me and my advisors). The breakdown by generation is as follows, where I am the first generation, my 21 direct advisees are the 2nd generation, etc.  
+* As of 2/1/2026, there were **412** advisees on the tree (6 co-advised duplicates counted only once). This is up from **379** on 4/24/2025, **332** advisees on 3/4/2023,, **293** advisees on 3/21/2022, and **238** on 5/5/2020, and **179** on 5/5/2017 for CHI’2017 \-- 130% more in 9 years\! Of these, about **82** are (or were) professors (not counting me and my advisors). The breakdown by generation is as follows, where I am the first generation, my 21 direct advisees are the 2nd generation, etc.  
   * 1st:	*me*  
     2nd:	21  
-    3rd	109  
-    4th:	152  
-    5th:	83  
-    6th:	17  
+    3rd	112  
+    4th:	158  
+    5th:	105  
+    6th:	19  
     7th:	3
 
 Thanks very much for your interest\!  
 Brad Myers  
+m
+
 ---
 
 Brad Myers’s PhD co-advisors:  
@@ -43,13 +45,15 @@ Ron Baecker’s PhD advisor:
 
 1. [Jenny T. Liang](https://jennyliang.me/), current PhD student in S3D at CMU  
 2. [Matthew C. Davis](https://cmumatt.github.io/) *(co-advised with Prof. Josh Sunshine)*, current PhD student in S3D at CMU  
-3. [Amber Horvath](https://horvathaa.github.io/), PhD in HCII, August, 2024, currently doing a postdoc at MITPhD student in HCII at CMU  
-4. [Daye Nam](https://dayenam.com/), *(co-advised with Prof. Bogdan Vasilescu)*, current PhD student in S3D at CMU  
-5. [Michael Xieyang LiuMIchael Xieyang Liu](https://lxieyang.github.io/), *(co-advised with Prof. Niki Kittur)*, PhD in HCII, August, 2023, currently at Google DeepMind  
+3. [Amber Horvath](https://horvathaa.github.io/), PhD in HCII, August, 2024, currently postdoc at MIT  
+4. [Daye Nam](https://dayenam.com/), *(co-advised with Prof. Bogdan Vasilescu and Vincent Hellendoorn)*, PhD, S3D at CMU, May, 2024, current: Faculty at University of California, Irvine.  
+   1. Shaokang Jiang, PhD student, University of California Irvine Informatics  
+   2. Yujin Zhang, PhD student, University of California Irvine Informatics  
+5. [Michael Xieyang Liu](https://lxieyang.github.io/), *(co-advised with Prof. Niki Kittur)*, PhD in HCII, August, 2023, currently at Google DeepMind  
 6. [Toby Li](http://www.toby.li), PhD in HCII, August 2021, currently Assistant Professor at the University of Notre Dame  
-   1. [Zheng Zhang](http://zhengzhang.me/), PhD in CSE atstudent, University of Notre Dame CSE, 2025, currently Research Scientist at Adobe  
-   2. [Yuwen Lu](http://yuwen.io/), PhD student, University of Notre Dame CSE  
-   3. [Zheng Ning](https://zning.co), PhD student, University of Notre Dame CSE  
+   1. [Zheng Zhang](http://zhengzhang.me/), PhD in CSE at University of Notre Dame, 2025, currently Research Scientist at Adobe  
+   2. [Yuwen Lu](http://yuwen.io/), PhD in CSE, University of Notre Dame, 2026, currently Design Engineer at Krea  
+   3. [Zheng Ning](https://zning.co), PhD in CSE, University of Notre Dame, 2026, currently Applied Scientist at Amazon  
    4. [Simret Araya Gebreegziabher](https://simreta.github.io/), PhD student, University of Notre Dame CSE  
    5. [Chaoran Chen](https://www.linkedin.com/in/chaoran-chen-34a71a215/), PhD student, University of Notre Dame CSE  
    6. [Ningzhi Tang](https://www.nztang.com/), PhD student, University of Notre Dame CSE  
@@ -61,26 +65,31 @@ Ron Baecker’s PhD advisor:
    2. Ayla Kurdak, PhD student, UC San Diego CSE  
    3. [Jacob Yim](https://jcbym.github.io/), PhD student, UC San Diego, CSE  
    4. [Shun Kashiwa](https://shun-k.dev/), PhD student, UC San Diego, CSE  
-9. [Kerry Shih-Ping Chang](http://www.cs.cmu.edu/~shihpinc/), PhD in HCII, May, 2016\. Currently, Engineering director  at Instabase.  
+9. [Kerry Shih-Ping Chang](http://www.cs.cmu.edu/~shihpinc/), PhD in HCII, May, 2016\. Currently, Engineering leader at Databricks.  
 10. [YoungSeok Yoon](http://research.yyoon.net/). PhD in ISR, May, 2015\. Currently, Technical Lead & Manager at Bucketplace.  
 11. [Stephen Oney](http://from.so/). PhD in HCII, May, 2015, Currently, Associate Professor at the School of Information, University of Michigan.  
     1. [Yan Chen](http://chensivan.github.io/) \- PhD in Information Science from University of Michigan School of Information, Fall 2020\. Currently, Assistant Professor at Virginia Tech  
        1. [Kevin Pu,](https://kevinpjk.github.io/) PhD student, University of Toronto CS (co-advised by Tovi Grossman)  
        2. [Xiaohang Tang](https://xiaohang-tang.github.io/), PhD student, Virginia Tech CS  
-    2. [Rebecca Krosnick](http://www-personal.umich.edu/~rkros/) \- PhD in Computer Science and Engineering from University of Michigan, Summer 2023\. Currently, software engineer at Postman Labs  
+       3. [Panayu Keelawat](https://gpanayu.github.io/), PhD student, Virginia Tech CS  
+       4. [David Barron](https://www.davidbarron.dev/), PhD student, Virginia Tech CS  
+       5. Yue Shen, PhD student, Virginia Tech CS  
+    2. [Rebecca Krosnick](https://www.linkedin.com/in/rebecca-krosnick-315b2180) \- PhD in Computer Science and Engineering from University of Michigan, Summer 2023\. Currently, software engineer at Postman Labs  
     3. [April Wang](https://aprilwang.me/) \- PhD in Information Science from University of Michigan School of Information, Spring 2023\. Currently, Assistant Professor at ETH Zurich  
-       1. [Zeyu Xiong](https://www.zeyuxiong.com/), PhD student, ETH Zürich  
-       2. [Xiaotian Su](https://xiaotiansu.github.io/), PhD student, ETH Zürich  
-       3. [Junling Wang](https://junlingwang0512.github.io/), PhD student, ETH Zürich (co-advised with Prof. Mrinmaya Sachan)  
-    4. [Lei Zhang](https://www.raynezhang.me/) \- PhD in Information Science from University of Michigan School of Information, Summer 2024\. Currently, (expected). Next: Assistant Professor at New Jersey Institute of Technology (NJIT), deferred one semester for a Postdoctoral research position at Princeton.   
+       1. [Xiaotian Su](https://xiaotiansu.github.io/), PhD student, ETH Zuürich  
+       2. [Junling Wang](https://junlingwang0512.github.io/), PhD student, ETH Zuürich (co-advised with Prof. Mrinmaya Sachan)  
+       3. [Yang Wu](https://yang-emily.github.io/), PhD student, ETH Zurich  
+       4. [Bhada Yun](https://www.bhadayun.com/), PhD student, ETH Zurich  
+    4. [Lei Zhang](https://raynez.art/bio/) \- PhD in Information Science from University of Michigan School of Information, Summer 2024\. Currently, Assistant Professor at New Jersey Institute of Technology (NJIT)   
     5. [Mauli Pandey](https://pandeymauli.github.io/research/) \- PhD in Information Science from University of Michigan School of Information, Summer 2023\. Currently, User Experience Researcher at Google  
     6. [Ashley Zhang](https://gezhangrp.com/) \- PhD student, University of Michigan School of Information  
-    7. [Jiacheng Zhang](https://www.si.umich.edu/people/jiacheng-zhang) \- PhD student, University of Michigan School of Information  
+    7. [Jiacheng Zhang](https://susan-zjc.github.io) \- PhD student, University of Michigan School of Information  
+    8. [Xiangyu Zhou](https://kevinxiangyuzhou.github.io) \- PhD student, University of Michigan Computer Science and Engineering  
 12. [Thomas LaToza](https://cs.gmu.edu/~tlatoza/). *(co-advised with Prof. Jonathan Aldrich)* PhD in ISR, May, 2012, Currently, Associate Professor, Department of Computer Science, College of Engineering and Computing, George Mason University.  
-    1. [Mainul Hossain](https://www.linkedin.com/in/mhyaad/),[Sajed Jalil](https://sites.google.com/view/sajedjalil), PhD student in CS at George Mason University  
+    1. [Mainul Hossain](https://www.linkedin.com/in/mhyaad/), PhD student in CS at George Mason University  
     2. [Ruochen Wang](https://www.linkedin.com/in/wangrc/), PhD student in CS at George Mason University  
     3. [Abdulaziz Alaboudi](http://mason.gmu.edu/~aalaboud/), PhD in IT/SE at George Mason University, April 2023\. Currently, Assistant Professor, College of Computer and Information Science, King Saud University.   
-    4. Emad Aghayi, PhD in CS at George Mason University, February, 2024\.   
+    4. Emad Aghayi, PhD in CS at George Mason University, February, 2024\. Currently Principal Software Engineer at Walgreens.  
     5. [Sahar Mehrpour](http://mason.gmu.edu/~smehrpou/), PhD student in CS at George Mason University  
     6. [Maryam Arab](http://linkedin.com/in/maryam-arab), PhD student in CS at George Mason University. Currently, Postdoctoral Research Associate at University of Michigan.  
     7. [David I. Samudio](https://www.linkedin.com/in/david-samudio-8343621a/), PhD student in IT/SE at George Mason University. Currently Assistant Professor (Teaching) in CS at George Mason University.   
@@ -89,27 +98,29 @@ Ron Baecker’s PhD advisor:
     1. [Greg Nelson](http://www.greglnelson.info/) PhD from UW CSE. Currently Assistant Professor, Computer Science, University of Maine.  
     2. [Dastyni Loksa](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/dastyni-loksa.html) PhD from UW iSchool, currently Assistant Professor of Computer and Information Science at Towson University  
        1. [Olarinde Farayola](https://www.linkedin.com/in/olarinde-farayola-442011108/), Doctoral student in Information Technology at Towson University  
-    3. [Amanda Swearngin, PhD from UW CSE, currently Research Engineer at Apple (May 2020\)](http://homes.cs.washington.edu/~amaswea/)   
+    3. [Amanda Swearngin](https://amaswea.github.io/), PhD from UW CSE, currently Principal Researcher at Microsoft Research AI Frontiers  
     4. [Kyle Thayer](http://www.kylethayer.com/) PhD student in UW CSE, Currently, Assistant Teaching Professor, The Information School, University of Washington  
-    5. [Benjamin Xie PhD from UW iSchool, 2022\. Currently postdoc at Stanford HAI / Center for Ethics in Society](http://benjixie.com/). Assistant Professor, University of Denver, Computer Science (starting Autumn 2025\)  
+    5. [Benjamin Xie, PhD from UW iSchool, 2022\. Currently](http://benjixie.com/) Assistant Professor, University of Denver, Computer Science  
     6. [Alannah Oleson](https://alannaholeson.com/) PhD from UW iSchool. Currently Assistant Professor, University of Denver (starting Autumn 2024).  
-    7. [Mara Kirdani-Ryan](https://marakr.com/)  PhD fromStudent in UW CSE, Currently Assistant Teaching Professor @ UW iSchool (2024).  
-    8. [Stefania Druga](https://stefania11.github.io/), PhD from UW iSchool. Currently Research Scientist at Google AI.  
+    7. [Mara Kirdani-Ryan](https://marakr.com/)  PhD from UW CSE 2024, Currently Assistant Teaching Professor @ UW iSchool  
+    8. [Stefania Druga](https://stefania11.github.io/), PhD from UW iSchool. Currently Research Scientist at Sakana AIGoogle AI.  
     9. [Jayne Everson](https://jayneeverson.com/), PhD Student in UW CSE  
     10. [Megumi Kivuva](http://megumikivuva.com/), PhD Student in UW iSchool  
     11. [Eman Sherif](https://scholar.google.com/citations?user=aPnsRikAAAAJ&hl=en), PhD Student in UW CSE  
     12. [Rotem Landesman](https://www.linkedin.com/in/rotem-landesman-ab880b132/), PhD Student in UW iSchool  
     13. [Elli Beres](https://elliberes.me/). PhD Student in UW CSE.  
     14. [Blaze Burg](https://github.com/burg), PhD from UW, 2015, Currently, Senior Software Engineer at Apple.  
-    15. [Paul Luo Li](https://www.linkedin.com/in/paul-li-7387903/), PhD in Information Science from UW, 2016\. Currently, Principal Data Scientist at Microsoft.  
-    16. [Michael J. Lee](https://michael.gidgetlab.com/)[,](http://pixel42.com/) PhD in Information Science from UW, Spring 2015\. Currently, Associate Professor in Informatics at the New Jersey Institute of Technology.  
+    15. Paul Luo Li, PhD in Information Science from UW, 2016\. Currently, Principal Data Scientist at Microsoft.  
+    16. [Janet Jiang](https://janet-jiang.github.io/), PhD Student in UW CSE.  
+    17. [Michael J. Lee](https://michael.gidgetlab.com/)[,](http://pixel42.com/) PhD in Information Science from UW, Spring 2015\. Currently, Associate Professor in Informatics at the New Jersey Institute of Technology.  
         1. [Yu Xu](https://www.linkedin.com/in/yuxu/), PhD from NJIT, 2020\. Currently, Senior Associate at Magnolia Innovation  
         2. [Eric W. Nersesian](https://www.linkedin.com/in/ericnersesian), PhD from NJIT, 2021 (co-advised by Margarita Vinnikov). Currently, Augmented Reality Software Engineer at Snap   
         3. [Ruiqi (Rachel) Shen](https://www.linkedin.com/in/rachel-ruiqi-shen-68000a74/), PhD from NJIT, 2021\. Currently a UX Designer at OneSkool  
         4. [Yi Li,](https://daleyli.github.io/yili/) PhD from NJIT, 2023\.  (co-advised by Iulian Neamtiu), NJIT Informatics  
         5. [Kantida Nanon](https://www.linkedin.com/in/kantida-nanon/), PhD from NJIT, 2025  (co-advised by Margarita Vinnikov)  
         6. [Jiaxing Zhang](https://tabzhangjx.github.io/), PhD from NJIT, 2025\. Currently Senior Data Scientist at Walmart Global Tech  
-    17. [Parmit K. Chilana](http://hci.cs.sfu.ca/), now Associate Professor, Computing Science, Simon Fraser University *(co-advised by Prof. Jacob O. Wobbrock, below*)  
+        7. Esther Mba, currently in PhD program in Information Systems at NJIT.  
+    18. [Parmit K. Chilana](http://hci.cs.sfu.ca/), now Associate Professor, Computing Science, Simon Fraser University *(co-advised by Prof. Jacob O. Wobbrock, below*)  
         1. [Laton Vermette](https://latonv.com), PhD, CS, SFU, 2022\. Currently, UX Software Engineer at Internet Archive.  
         2. Narges Ashtari, PhD, CS, SFU  
         3. Rimika Chaudhury, PhD, CS, SFU  
@@ -126,50 +137,56 @@ Ron Baecker’s PhD advisor:
     5. [Anastasia Schaadhardt](https://www.anastasiaschaadhardt.com/), currently in PhD program in Information Science at UW.  
     6. [Ather Sharif](http://athersharif.me), currently in PhD program in CSE at UW.  
     7. [Lisa A. Elkin](https://www.lisaelkin.com/), currently in PhD program in CSE at UW.  
-    8. [Mingrui Zhang](https://drustz.com/), currently Research Scientist at Meta Reality Labs NYC.  
+    8. [Mingrui Zhang](https://drustz.com/), currently MTS at [Reflection.AI](http://Reflection.AI) .Research Scientist at Meta Reality Labs NYC.  
     9. [Rachel L. Franz](http://rachelfranz.com/), currently in PhD program in Information Science at UW.  
     10. [Anne Spencer Ross](https://homes.cs.washington.edu/~ansross/), (c[o](https://staff.washington.edu/abievans/wordpress/)\-[a](https://staff.washington.edu/abievans/wordpress/)d[v](https://staff.washington.edu/abievans/wordpress/)i[s](https://staff.washington.edu/abievans/wordpress/)e[d](https://staff.washington.edu/abievans/wordpress/) [w](https://staff.washington.edu/abievans/wordpress/)i[t](https://staff.washington.edu/abievans/wordpress/)h James Fogarty) currently in PhD program in CSE at UW.  
     11. [Abdullah Ali](http://www.abdullahalix.com/), PhD at UW, 2020\. Currently Co-founder & CEO 3rd Brain (3rd-Brain.com)    
     12. [Alex Mariakakis](https://mariakakis.github.io/) [(](https://atm15.github.io/)c[o](https://atm15.github.io/)\-[a](https://atm15.github.io/)d[v](https://atm15.github.io/)i[s](https://atm15.github.io/)e[d](https://atm15.github.io/) [w](https://atm15.github.io/)i[t](https://atm15.github.io/)h S[h](https://atm15.github.io/)w[e](https://atm15.github.io/)t[a](https://atm15.github.io/)k P[a](https://atm15.github.io/)t[e](https://atm15.github.io/)l[)](https://atm15.github.io/), PhD in Computer Science and Engineering at UW, currently Assistant Professor at the University of Toronto.  
         1. [Salaar Liaqat](https://www.cs.toronto.edu/~sliaqat/), currently in PhD program in CS at UofT  
-        2. [Brenna Li](https://brennal.github.io/), currently in PhD program in CS at UofT  
-        3. [Blue Lin](https://www.bluelin.me/), currently in PhD program in CS at UofT  
+        2. [Brenna Li](https://brennal.github.io/), currently Postdoc at Stanfordin PhD program in CS at UofT  
+        3. [Blue Lin](https://www.bluelin.me/), currently Postdoc at Columbiain PhD program in CS at UofT  
         4. [Ken Christofferson](https://ken-chris.github.io/), currently in PhD program in CS at UofT  
-        5. [Dhruv Verma](https://dhruv-verma.com/), currently in PhD program in CS at UofT  
-        6. [Sejal Bhalla](https://www.sejalbhalla.com/), currently in PhD program in CS at UofT  
-        7. [Ian Ruffolo](https://ian.ruffolo.me/), currently in PhD program in CS at UofT  
-        8. Andrii Lenyshyn, currently in PhD program in CS at UofT  
-    13. [Martez Mott](http://students.washington.edu/memott/), currently a Senior Researcher at Microsoft Research.  
+        5. [Dhruv Verma](https://dhruv-verma.com/), currently in PhD studentprogram in CS at UofT  
+        6. [Sejal Bhalla](https://www.sejalbhalla.com/), currently in PhD studentprogram in CS at UofT  
+        7. [Ian Ruffolo](https://ian.ruffolo.me/), currently in PhD studentprogram in CS at UofT  
+        8. [Andrii Lenyshyn](https://andreeew2k.github.io/), currently in PhD studentprogram in CS at UofT  
+        9. [Zahra Hassanzadeh](https://sites.google.com/view/zahrahassanzadeh/home), currently PhD student in CS at UofT  
+        10. [Vaibhav Ganatra](https://ganatra-v.github.io/), currently PhD student in CS at UofT  
+    13. Martez Mott, currently a Senior Researcher at Microsoft Research.  
     14. [Katie O’Leary](http://students.washington.edu/kathlo/) [(](http://students.washington.edu/kathlo/)c[o](http://students.washington.edu/kathlo/)\-[a](http://students.washington.edu/kathlo/)d[v](http://students.washington.edu/kathlo/)i[s](http://students.washington.edu/kathlo/)e[d](http://students.washington.edu/kathlo/) [w](http://students.washington.edu/kathlo/)i[t](http://students.washington.edu/kathlo/)h W[a](http://students.washington.edu/kathlo/)n[d](http://students.washington.edu/kathlo/)a P[r](http://students.washington.edu/kathlo/)a[t](http://students.washington.edu/kathlo/)t[)](http://students.washington.edu/kathlo/), currently in PhD program in Information Science at UW.  
     15. [Abigail Evans](https://staff.washington.edu/abievans/wordpress/) [(](https://staff.washington.edu/abievans/wordpress/)c[o](https://staff.washington.edu/abievans/wordpress/)\-[a](https://staff.washington.edu/abievans/wordpress/)d[v](https://staff.washington.edu/abievans/wordpress/)i[s](https://staff.washington.edu/abievans/wordpress/)e[d](https://staff.washington.edu/abievans/wordpress/) [w](https://staff.washington.edu/abievans/wordpress/)i[t](https://staff.washington.edu/abievans/wordpress/)h K[a](https://staff.washington.edu/abievans/wordpress/)t[i](https://staff.washington.edu/abievans/wordpress/)e D[a](https://staff.washington.edu/abievans/wordpress/)v[i](https://staff.washington.edu/abievans/wordpress/)s[)](https://staff.washington.edu/abievans/wordpress/),  PhD in Information Science at UW, Spring 2018\. Currently Lecturer at the University of York.  
         1. Steph Carter, PhD student in Computer Science, University of York  
-        2. Océane Le Treust Lissillour, PhD student in Computer Science, University of York  
+        2. [Océane Le Treust Lissillour](https://oceanelissillour.mmm.page/), PhD student in Computer Science, University of York  
     16. [Kristen Shinohara](http://www.kristenshinohara.com/) [(](http://www.kristenshinohara.com/)c[o](http://www.kristenshinohara.com/)\-[a](http://www.kristenshinohara.com/)d[v](http://www.kristenshinohara.com/)i[s](http://www.kristenshinohara.com/)e[d](http://www.kristenshinohara.com/) [w](http://www.kristenshinohara.com/)i[t](http://www.kristenshinohara.com/)h W[a](http://www.kristenshinohara.com/)n[d](http://www.kristenshinohara.com/)a P[r](http://www.kristenshinohara.com/)a[t](http://www.kristenshinohara.com/)t[)](http://www.kristenshinohara.com/), PhD in Information Science at UW, Spring 2017\. Currently, Associate Professor in the School of Information at the Rochester Institute of Technology.  
         1. [Emily Kuang](https://emilykuang.github.io/), PhD student in Computing and Info Sciences, RIT  
-        2. Paul Ezeamii, PhD student in Computing and Info Sciences, RIT   
+        2. [Paul Ezeamii](https://paulezeamii.com/), PhD student in Computing and Info Sciences, RIT   
     17. [Shiri Azenkot](https://www.shiriazenkot.com/) [(](https://www.shiriazenkot.com/)c[o](https://www.shiriazenkot.com/)\-[a](https://www.shiriazenkot.com/)d[v](https://www.shiriazenkot.com/)i[s](https://www.shiriazenkot.com/)e[d](https://www.shiriazenkot.com/) [b](https://www.shiriazenkot.com/)y R[i](https://www.shiriazenkot.com/)c[h](https://www.shiriazenkot.com/)a[r](https://www.shiriazenkot.com/)d L[a](https://www.shiriazenkot.com/)d[n](https://www.shiriazenkot.com/)e[r](https://www.shiriazenkot.com/)), PhD in CSE from UW, Summer 2014\. Currently, Associate Professor at Cornell Tech, Cornell University.  
-        1. [Lei Shi,](http://leiatlarge.com) current PhD Student in Information Science, Cornell University.  
-        2. [Yuhang Zhao](http://yuhangz.com), PhD in Information Science from Cornell University, August 2020\. Currently, Assistant Professor at University of Wisconsin-Madison  
+        1. [Lei Shi,](https://leiatlarge.github.io), current SWE at Google DeepMindPhD Student in Information Science, Cornell University.  
+        2. [Yuhang Zhao](http://yuhangz.com), PhD in Information Science from Cornell University, 2020\. Currently, Assistant Professor at University of Wisconsin-Madison  
            1. Kassie Povinelli, PhD student in Computer Science, UW-Madison  
-           2. Ruijia Chen, PhD student in Computer Sciences, UW-Madison  
-           3. [Kexin Zhang](https://kexin-z.com/), Phd Student in Computer Sciences, UW-Madison  
+           2. [Ru Wang](https://ru-wang.com), PhDd Student in Computer Sciences, UW-Madison  
+           3. [Ruijia Chen](https://chenruijia120.github.io/), PhD student in Computer Sciences, UW-Madison  
+           4. [Kexin Zhang](https://kexin-z.com/), PhDd Student in Computer Sciences, UW-Madison  
+           5. [Daniel Killough](https://dkillough.com/#about), PhDd Student in Computer Sciences, UW-Madison  
+           6. [Yuheng Wu](https://iamwyh.com/), PhDd Student in Computer Sciences, UW-Madison  
+           7. [Hanxiu ‘Hazel’ Zhu](https://madability.cs.wisc.edu/), PhDd Student in Computer Sciences, UW-Madison  
+           8. [Ben Kosa](https://benskosa.github.io/), PhDd Student in Computer Sciences, UW-Madison  
         3. [Sharon Heung](http://www.sharonheung.com), PhD Student in Information Science, Cornell University / Cornell Tech  
-        4. Ricardo Gonzalez, PhD Student in Information Science, Cornell University / Cornell Tech  
-        5. [Jazmin Collins](http://linkedin.com/jazmin-collins), PhD Student in Information Science, Cornell University, Cornell Tech  
+        4. [Ricardo Gonzalez](https://rgonzalezp.github.io/), PhD Student in Information Science, Cornell University / Cornell Tech  
+        5. Jazmin Collins, PhD Student in Information Science, Cornell University, Cornell Tech  
     18. [Jessica J. Tran](https://www.linkedin.com/in/jessicajtran/). (co-advised by Prof. Eve Riskin and Prof. Richard Ladner), PhD in Electrical Engineering from UW, Summer 2014\. Currently, Design Researcher at Microsoft.  
     19. [Parmit K. Chilana](http://hci.cs.sfu.ca/). PhD in Information Science from UW, Summer 2013\. Currently, Associate Professor in Computer Science at Simon Fraser University. *(co-advised by Amy J. Ko, above) \-- see advisee list above*  
     20. [Jeff Huang](http://jeffhuang.com/) [(](http://jeffhuang.com/)c[o](http://jeffhuang.com/)\-[a](http://jeffhuang.com/)d[v](http://jeffhuang.com/)i[s](http://jeffhuang.com/)e[d](http://jeffhuang.com/) [w](http://jeffhuang.com/)i[t](http://jeffhuang.com/)h S[ue](http://jeffhuang.com/) D[u](http://jeffhuang.com/)m[a](http://jeffhuang.com/)i[s](http://jeffhuang.com/)). PhD in Information Science from UW, Summer 2013\. Currently, Associate Professor in Computer Science at Brown University.  
         1. [Alexandra Papoutsaki](http://cs.brown.edu/~alexpap/), PhD in Computer Science from Brown University 2017, Currently: Associate Professor at Pomona College.  
-        2. [Nediyana Daskalova](http://cs.brown.edu/people/nediyana/), PhD in Computer Science from Brown University, Currently: Research Scientist at SunoSpotify.  
+        2. [Nediyana Daskalova](http://cs.brown.edu/people/nediyana/), PhD in Computer Science from Brown University, Currently: Research Scientist at Suno.  
         3. [Jing Qian](https://www.jingq.org/), PhD in Computer Science from Brown University 2022\. Currently: Research Assistant Professor at NYU.  
         4. [Shaun Wallace](http://shaunwallace.org/), PhD in Computer Science from Brown University 2023, Currently Assistant Professor at the University of Rhode Island.  
-        5. [Talie Massachi](https://talie.town/), PhD in Computer Science from Brown University 2024, Currently: Lecturer at the University of Pennsylvaniacurrent PhD student at Brown University  
-        6. [Tongyu Zhou](https://tongyuzhou.com/), PhD in Computer Science from Brown University, Currently: Research Scientist at Adobe Researchcurrent PhD student at Brown University  
-        7. [Zainab Iftikhar](https://zainabiftikhar.github.io/), current PhD student at Brown University  
+        5. [Talie Massachi](https://talie.town/), PhD in Computer Science from Brown University 2024, Currently: Lecturer at the University of Pennsylvania  
+        6. [Tongyu Zhou](https://tongyuzhou.com/), PhD in Computer Science from Brown University, Currently: Research Scientist at Adobe Research  
+        7. [Zainab Iftikhar](https://zainabiftikhar.com/), current PhD student at Brown University  
         8. [Ji Won Chung](https://g1isgone.github.io/), current PhD student at Brown University  
-        9. Brandon Woodard, current PhD student at Brown University  
     21. [Shaun K. Kane](http://shaunkane.com/) [(](http://shaunkane.com/)c[o](http://shaunkane.com/)\-[a](http://shaunkane.com/)d[v](http://shaunkane.com/)i[s](http://shaunkane.com/)e[d](http://shaunkane.com/) [b](http://shaunkane.com/)y R[i](http://shaunkane.com/)c[h](http://shaunkane.com/)a[r](http://shaunkane.com/)d L[a](http://shaunkane.com/)d[n](http://shaunkane.com/)e[r](http://shaunkane.com/)). PhD in Information Science from UW, Summer 2011\. Currently, Associate Professor in Computer Science at the University of Colorado Boulder.  
-        1. [Michele A. Williams](http://michele-williams.com) (co-advised by Amy Hurst), PhD in Human-Centered Computing from University of Maryland Baltimore County, Winter 2015\. Currently, Senior User Experience Researcher \- Accessibility at Pearson.  
+        1. [Michele A. Williams](https://www.linkedin.com/in/micheleawilliams1/) (co-advised by Amy Hurst), PhD in Human-Centered Computing from University of Maryland Baltimore County, Winter 2015\. Currently, at Making Accessibility Work.  
         2. [Halley Profita](https://halleyprofita.wordpress.com) (co-advised by Nikolaus Correll), PhD in CS  from University of Colorado Boulder, Spring 2017\. Currently, a Human Factors Design Researcher at Apple.   
         3. [Darren Guinness, (co-advised by Daniel Szafir) PhD in CS from university of Colorado Boulder, Summer 2022\. Currently a Human Factors Design Engineer at Apple.](https://scholar.google.com/citations?user=2-mshjYAAAAJ&hl=en)   
         4. [Varsha Koushik](https://www.linkedin.com/in/varshakoushik/) (co-advised by Tamara Sumner), currently in PhD program in Computer Science at University of Colorado Boulder.  
@@ -185,39 +202,41 @@ Ron Baecker’s PhD advisor:
         3. [Kanya (Pao) Siangliulue](https://www.linkedin.com/in/pao-siangliulue-03142866/), Phd in 2017, currently at Allen Institute for AI.  
         4. Bernd Huber, PhD from Harvard  
         5. [Kenneth Arnold,](http://kenarnold.org/) PhD in CS at Harvard, 2020\. Currently professor of Computer Science and Data Science at Calvin University  
-        6. [Alexandra Cabral](https://scholar.harvard.edu/acabral/home), current PhD student at Harvard  
-        7. [Zana Bucinca](http://scholar.harvard.edu/zbucinca), current PhD student at Harvard  
-        8. [Zilin Ma](https://www.linkedin.com/in/zilin-ma-3b08b6118/), current PhD student at Harvard  
+        6. [Alexandra Cabral](https://scholar.harvard.edu/acabral/home), Assistant Professor Department of Urban Studies and Planning at MIT Postdoc at Georgia Techcurrent PhD student at Harvard  
+        7. [Zana Bucinca](http://scholar.harvard.edu/zbucinca), Assistant Professor at MIT Sloan and EECScurrent PhD student at Harvard  
+        8. [Zilin Ma](https://www.linkedin.com/in/zilin-ma-3b08b6118/), Postdoc at Harvard Business Schoolcurrent PhD student at Harvard  
         9. [Lance Ying](http://scholar.google.com/lanceying), current PhD student at Harvard  
+        10. [Ritesh Kanchi](https://riteshkanchi.com), current PhD student at Harvard  
+        11.   
 17. [Rob Miller](http://people.csail.mit.edu/rcm/). PhD in CSD, May, 2002, Currently, Professor of Computer Science at MIT.  
-    1. [Simson Garfinkel](https://www.schmidtfutures.com/our-people/#simson-garfinkel) (co-advised by Dr. David Clark), PhD in CS, MIT, June 2005\. Currently Program Scientist at Schmidt Futures. (formerly Associate Professor at Naval Postgraduate School)  
+    1. [Simson Garfinkel](https://www.linkedin.com/in/simsongarfinkel/) (co-advised by Dr. David Clark), PhD in CS, MIT, June 2005\. Currently Chief Scientist at BasisTech, Lecturer at Harvard (formerly Associate Professor at Naval Postgraduate School)  
     2. [Min Wu](https://www.linkedin.com/in/min-wu-103aab5/). PhD in CS, MIT, August 2006\. Currently at Cloud Lending Solutions.  
     3. [David Huynh](http://davidhuynh.net) (co-advised with Prof. David Karger). PhD in CS, MIT, August 2007\. Currently Senior Staff Software Engineer at Google.  
     4. [Vineet Sinha](http://people.csail.mit.edu/vineet/) (co-advised with Prof. David Karger). PhD in CS, MIT, January 2008\. Currently at Cengage Learning.  
     5. [Greg Little](http://glittle.org). PhD in CS, MIT, May 2011\.  
     6. [Michael Bernstein](http://hci.stanford.edu/msb/) (co-advised with Prof. David Karger). PhD in CS, May 2012\.  Currently Associate Professor of CS at Stanford University.  
-       1. [Chinmay Kulkarni](http://www.cs.cmu.edu/~chinmayk/) (*co-advised by Prof. Scott Klemmer, listed below*). PhD in CS, Stanford, 2015\.  Currently Associate Professor of Computer Science at Emory University.  
-          1. [Yasmine Kotturi](http://ykotturi.github.io). PhD in HCI, 2022, CMU. Currently Postdoc @ HCII CMU.  
+       1. [Chinmay Kulkarni](http://www.cs.cmu.edu/~chinmayk/) (*co-advised by Prof. Scott Klemmer, listed below*). PhD in CS, Stanford, 2015\.  (previously,  Associate Professor at CMU, then Associate Professor of Computer Science at Emory University). Now at Microsoft AI  
+          1. [Yasmine Kotturi](http://ykotturi.github.io). PhD in HCI, 2022, CMU. Currently Assistant Professor of Human-Centered Computing at University of Maryland, Baltimore County  
           2. [Julia Cambre](http://juliacambre.com/). PhD student in HCI  
           3. [Sara Kingsley](http://techworkers.io), PhD student in HCI  
           4. [Pranav Khadpe](https://pranavkhadpe.github.io/), PhD student in HCI  
-       2. [Joy Kim](http://www.joyk.im/). PhD in CS, Stanford, 2016\. Currently a research scientist at Adobe Research.  
+       2. [Joy Kim](http://www.joyk.im/). PhD in CS, Stanford, 2016\. Currently Senior Research Scientist a research scientist at Adobe Research.  
        3. [Daniela Retelny](http://danielaretelny.com/) (*co-advised by Prof. Melissa Valentine*), PhD in MS\&E Stanford, March 2017\. Currently User Experience Researcher at Meta.  
-       4. [Justin Cheng](https://clr3.com/) (co-advised by Prof. Jure Leskovec), PhD in CS, 2017\. Currently research scientist at the Core Data Science team at Facebook.  
+       4. [Justin Cheng](https://clr3.com/) (co-advised by Prof. Jure Leskovec), PhD in CS, 2017\. Currently Staff Data Scientist at Discordresearch scientist at the Core Data Science team at Facebook.  
        5. [Ethan Fast](http://ethanfast.com/academic/), PhD in CS, Stanford, 2018\. Currently Co-Founder at Vcreate.  
        6. [Geza Kovacs](https://www.gkovacs.com/), PhD in CS at Stanford, 2019\. Current Senior Research Scientist at Google.  
        7. [Niloufar Salehi](http://stanford.edu/~niloufar/), PhD in CS at Stanford, 2018\. Currently Assistant Professor at the School of Information at UC Berkeley.  
           1. [Sijia Xiao](https://www.applexiao.com/), PhD from the School of Information at UC Berkeley, 2024\. Currently postdoc at CMU.  
-          2. [Samantha Robertson](https://srobert4.github.io/), PhD student in EECS at UC Berkeley.  
+          2. [Samantha Robertson](https://srobert4.github.io/), PhD 2024, EECS at UC Berkeley, now Machine Learning Engineer at Abridge  
           3. [Tonya Nguyen](https://www.tonyanguyen.com/), PhD student in the School of Information at UC Berkeley.  
-          4. [Liza Gak](http://lizagak.com/), PhD student in the School of Information at UC Berkeley.  
+          4. [Liza Gak](http://lizagak.com/), PhD student in the School of Information at UC Berkeley. Currently postdoc at Sesame Workshop  
           5. [Sabriya Alam](https://sites.google.com/view/sabriyaalam), PhD student in EECS at UC Berkeley  
           6. [Seyi Olojo](https://www.seyiolojo.com/), PhD student in the School of Information at UC Berkeley  
           7. [Angela Jin](https://angelacjin.github.io/), PhD student in EECS at UC Berkeley  
        8. [Ranjay Krishna](http://www.ranjaykrishna.com/index.html) (co-advised with Prof. Fei-Fei Li), Assistant Professor at University of Washington CSE.  
           1. [Cheng-Yu Hsieh](https://chengyuhsieh.github.io/) PhD student in CSE at University of Washington  
           2. Jieyu Zhang PhD student in CSE at University of Washington  
-          3. Jae Sung Park (*co-advised by Prof. Yejin Choi and Prof. Ali Farhadi*) PhD student in CSE at University of Washington  
+          3. Jae Sung Park (c*o-advised by Prof. Yejin Choi and Prof. Ali Farhadi*) PhD student in CSE at University of Washington  
           4. [Benlin Liu](https://liubl1217.github.io/) PhD student in CSE at University of Washington  
           5. [George Stoica](https://gstoica27.github.io/) (*co-advised by Prof. Judy Hoffman*) PhD student in CSE at Georgia Institute of Technology  
           6. Ainaz Eftekhar (*co-advised by Prof. Ali Farhadi*) PhD student in CSE at University of Washington  
@@ -229,8 +248,10 @@ Ron Baecker’s PhD advisor:
           12. [Xiang Fan](https://xiangfan.io/) PhD student in CSE at University of Washington  
           13. [Linjie Li](https://www.linkedin.com/in/linjie-li/) (*co-advised by Prof. Yejin Choi*) PhD student in CSE at University of Washington  
           14. [Chnhao Zheng](https://hellomuffin.github.io/) PhD student in CSE at University of Washington  
-          15. [Jiafei Duan (*co-advised by Dieter Fox*)](https://duanjiafei.com/) PhD student in CSE at University of Washington  
-       9. [Mitchell Gordon](http://mgordon.me/), (*co-advised with James Landay, listed below),* Assistant Professor at MIT EECS  
+          15. [Jiafei Duan](https://duanjiafei.com/) (*co-advised by Dieter Fox*) PhD student in CSE at University of Washington  
+       9. [Mitchell Gordon](http://mgordon.me/), (*co-advised with James Landay, listed below),* Assistant Professor at MIT EECS and Member of Technical Staff at OpenAI  
+          1. [Andre Ye](https://andre-ye.org/), PhD student in CS at MIT  
+          2. [Hyemin (Helen) Bang](http://hyeminbang.com), PhD student in CS at MIT  
        10. [Catherine Mullings](https://www.linkedin.com/in/catherine-mullings/), PhD student in CS at Stanford.  
        11. [Joon Sung Park](http://joonsungpark.com/) (co-advised with Prof. Percy Liang), PhD student in CS at Stanford.  
        12. [Michelle Lam](https://michelle123lam.github.io), PhD student in CS at Stanford *(co-advised with James Landay, listed below)*.  
@@ -244,7 +265,7 @@ Ron Baecker’s PhD advisor:
     8. [Max Goldman](http://web.mit.edu/maxg/). PhD in CS, MIT, August 2012\. Currently lecturer in EECS at MIT.  
     9. [Chen-Hsiang (Jones) Yu](http://people.csail.mit.edu/chyu/). PhD in CS, MIT, December 2012\. Currently Associate  Professor in the School of Computing and Data Science at Wentworth Institute of Technology.  
     10. [Juho Kim](https://juhokim.com). PhD in CS, MIT,  August 2015\. Currently Associate Professor of CS at KAIST.  
-        1. [Minsuk Chang](https://minsukchang.com/), PhD from KAIST. Currently Research Scientist at Google PAIR  
+        1. [Minsuk Chang](https://minsukchang.com/), PhD from KAIST. Currently Research Scientist at Google   
         2. Sung-Chul Lee (co-advised by Jihee Kim), PhD student in School of Business and Technology Management at KAIST.  
         3. [Seoyoung Kim](https://sites.google.com/view/seoyoung/),  PhD student in CS at KAIST.	  
         4. [Hyungyu Shin](https://hyungyu.com/),  PhD student in CS at KAIST.  
@@ -259,10 +280,10 @@ Ron Baecker’s PhD advisor:
         13. [Yoonsu Kim](https://yoonsu0816.github.io/), PhD student in CS at KAIST.  
     11. [Elena Glassman](http://eglassman.github.io). PhD in EECS, MIT, August 2016\. Currently: Assistant Professor in CS at Harvard SEAS.  
         1. [Tyler Holloway](https://hci.seas.harvard.edu/people/tyler-holloway), PhD student in CS at Harvard SEAS  
-        2. [Priyan Vaithilingam](https://priyan.info/), PhD student in CS at Harvard SEAS  
+        2. [Priyan Vaithilingam](https://priyan.info/), PhD student in CS at Harvard SEAS Ph.D. in CS, Harvard, May 2025, Currently Research Scientist at Apple  
         3. [Ziwei Gu](https://www.ziweigu.com/), PhD student in CS at Harvard SEAS  
         4. [Chelse Swoopes](https://seas.harvard.edu/person/chelse-swoopes), PhD student in CS at Harvard SEAS  
-    12. [Carrie Cai](https://sites.google.com/view/carriecai/). PhD in CS, MIT, June 2017\. Currently: Staff Research Scientist at Google.  
+    12. [Carrie Cai](https://sites.google.com/view/carriecai/). PhD in CS, MIT, June 2017\. Currently: Senior StaffStaff Research Scientist at Google DeepMindGoogle.  
 18. [John Pane](http://www.rand.org/about/people/p/pane_john_f.html). PhD in CSD, May, 2002\. Currently at Rand Corporation.  
 19. [Rich McDaniel](http://www.cs.cmu.edu/~richm/). PhD in CSD, May, 1999, Currently at Siemens Corporate Research, Princeton, NJ.  
 20. [James Landay](http://landay.org). PhD in CSD, Dec. 1996, Currently, Professor of Computer Science at Stanford University (formerly, faculty at UC Berkeley, UW \= Univ. Washington, and Cornell University)  
@@ -270,21 +291,24 @@ Ron Baecker’s PhD advisor:
     2. [Matthew Jörke](https://matthewjoerke.com/) (co-advised by Prof. Emma Brunskill), PhD student in Computer Science, Stanford University.  
     3. [Nava Haghighi](https://navahaghighi.com/), PhD student in Computer Science, Stanford University.  
     4. [Alan Cheng](https://a7c.github.io/) (co-advised by Prof. Chris Piech), PhD student in Computer Science, Stanford University.  
-    5. [Mitchell Gordon](http://mgordon.me/) *(co-advised by Prof. Michael Bernstein above)*, PhD student in Computer Science, Stanford University.  
+    5. [Mitchell Gordon](http://mgordon.me/) *(co-advised by Prof. Michael Bernstein above)*, Assistant Professor at MIT EECS and Member of Technical Staff at OpenAIPhD student in Computer Science, Stanford University.  
     6. [Jacob Ritchie](https://www.jacobritchie.xyz/) (co-advised by Prof. Maneesh Agrawala), PhD student in Computer Science, Stanford University.  
     7. [Griffin Dietz](http://griffindietz.com/) (co-advised by Prof. Hyowon Gweon), PhD CS, Stanford University. Now Research Scientist at Apple.  
-    8. [Jackie Yang](https://jackieyang.me/) (co-advised by Prof. Monica Lam), PhD student in Computer Science, Stanford University.  
+    8. [Jackie Yang](https://jackieyang.me/) (co-advised by Prof. Monica Lam), PhD student in Computer Science, Stanford University. Now Co-Founder at Subtle Computing.  
     9. [Parastoo Abtahi](http://www.hirundino.com/) (co-advised by Prof. Sean Follmer), PhD in CS, Stanford University, 2022\. Assistant Professor of Computer Science at Princeton University.  
-       1. [Kiyosu Maeda](https://kiyosumaeda.github.io/), PhD student in CS at Princeton  
+       1. [Lauren Wang](https://lauren505.github.io/)[Kiyosu Maeda](https://kiyosumaeda.github.io/), PhD student in CS at Princeton  
+       2. [Ching-Yi Tsai](https://www.chingyitsai.com/), PhD student in CS at Princeton  
+       3. [Cyrus Vachha](https://cvachha.github.io/), PhD student in CS at Princeton  
     10. [Sherry Ruan](http://sherryruan.net), PhD in Computer Science, Stanford University, 2021\. Now founder of a music technology startup.  
-    11. [Danaë Metaxa](http://metaxa.net) (co-advised by Prof. Jeff Hancock), PhD in CS, Stanford, August 2021\. Currently: Assistant Professor in Computer and Information Science, University of Pennsylvania.  
+    11. [Danaé Metaxa Danaë Metaxa](http://metaxa.net) (co-advised by Prof. Jeff Hancock), PhD in CS, Stanford, August 2021\. Currently: Assistant Professor in Computer and Information Science, University of Pennsylvania.  
         1. [Princess Sampson](https://psamp.github.io), PhD student in Computer and Information Science at Penn.  
-        2. [Ro Encarnacion](https://roencarnacion.com), PhD student in Computer and Information Science at Penn.  
-        3. [Mialy Rasetarinera](https://mialynr.github.io/) (co-advised by Prof. Konrad Kording), PhD student in Computer and Information Science at Penn.   
+        2. [Ro EncarnaciónRo Encarnacion](https://roencarnacion.com), PhD student in Computer and Information Science at Penn.  
+        3. [Stephanie Wang](https://steph-w.github.io), PhD student in Computer and Information Science at Penn.  
+        4. [Mialy Rasetarinera](https://mialynr.github.io/) (co-advised by Prof. Konrad Kording), PhD student in Computer and Information Science at Penn.  
     12. [Kesler Tanner](https://keslertanner.com/), PhD in Computer Science, Stanford University, 2019\. Now self-employed web developer/designer/entrepreneur in upstate New York.  
-    13. [Jane E](http://www.cs.stanford.edu/people/ejane/) (co-advised by Prof. Pat Hanrahan), PhD in Computer Science, Stanford University, 2021\. Now postdoc at UCSD Cog Sci  
+    13. Jane E (co-advised by Prof. Pat Hanrahan), PhD in Computer Science, Stanford University, 2021\. Assistant Professor in Computer Science at National University of SingaporeNow postdoc at UCSD Cog Sci  
     14. [Lydia Chilton](https://www.cs.columbia.edu/~chilton/) (co-advised by Prof. Daniel Weld), PhD Computer Science, UW, 2016, Assistant Professor, Columbia University, New York, NY  
-        1. [Katy Ilonka Gero](http://www.katygero.com/), Post-doc in Computer Science, Harvard University, Cambridge, MA  
+        1. [Katy Ilonka Gero](http://www.katygero.com/), Lecturer (aka Assistant Professor), University of SydneyPost-doc in Computer Science, Harvard University, Cambridge, MA  
         2. [Savvas Petridis](https://savvaspetridis.github.io/), PhD student in Computer Science, Columbia University, New York, NY  
         3. [Daniel Li](https://daniel-li.me/), PhD from Columbia CS, Currently US Army  
         4. [Vivian Liu](https://vivian-liu.com/), PhD student in Computer Science, Columbia University  
@@ -297,9 +321,9 @@ Ron Baecker’s PhD advisor:
            1. [Rosiana Natalie](https://www.rosiananatalie.com/), current PhD student in Computer Science at Singapore Management University  
            2. Smitha Sheshadri, current PhD student in Computer Science at Singapore Management University  
         2. [Matthew Louis Mauriello](https://www.eecis.udel.edu/~mlm/), PhD in CS, UMD, 2018\. Finished postdoc at Stanford with Dr. Pablo Paredes. Now an Assistant Professor in the Department of Computer and Information Sciences (CIS) at the University of Delaware (UD)  
-           1. Aishwarya Chandrasekaran, current PhD Candidate Student in CIS at UD  
-           2. [Prerana Khatiwada](https://preranakh.github.io/), current PhD Student in CIS at UD  
-           3. [Kyle (Qile) Wang](https://kyleearth.github.io/), current PhD Candidate Student in CIS at UD  
+           1. Aishwarya Chandrasekaran, current PhD Candidate in CIS at UD  
+           2. [Prerana Khatiwada](https://preranakh.github.io/), current PhD CandidateStudent in CIS at UD  
+           3. [Kyle (Qile) Wang](https://kyleearth.github.io/), current PhD Candidate in CIS at UD  
            4. Moath Talal M Erqsous, current PhD Student in CIS at UD  
            5. [Abhishek Karwankar](https://www.linkedin.com/in/abhishek-karwankar/), current PhD Student in CIS at UD  
            6. Fatimah Alhassan, current PhD Student in CIS at UD  
@@ -308,37 +332,44 @@ Ron Baecker’s PhD advisor:
         3. [Lee Stearns](http://www.leestearns.com/) (co-advised with Prof. Rama Chellappa), PhD in CS at UMD, 2018\. Now at the Applied Physics Lab at Johns Hopkins  
         4. [Seokbin Kang](http://www.livehighkang.com), PhD in CS, UMD, 2020  
         5. [Manaswi Saha](https://homes.cs.washington.edu/~manaswi/), PhD in CS, UW, 2022\. Now at Accenture Labs.   
-        6. [Liang He](http://www.lianghe.me/), PhD in CS, UW, 2022\. Now an Assistant Professor in Interactive Media at the Computer Graphics Technology Department, Polytechnic Institute at Purdue University  
+        6. [Liang He](http://www.lianghe.me/), PhD in CS, UW, 2022\. University of Texas at Dallas (formerly: Assistant Professor at Polytechnic Institute at Purdue University)  
+           1. Yili Wen, current PhD student in CS, UTD  
+           2. Difan Jia, current PhD student in CS, UTD  
         7. [Dhruv Jain](http://dhruvjain.info/) (co-advised with Prof. Leah Findlater), PhD in CS, UW, 2022\. Now an Assistant Professor in Department of Computer Science and Engineering at the University of Michigan  
-        8. Chu Li, current PhD student in CS, UW  
-        9. Xia Su, current PhD student in CS, UW  
+        8. [Chu Li](https://www.chu-li.me/), current PhD student in CS, UW  
+        9. [Xia Su](https://xiasu.github.io/), current PhD student in CS, UW  
         10. [Jaewook (Jae) Lee](https://jaewook-lee.com), current PhD student in CS, UW  
         11. [Daniel Campos Zamora](http://danielcamposzamora.com), current PhD student in CS, UW  
+        12. [Arnavi Chheda-Kothary](https://arnavick.com/) (Co-advised with Jacob O. Wobbrock), current PhD student in CS, UW  
+        13. [Jared Hwang](https://jared-hwang.github.io/), current PhD student in CS, UW  
     17. [T. Scott Saponas](https://www.microsoft.com/en-us/research/people/ssaponas/), PhD Computer Science, UW, 2010, Researcher, Microsoft Research  
     18. [Susumu Harada](https://www.linkedin.com/in/susumuharada/), (Co-advised by Jacob O. Wobbrock, above), PhD in CSE from UW, Summer 2010\. Currently, Software Engineer at Apple.  
     19. [Katherine Everitt](http://www.katherineeveritt.com), PhD Computer Science, UW, 2009 Program Manager, Microsoft Corp.  
     20. [Richard Davis](http://act8design.com/about.html), PhD Computer Science, UC Berkeley, 2008, currently Lead Software Engineer at Open Government Products in Singapore. (formerly professor at Singapore Management University)  
         1. [Kenny Choo Tsu Wei](http://www.kennychoo.net), PhD in Information Systems, Singapore Management University, 2018\. Assistant Professor, Design and Artificial Intelligence/Information Systems Technology and Design, Singapore University of Technology and Design  
            1. [Kellie Sim Yu Hui](https://www.kelliesyhh.com/), PhD student in CS, SUTD  
-           2. [Shi Weiyan](https://weiyan-shi.github.io/), PhD student in CS, SUTD  
+           2. [Weiyan ShiShi Weiyan](https://weiyan-shi.github.io/), PhD student in CS, SUTD  
+           3. Pannapat “Apple” Chanpaisaeng, PhD student in CS, SUTD  
         2. [Camellia Zakaria](https://www.linkedin.com/in/ncamelliaz/), current PhD student in Information Systems, Singapore Management University.  
-    21. [Mark Newman](https://www.si.umich.edu/people/mark-newman), PhD Computer Science, UC Berkeley, 2007, Professor at University of Michigan  
+    21. [Mark W. Newman](https://www.si.umich.edu/people/mark-newman), PhD Computer Science, UC Berkeley, 2007, Professor at University of Michigan  
         1. [Tao Dong](http://www.taodong.net) (co-advised with Mark Ackerman), PhD Information, UM 2015, UX Research Manager, Google  
         2. [Yung-Ju “Stanley” Chang](http://people.cs.nctu.edu.tw/~armuro/), PhD Information, UM 2016, Associate Professor in CS at the National Chiao Tung University (Taiwan)  
-        3. Rayoung Yang, PhD Information, UM 2016, formerly: Postdoctoral Fellow, University College London, currently UX researcher  
-        4. Gaurav Paruthi, PhD Information, UM 2018, Senior Software Engineer, Verkada  
+        3. [Rayoung Yang](https://www.linkedin.com/in/rayoungyang/), PhD Information, UM 2016, formerly: Postdoctoral Fellow, University College London, currently UX researcher  
+        4. [Gaurav Paruthi](https://www.linkedin.com/in/gparuthi/), PhD Information, UM 2018, Senior Software Engineer, Verkada  
         5. [Chuan-che “Jeff” Huang](http://www.ccjeffhuang.com), PhD Information, UM 2019, currently at Bose Research  
-        6. [Shriti Raj](https://www.linkedin.com/in/shriti-raj-76170351/), PhD Information UM 2022, currently Asst. Prof. San Francisco State University, soon to be Research Asst. Prof (?), Stanford University, UM  
+        6. [Shriti Raj](https://www.shritiraj.com/), PhD Information UM 2022, previously Asst. Prof. San Francisco State University, now: Assistant Research Professor at Stanford University in the Department of Medicine Center for Biomedical Informatics Research and the Institute for Human-Centered Artificial Intelligence  
         7. [Meghan Clark](https://meghanclark.us) (co-advised with Prabal Dutta), PhD CS, UC Berkeley 2021, current postdoc at UC Berkeley  
         8. [Xinghui Yan](https://www.si.umich.edu/people/xinghui-yan) (co-advised with Sunyoung Park), current PhD student in Information, UM  
         9. Yuxuan Li (co-advised with Pedja Klasnja), current PhD student in Information, UM  
-        10. Yoonjeong Cha (co-advised with Sunyoung Park), current PhD student in Information, UM  
-        11. Soo Ji Choi (co-advised with Pedja Klasnja), current PhD student in Information, UM  
+        10. [Yoonjeong Cha](https://sites.google.com/umich.edu/yjcha) (co-advised with Sunyoung Park), current PhD student in Information, UM  
+        11. [Soo Ji Choi](https://sserisse.webflow.io/) (co-advised with Pedja Klasnja), current PhD student in Information, UM  
+        12. [Rongqi Bei](https://www.linkedin.com/in/rongqi-bei/) (co-advised with Pedja Klasnja), current PhD student in Information, UM)  
+        13. Ka-I Chan (co-advised with Sunyoung Park), current PhD student in Information, UM  
     22. [James Lin](https://jameslin.name), PhD Computer Science, UC Berkeley, 2005, Senior Software Engineer at Google  
     23. [Jason Hong](http://www.cs.cmu.edu/~jasonh/), PhD Computer Science, UC Berkeley, 2004, Professor at Carnegie Mellon University  
         1. [Karen Tang](http://www.kptang.com), PhD in Human Computer Interaction, Carnegie Mellon University 2010\. Now: Software Engineer, Mastercard Data & Services  
         2. [Duen Horng (Polo) Chau](http://www.cc.gatech.edu/~dchau/) (co-advised with Christos Faloutsos and Niki Kittur), PhD in Machine Learning, Carnegie Mellon University 2012, Associate Professor at Georgia Tech.  
-           1. [Acar Tamersoy](http://acartamersoy.github.io). CS PhD, Georgia Tech 2016\. (Primary co-advisor; co-advised with Sham Navathe.) Now: Researcher, NortonLifeLock Research Group.  
+           1. [Acar Tamersoy](http://acartamersoy.github.io). CS PhD, Georgia Tech 2016\. (Primary co-advisor; co-advised with Sham Navathe.) Now: Principal Applied Scientist at MicrosoftResearcher, NortonLifeLock Research Group.  
            2. [Robert Pienta](http://www.cc.gatech.edu/~rpienta3/). CSE PhD, Georgia Tech 2017\. Now: Data Scientist Manager, Intuit.  
            3. [Charles D. (Chad) Stolper](http://chadstolper.com). CS PhD, Georgia Tech 2016\. (Secondary co-advisor; co-advised with John Stasko.) Now: Senior Software Engineer, Google.  
            4. [Minsuk Kahng](https://minsuk.com). CS PhD, Georgia Tech 2019\.  Currently, Research Scientist at Google People+AI Research (PAIR). Previously: Assistant Professor of Computer Science, School of Electrical Engineering and Computer Science, Oregon State University.  
@@ -351,7 +382,7 @@ Ron Baecker’s PhD advisor:
            7. [Nilaksh Das](http://nilakshdas.com). CSE PhD, Georgia Tech, 2022\. Now: Applied Scientist at Amazon.  
            8. [Scott Freitas](https://www.scottfreitas.com/). ML PhD, Georgia Tech, 2021\. Now: Senior Applied Scientist at Microsoft.  
            9. [Haekyu Park](http://haekyu.github.io/). CS PhD, Georgia Tech, 2023\. Now: Machine Learning Engineer at Stripe  
-           10. [Austin Wright](https://www.austinpwright.com/). ML PhD, Georgia Tech, 2025\. Now: Assistant Professor, Department of Computer Science and Software Engineering, Cal Poly San Luis Obispo..  
+           10. [Austin Wright](https://www.austinpwright.com/). ML PhD, Georgia Tech, 2025\. Now: Assistant Professor, Department of Computer Science and Software Engineering, Cal Poly San Luis Obispo.  
            11. [Zijie (Jay) Wang](https://zijie.wang/). ML PhD, Georgia Tech. Now: Member of Technical Staff, Safety Systems, OpenAI.  
            12. [Rahul Duggal](http://www.rahulduggal.com). CS PhD, Georgia Tech, 2022\. Now: Applied Scientist at Amazon.  
            13. [Seongmin Lee](https://ligi214.github.io/). CS PhD, Georgia Tech.  
@@ -362,10 +393,11 @@ Ron Baecker’s PhD advisor:
            18. [Mansi Phute](https://mphute.github.io). CS PhD, Georgia Tech.  
            19. [Aeree Cho](https://aereeeee.github.io). ML PhD, Georgia Tech.  
            20. [Alex Yang](https://alexanderyang.me) (co-advised with Yalong Yang). CS PhD, Georgia Tech.  
+           21. [Alex Greenhalgh](https://www.linkedin.com/in/alex-greenhalgh). CSE PhD, Georgia Tech.   
         3. [Guang Xiang](http://www.cs.cmu.edu/~guangx/) (co-advised with Carolyn Rose), PhD in Language Technologies, Carnegie Mellon University 2013, founder of own startup  
         4. [Jialiu Lin](https://www.linkedin.com/in/jialiu-lin-13704221/) (co-advised with Norman Sadeh), PhD in Computer Science, Carnegie Mellon University 2013, Staff Software Engineer at Waymo  
         5. [Shahriyar Amini](https://www.linkedin.com/in/shahriyar-amini-aa606414/), PhD in Electrical and Computer Engineering, Carnegie Mellon University 2014, was Senior Software Engineer at Facebook, now at Databricks  
-        6. [Eiji Hayashi](https://www.cs.cmu.edu/~ehayashi/), PhD in Human Computer Interaction, Carnegie Mellon University 2015, formerly Staff Research Engineer at Google  
+        6. [Eiji Hayashi](https://www.cs.cmu.edu/~ehayashi/), PhD in Human Computer Interaction, Carnegie Mellon University 2015, formerly Staff Research Engineer at Google, now research manager at Meta  
         7. [Jason Wiese](https://www.cs.utah.edu/~wiese/) (co-advised with John Zimmerman), PhD in Human Computer Interaction, Carnegie Mellon University 2015, Assistant Professor University of Utah  
            1. [Jimmy Moore](http://vdl.sci.utah.edu/team/moore/) (co-advised with Miriah Meyer), PhD in Computing. University of Utah 2021\. Now: Lucid, Inc  
            2. [Kazi Sinthia Kabir](https://kskabir.owlstown.net/). PhD in Computer ScienceUniversity of Utah 2023\. Now: Postdoc, U Utah.  
@@ -375,26 +407,29 @@ Ron Baecker’s PhD advisor:
            6. Jordan Pyper, Computing PhD Student, University of Utah  
            7. [Rebecca Moore](https://rmoore2738.github.io/), Computing PhD Student, University of Utah  
            8. [Wageesha Bangamuarachchi](https://wageeshaeb.github.io/), Computing PhD Student, University of Utah  
-        8. [Sauvik Das](http://sauvikdas.com) (co-advised with Laura Dabbish), PhD  in Human Computer Interaction, Carnegie Mellon University 2017, Now: Assistant Professor Carnegie Mellon University  
-           1. [Youngwook Do](https://www.youngwookdo.me/) (co-advised with Gregory Abowd), Computer Science PhD 2023, Georgia Institute of Technology, Now: Research Scientist, JP Morgan Chase Global Technology Applied Research  
-           2. [Yuxi Wu](https://yuxi-wu.github.io/) (co-advised with W. Keith Edwards), Computer Science PhD 2024, Georgia Institute of Technology  
-           3. P. Jacob Logas (co-advised with Rosa Arriaga), Computer Science PhD student, Georgia Institute of Technology  
+        8. [Sauvik Das](http://sauvikdas.com) (co-advised with Laura Dabbish), PhD  in Human Computer Interaction, Carnegie Mellon University 2017, Now: AssociateAssistant Professor Carnegie Mellon University  
+           1. [Youngwook Do](https://www.youngwookdo.me/) (co-advised with Gregory Abowd), Computer Science PhD 2023, Georgia Institute of Technology, Now: Vice President, Applied Research LeadResearch Scientist, at JP Morgan Chase Global Technology Applied Research  
+           2. [Yuxi Wu](https://yuxi-wu.github.io/) (co-advised with W. Keith Edwards), Computer Science PhD 2024, Georgia Institute of Technology; Now:Currently Distinguished Research Fellowa postdoc at Northeastern University  
+           3. [P. Jacob Logas](https://logas.me/) (co-advised with Rosa Arriaga), Computer Science PhD 2025 student, Georgia Institute of Technology; Now: Assistant Professor at Franklin & Marshall College  
            4. [Hao-Ping (Hank) Lee](https://hankhplee.com/) (co-advised with Jodi Forlizzi), HCII PhD student, Carnegie Mellon University  
-           5. [Isadora Krsek](https://www.isadorakrsek.com/) (co-advised with Laura Dabbish), HCII PhD student,Carnegie Mellon University  
+           5. [Isadora Krsek](https://www.isadorakrsek.com/) (co-advised with Laura Dabbish), HCII PhD student, Carnegie Mellon University  
            6. [Kyzyl Monteiro](https://kyzyl.me/), HCII PhD student, Carnegie Mellon University  
-        9. [Dan Tasse](https://www.dantasse.com), PhD in Human Computer Interaction Institute, Carnegie Mellon University, 2017\. Now: data scientist at Stitch Fix in San Francisco  
-        10. [Fanglin Chen](http://fanglin-chen.strikingly.com), PhD student in Human Computer Interaction Institute, Carnegie Mellon University  
-        11. [Siyan Zhao](http://www.siyanz.com) (co-advised with Robert Kraut), PhD in Human Computer Interaction Institute, Carnegie Mellon University, now at Google  
-        12. [Haojian Jin](http://shift-3.com), PhD in CMU HCII, Sept 2022, Currently, Assistant Professor at Univ. California at San Diego  
-        13. [Tianshi Li](https://tianshili.me/), PhD student in Human Computer Interaction Institute, Carnegie Mellon University, currently an assistant professor at Northeastern University  
+           7. [Yuxuan Li](https://yuxuanli.com/) (co-advised with Hiro Shirado), HCII PhD student, Carnegie Mellon University  
+        9. [Dan Tasse](https://www.dantasse.com), PhD in Human Computer Interaction Institute, Carnegie Mellon University, 2017\. Now: software engineer at LanceDBdata scientist at Stitch Fix  
+        10. [Siyan Zhao](http://www.siyanz.com) (co-advised with Robert Kraut), PhD in Human Computer Interaction Institute, Carnegie Mellon University, now at Google  
+        11. [Haojian Jin](https://www.haojianj.in/), PhD in CMU HCII, Sept 2022, Currently, Assistant Professor at Univ. California at San Diego  
+            1. [Qiyu Li](https://qyli00.github.io/), PhD student at UCSD  
+            2. Shao-yu Chu, PhD student at UCSD  
+            3. [Xuan Liu](https://xuanl17.github.io/), PhD student at UCSD  
+        12. [Tianshi Li](https://tianshili.me/), PhD 2023 in Human Computer Interaction Institute, Carnegie Mellon University, currently an assistant professor at Northeastern University  
             1. [Zhiping Zhang](https://www.zhipingzhang.com), PhD student at Northeastern University  
-            2. Ziwen Li, PhD student at Northeastern University  
+            2. [Ziwen Li,](https://www.linkedin.com/in/ziwen-li-ab4907234/) PhD student at Northeastern University  
             3. Jianing Wen, PhD student at Northeastern University  
-        14. [Cori Faklaris](http://corifaklaris.com/) (co-advised with Laura Dabbish), PhD CMU HCII 2022, Assistant Professor at UNC Charlotte   
+        13. [Cori Faklaris](http://corifaklaris.com/) (co-advised with Laura Dabbish), PhD CMU HCII 2022, Assistant Professor at UNC Charlotte   
             1. [Sarah Tabassum](https://cci.charlotte.edu/people/sarah-tabassum/), PhD student at UNC Charlotte   
             2. [Narges Zare](https://webpages.charlotte.edu/nzare/), PhD student at UNC Charlotte   
-            3. Christian Chavis, PhD student at UNC Charlotte   
-        15. [Angel (Alex) Cabrera](https://cabreraalex.com) (co-advised with Adam Perer), PhD student in Human-Computer Interaction Institute  
+            3. Prakruthi Reddy, PhD student at UNC Charlotte   
+        14. [Angel (Alex) Cabrera](https://cabreraalex.com) (co-advised with Adam Perer), PhD student in Human-Computer Interaction Institute  
     24. [Scott Klemmer](http://d.ucsd.edu/srk/), PhD Computer Science, UC Berkeley, 2004, Professor at UCSD   
         1. [Ron Yeh](http://www.ronyeh.com), PhD Stanford University 2007, Founder, squarepoet  
         2. [Brian Lee](https://www.linkedin.com/in/brian-lee-1404473a/), PhD Stanford University 2007, Team Lead, Palantir  
@@ -413,6 +448,7 @@ Ron Baecker’s PhD advisor:
               3. [Litao Yan](https://yanlitao.github.io/), PhD student, Department of Computer and Information Science, University of Pennsylvania  
               4. [Jeff Tao](https://www.speculative.tech/), PhD student, Department of Computer and Information Science, University of Pennsylvania  
               5. [Jessica Shi](https://jwshii.github.io/), PhD student, Department of Computer and Information Science, University of Pennsylvania  
+              6. Xiaorui Liu, PhD student, Department of Computer and Information Science, University of Pennsylvania  
            10. [Will McGrath](https://www.linkedin.com/in/william-mcgrath-33b0b278/), PhD Stanford CS 2018, Senior Software Engineer at Google  
            11. [Amy Pavel](https://amypavel.com/), PhD UC Berkeley EECS 2019 (co-advised with Maneesh Agrawala),  Assistant Professor, Department of Computer Science, University of Texas, Austin  
                1. [Mina Huh](https://minahuh.com/), PhD student, Department of Computer Science, University of Texas, Austin  
@@ -434,20 +470,23 @@ Ron Baecker’s PhD advisor:
                6. [Terrance Mok](http://terrancemok.com/) (co-advised with Tony Tang). PhD Student, Computer Science, University of Calgary.  
                7. Tania Villialobos Lujan (co-advised with Pratim Sengupta). PhD Student, Computational Media Design, University of Calgary  
            16. [Timothy J. Aveni](https://timothyaveni.com/), PhD Student (co-advised with Armando Fox)  
+           17. [Samia Menon](https://www.samiamenon.com/), PhD Student (co-advised with Marti Hearst)  
         4. [Joel Brandt](http://joelbrandt.org/), PhD Stanford University 2010, Principal Scientist, Adobe Research   
         5. [Neil Patel](https://www.linkedin.com/in/neil-patel-8819652/), PhD Stanford University 2011, Co-founder, awaaz.de  
         6. [Nicolas Kokkalis](http://startx.com/staff), PhD Stanford University 2013, Postdoc, Stanford CS & CTO, StartX  
         7. [Ranjitha Kumar](http://ranjithakumar.net/), PhD Stanford University 2013, Associate Professor, UIUC  
-           1. [Biplab Deka](https://www.linkedin.com/in/biplabdeka/), ECE PhD UIUC 2017, now McKinsey & Company  
+           1. [Biplab Deka](https://www.linkedin.com/in/biplabdeka/), ECE PhD UIUC 2017, Product Manager, Youtubenow McKinsey & Company  
            2. [Kristen Vaccaro](http://kvaccaro.com/), CS PhD (co-advised with Karrie Karahalios) at UIUC 2019, now Assistant Professor at UC San Diego  
            3. [Jinda Han](https://jindahan.com/), CS PhD UIUC 2023, now Machine Learning Engineer at Apple  
            4. [Deniz Arsan](http://www.denizarsan.com/), CS PhD UIUC 2024, now UserTesting  
            5. [Muhammad Rizky Wellyanto](https://www.linkedin.com/in/rizkywellyanto/), CS PhD Student at UIUC  
            6. [Ali Zaidi](https://alihurzaidi.com/home/), CS PhD student (co-advised with Karrie Karahalios) at UIUC  
-        8. [Jesse Cirimele](http://hci.stanford.edu/~cirimele/), PhD Stanford University 2013, Game Engineering and Design at Osmo (Tangible Play, Inc.)  
+           7. [Hajara-Yasmin Isa](https://hajara-yasmin-isa.github.io/), CS PhD Student UIUC  
+           8. [Carl Guo](https://www.linkedin.com/in/guoca2/), CS PhD Student at UIUC  
+        8. [Jesse Cirimele](http://hci.stanford.edu/~cirimele/), PhD Stanford University 2013, Grail \- Front-End Engineering Lead Now Game Engineering and Design at Osmo (Tangible Play, Inc.)  
         9. [Chinmay Kulkarni](http://www.cs.cmu.edu/~chinmayk/), PhD Stanford University 2015, *(co-advised by Prof. Michael Bernstein above).* Assistant Professor, Emory*\-- see advisee list above*  
         10. [Vineet Pandey](https://vineetp13.github.io), PhD, UC San Diego, 2019, Postdoc, Harvard (w/ Krzysztof Gajos)   
-        11. [Ailie Fraser](http://cseweb.ucsd.edu/~cafraser/), PhD, UC San Diego 2020, Research Engineer at Adobe Research  
+        11. [Ailie Fraser](https://ailiefraser.ca/), PhD, UC San Diego 2020, Research Engineer at Adobe Research  
         12. [Tricia Ngoon](https://tngoon.github.io), PhD, UC San Diego. Now Postdoc at CMU  
         13. [Ariel Weingarten](https://www.linkedin.com/in/asweingarten/), PhD student, UC San Diego  
     25. Hesham M. Kamel, PhD Computer Science, UC Berkeley, 2003, previously Assistant Professor at United Arab Emirates University  
@@ -460,5 +499,5 @@ Ron Baecker’s PhD advisor:
     4. [Claudia Leiras](https://www.linkedin.com/in/claudia-leiras-a051832/), PhD, University of Pittsburgh, 2009\. Currently Director of Epidemiology at Genesis Research. Formerly Associate Professor, Allied Health Sciences, Grand Valley State University  
     5. [Katherine Reeves](https://www.umass.edu/public-health-sciences/about/directory/katherine-reeves), PhD, University of Pittsburgh, 2008, Associate Professor of Epidemiology and Associate Dean of Graduate and Professional Studies, School of Public Health, UMass Amherst  
     6. [Jessica Albano](https://www.linkedin.com/in/jessicaalbano/), PhD, University of Pittsburgh, 2009, Vice President, Epidemiology & Analytics at Syneos Health  
-    7. Zhuxuan Fu, PhD, University of Pittsburgh, 2021, Staff Biostatistician, St. Luke’s Health System
+    7. [Zhuxuan Fu](https://www.linkedin.com/in/zhuxuan-fu-82305a10b/), PhD, University of Pittsburgh, 2021, Staff Biostatistician, St. Luke’s Health System
 
