@@ -1,7 +1,6 @@
 """
 Usage:
-1. Go to the shared Google Doc and download it as Markdown (.md).
-   Save the file as raw.md in this folder.
+1. Go to the shared Google Doc and download it as Markdown (.md) in this folder.
 2. Run:
       python parse.py
    This will parse raw.md and regenerate data.csv automatically.
