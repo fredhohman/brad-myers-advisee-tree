@@ -92,11 +92,46 @@ def parse_markdown(md_file, csv_file):
             {"id": full_id, "name": name, "parent": parent, "parent_id": parent_id}
         )
 
+    # Build children dictionary to track parent-child relationships
+    children = {"0": []}  # Initialize with Brad Myers as root
+    for row in rows:
+        row_id = row["id"]
+        parent_id = row["parent_id"]
+
+        # Initialize children list for this node if not exists
+        if row_id not in children:
+            children[row_id] = []
+
+        # Add this node to its parent's children list
+        if parent_id not in children:
+            children[parent_id] = []
+        children[parent_id].append(row_id)
+
+    # Recursive function to count all descendants
+    def count_descendants(node_id):
+        """Count all descendants (children, grandchildren, etc.) of a node"""
+        total = 0
+        if node_id in children:
+            for child_id in children[node_id]:
+                total += 1  # Count the direct child
+                total += count_descendants(child_id)  # Count all their descendants
+        return total
+
+    # Add descendant counts to each row
+    for row in rows:
+        row_id = row["id"]
+        row["direct_students"] = len(children.get(row_id, []))
+        row["total_descendants"] = count_descendants(row_id)
+
+    # Calculate counts for Brad Myers (root node)
+    brad_direct = len(children["0"])
+    brad_total = count_descendants("0")
+
     with open(csv_file, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=["id", "name", "parent", "parent_id"])
+        writer = csv.DictWriter(f, fieldnames=["id", "name", "parent", "parent_id", "direct_students", "total_descendants"])
         writer.writeheader()
         writer.writerow(
-            {"id": "0", "name": "Brad Myers", "parent": "", "parent_id": ""}
+            {"id": "0", "name": "Brad Myers", "parent": "", "parent_id": "", "direct_students": brad_direct, "total_descendants": brad_total}
         )  # Add root
         writer.writerows(rows)
 
@@ -122,6 +157,19 @@ def parse_markdown(md_file, csv_file):
             print(f"  Gen {gen}: {generation_counts[gen]}")
 
     print(f"\nTotal generations: {max_generation}")
+
+    # Print descendant statistics
+    print(f"\nDescendant counts for Brad Myers:")
+    print(f"  Direct students: {brad_direct}")
+    print(f"  Total descendants: {brad_total}")
+
+    # Find people with most descendants
+    rows_with_descendants = [r for r in rows if r["total_descendants"] > 0]
+    if rows_with_descendants:
+        top_advisors = sorted(rows_with_descendants, key=lambda r: r["total_descendants"], reverse=True)[:5]
+        print(f"\nTop 5 advisors by total descendants:")
+        for i, row in enumerate(top_advisors, 1):
+            print(f"  {i}. {row['name']}: {row['direct_students']} direct, {row['total_descendants']} total")
 
     # Find and print duplicates
     name_counts = Counter(row["name"] for row in rows)
