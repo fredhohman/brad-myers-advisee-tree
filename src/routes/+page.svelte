@@ -12,7 +12,7 @@
 	const darkPurple = '#542988';
 
 	let blend = $state(0);
-	let groupGap = $state(3);
+	let groupGap = $state(0);
 	let colSpacing = $state(200);
 	let treeHeight = $state(3600);
 	let nodeRadius = $state(4.25);
