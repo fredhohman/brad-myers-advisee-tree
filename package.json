@@ -7,7 +7,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"deploy": "npm run build && gh-pages -d build",
+		"deploy": "npm run build && gh-pages -d build --dotfiles",
 		"prepare": "svelte-kit sync || echo ''",
 		"lint": "prettier --check . && eslint .",
 		"format": "prettier --write ."
