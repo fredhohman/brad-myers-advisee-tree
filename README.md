@@ -1,23 +1,31 @@
 # Brad Myers's Advisee Tree
 
-At the [ACM CHI 2017][chi] conference, [Brad Myers][brad] was awarded the [CHI Lifetime Research Award][award].  
-In his keynote talk, he presented his advisee tree &mdash; all **7** generations, totaling **450** students! (updated Spring 2022)
+At the [ACM CHI 2017](https://chi2017.acm.org) conference, [Brad Myers](http://www.cs.cmu.edu/~bam/) was awarded the [CHI Lifetime Research Award](https://sigchi.org/awards/sigchi-award-recipients/2017-sigchi-awards/#brad-a-myers).
 
-The [original hierarchical document][doc] with affiliations, and the [visualized data][data], are available.
+The [original hierarchical document](https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj) with affiliations, and the [visualized data](https://github.com/fredhohman/brad-myers-advisee-tree/blob/master/static/data.csv), are available.
 
-*Designed by [Fred Hohman][fred] (gen. 5), [Robert Pienta][robert] (gen. 5), and [Polo Chau][polo] (gen. 4).*
+*Designed by [Fred Hohman](http://fredhohman.com) (gen. 5), [Robert Pienta](http://www.cc.gatech.edu/~rpienta3/) (gen. 5), and [Polo Chau](http://www.cc.gatech.edu/~dchau/) (gen. 4).*
 
-**[View the interactive visualization here!][vis]**
+**[View the interactive visualization here!](http://fredhohman.com/brad-myers-advisee-tree)**
 
-[chi]: https://chi2017.acm.org
-[brad]: http://www.cs.cmu.edu/~bam
-[award]: https://sigchi.org/awards/sigchi-award-recipients/2017-sigchi-awards/#brad-a-myers
+## Updating the data
 
-[doc]: https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj
-[data]: https://github.com/fredhohman/brad-myers-advisee-tree/blob/master/data.csv
+1. Download the [Google Doc](https://docs.google.com/document/d/1NKheBhylXdkY_lmcV1QEP7CCLiwpMjE2L-KnWWh0Nvo/edit#heading=h.h4g51lbmhlnj) as Markdown into `data/`
+2. From the `data/` folder, run:
+```sh
+python parse.py
+```
+This writes the output to `static/data.csv`.
 
-[fred]: http://fredhohman.com
-[robert]: http://www.cc.gatech.edu/~rpienta3/
-[polo]: http://www.cc.gatech.edu/~dchau/
+## Development
 
-[vis]: http://fredhohman.com/brad-myers-advisee-tree
+```sh
+npm install
+npm run dev
+```
+
+## Building
+
+```sh
+npm run build
+```
