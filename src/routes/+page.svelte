@@ -12,7 +12,8 @@
 	const darkPurple = '#542988';
 
 	let blend = $state(0);
-	let groupGap = $state(0);
+	let siblingGap = $state(1);
+	let groupGap = $state(3);
 	let colSpacing = $state(200);
 	let treeHeight = $state(3600);
 	let nodeRadius = $state(4.25);
@@ -115,7 +116,7 @@
 			// Assign slot indices, inserting extra slots between groups
 			const slots = [0];
 			for (let i = 1; i < n; i++) {
-				const gap = sorted[i].parent === sorted[i - 1].parent ? 1 : groupGap;
+				const gap = sorted[i].parent === sorted[i - 1].parent ? siblingGap : groupGap;
 				slots.push(slots[i - 1] + gap);
 			}
 			const totalSlots = slots[n - 1];
@@ -264,6 +265,7 @@
 
 	$effect(() => {
 		const b = blend;
+		const sg = siblingGap;
 		const gg = groupGap;
 		const cs = colSpacing;
 		const th = treeHeight;
@@ -352,6 +354,20 @@
 						class="w-40 align-middle"
 					/>
 					<span>{blendPct}%</span>
+				</div>
+
+				<div class="flex items-center gap-2">
+					<span class="font-bold">Sibling gap:</span>
+					<input
+						type="range"
+						min="1"
+						max="10"
+						step="0.5"
+						value={siblingGap}
+						oninput={(e) => (siblingGap = +e.target.value)}
+						class="w-40 align-middle"
+					/>
+					<span>{siblingGap}x</span>
 				</div>
 
 				<div class="flex items-center gap-2">
