@@ -1,8 +1,23 @@
-.ipynb_checkpoints/
-clean.ipynb
-notes.md
-data-old.csv
-brad.csv
-brad-2018.csv
-brad-2018-after-clean.csv
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

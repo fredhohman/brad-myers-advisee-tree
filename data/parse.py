@@ -1,9 +1,9 @@
 """
 Usage:
-1. Go to the shared Google Doc and download it as Markdown (.md) in this folder.
-2. Run:
+1. Go to the shared Google Doc and download it as Markdown (.md) into this folder.
+2. From this folder, run:
       python parse.py
-   This will parse raw.md and regenerate data.csv automatically.
+   This will parse "Brad Myers advisee tree.md" and write data.csv to ../static/data.csv.
 
 The script extracts clean names, removes extra annotations
 (e.g., "co-advised", "PhD ..."), and ensures consistent IDs.
@@ -181,4 +181,4 @@ def parse_markdown(md_file, csv_file):
 
 
 if __name__ == "__main__":
-    parse_markdown("Brad Myers advisee tree.md", "data.csv")
+    parse_markdown("Brad Myers advisee tree.md", "../static/data.csv")

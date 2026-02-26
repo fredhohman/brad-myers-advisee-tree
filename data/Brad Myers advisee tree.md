@@ -1,6 +1,6 @@
 # Brad Myers advisee tree
 
-*(Last update, 2/16/2026)*  
+*(Last update, 2/21/2026)*  
 **This page has the short address: [http://tinyurl.com/myersadviseetree](http://tinyurl.com/myersadviseetree)**
 
 **See also a [cool animation](http://fredhohman.com/brad-myers-advisee-tree/) by [*Fred Hohman*](http://fredhohman.com/) *(gen. 5), [Robert Pienta](https://www.linkedin.com/in/robert-pienta/) (gen. 5), and [Polo Chau](http://www.cc.gatech.edu/~dchau/) (gen. 4\)* of the list as of 2023:  [http://fredhohman.com/brad-myers-advisee-tree/](http://fredhohman.com/brad-myers-advisee-tree/)**
@@ -20,7 +20,7 @@ For my [award talk](http://www.sigchi.org/about/awards/2017-sigchi-awards#brad-a
   * For the **2023** version: here is the [updated ribbon](http://www.cs.cmu.edu/~bam/CHI-award-talk/brad-ribbon-2023.png) (white), the [ribbon on my badge](https://www.cs.cmu.edu/%7Ebam/chibadges/chi2023ribbons.JPG), and a [pdf of the whole tree](https://www.cs.cmu.edu/~bam/CHI-award-talk/2023-tree.pdf).  
   * Updated the list in April, **2025**, but didn’t make a new ribbon  
 * See [a picture of the about 34 of these advisees](http://www.cs.cmu.edu/~bam/CHI-award-talk/IMG_3473%20Brad's%20advisee%20tree%20people%20\(34\).JPG) who attended my talk at the CHI’2017 conference.  
-* As of 2/12/2026, there were **469** advisees on the tree (7 co-advised duplicates counted only once). This is up from **379** on 4/24/2025, **332** advisees on 3/4/2023, **293** advisees on 3/21/2022, and **238** on 5/5/2020, and **179** on 5/5/2017 for CHI’2017 \-- 153% more in 9 years\! Of these, about **91** are (or were) professors (not counting me and my advisors). The breakdown by generation is as follows, where I am the first generation, my 21 direct advisees are the 2nd generation, etc.  
+* As of 2/12/2026, there were **469** advisees on the tree (7 co-advised duplicates counted only once). This is up from **379** on 4/24/2025, **332** advisees on 3/4/2023, **293** advisees on 3/21/2022, and **238** on 5/5/2020, and **179** on 5/5/2017 for CHI’2017 \-- 153% more in 9 years\! Of these, about **92** are (or were) professors (not counting me and my advisors). The breakdown by generation is as follows, where I am the first generation, my 21 direct advisees are the 2nd generation, etc.  
   * 1st:	*me*  
     2nd:	21  
     3rd	119  
@@ -145,13 +145,13 @@ Ron Baecker’s PhD advisor:
     3. [Shaun K. Kane](http://shaunkane.com/) [(](http://shaunkane.com/)c[o](http://shaunkane.com/)\-[a](http://shaunkane.com/)d[v](http://shaunkane.com/)i[s](http://shaunkane.com/)e[d](http://shaunkane.com/) [b](http://shaunkane.com/)y R[i](http://shaunkane.com/)c[h](http://shaunkane.com/)a[r](http://shaunkane.com/)d L[a](http://shaunkane.com/)d[n](http://shaunkane.com/)e[r](http://shaunkane.com/)). PhD in Information Science from UW, Summer 2011\. Currently, Associate Professor in Computer Science at the University of Colorado Boulder.  
        1. [Michele A. Williams](https://www.linkedin.com/in/micheleawilliams1/) (co-advised by Amy Hurst), PhD in Human-Centered Computing from University of Maryland Baltimore County, Winter 2015\. Currently, at Making Accessibility Work.  
        2. [Halley Profita](https://halleyprofita.wordpress.com) (co-advised by Nikolaus Correll), PhD in CS  from University of Colorado Boulder, Spring 2017\. Currently, a Growth Strategy Advisor @ EmotiBit.  
-       3. [Darren Guinness, (co-advised by Daniel Szafir) PhD in CS from university of Colorado Boulder, Summer 2022\. Currently a Human Factors Design Engineer at Apple.](https://scholar.google.com/citations?user=2-mshjYAAAAJ&hl=en)   
-       4. [Varsha Koushik](https://www.linkedin.com/in/varshakoushik/) (co-advised by Tamara Sumner), currently in PhD program in Computer Science at University of Colorado Boulder.  
-       5. [Annika Muehlbradt](https://www.linkedin.com/in/annikamuehlbradt/), PhD in Computer Science from University of Colorado Boulder, Spring 2022\. Currently, Accessibility Researcher at Adobe Inc.  
-       6. [Kyle Reinholt](https://www.colorado.edu/atlas/kyle-reinholt), currently in PhD program in Computer Science at University of Colorado Boulder.  
-       7. Abigail Zimmermann-Niefield (co-advised by Ben Shapiro), currently in PhD program in Computer Science at University of Colorado Boulder.  
-       8. [Gabriella Johnson](https://www.colorado.edu/atlas/gabriella-johnson), currently in PhD program in Computer Science at University of Colorado Boulder.  
-       9. [Vinitha Gadiraju](https://www.colorado.edu/atlas/vinitha-gadiraju), currently in PhD program in Computer Science at University of Colorado Boulder.  
+       3. [Annika Muehlbradt](https://www.linkedin.com/in/annikamuehlbradt/), PhD in Computer Science from University of Colorado Boulder, Spring 2022\. Currently, Accessibility Researcher at Adobe Inc.  
+       4. [Darren Guinness](https://scholar.google.com/citations?user=2-mshjYAAAAJ&hl=en), (co-advised by Daniel Szafir) PhD in CS from University of Colorado Boulder, Summer 2022\. Currently a Human Factors Design Engineer at Apple.   
+       5. [Vinitha Gadiraju](https://vinithagadiraju.com/), PhD in Computer Science from CU Boulder, 2023\. Assistant Professor of  Computer Science at Wellesley College.  
+       6. [Varsha Koushik](https://www.linkedin.com/in/varshakoushik/) (co-advised by Tamara Sumner), currently in PhD program in Computer Science at University of Colorado Boulder.  
+       7. [Kyle Reinholt](https://www.colorado.edu/atlas/kyle-reinholt), currently in PhD program in Computer Science at University of Colorado Boulder.  
+       8. [Abigail Zimmermann-Niefield](https://www.linkedin.com/in/abigail-zimmermann-niefield-54a120a2/) (co-advised by Ben Shapiro), currently in PhD program in Computer Science at University of Colorado Boulder.  
+       9. [Gabriella Johnson](https://www.colorado.edu/atlas/gabriella-johnson), currently in PhD program in Computer Science at University of Colorado Boulder.  
     4. [Jeff Huang](http://jeffhuang.com/) [(](http://jeffhuang.com/)c[o](http://jeffhuang.com/)\-[a](http://jeffhuang.com/)d[v](http://jeffhuang.com/)i[s](http://jeffhuang.com/)e[d](http://jeffhuang.com/) [w](http://jeffhuang.com/)i[t](http://jeffhuang.com/)h S[ue](http://jeffhuang.com/) D[u](http://jeffhuang.com/)m[a](http://jeffhuang.com/)i[s](http://jeffhuang.com/)). PhD in Information Science from UW, Summer 2013\. Currently, Associate Professor in Computer Science at Brown University.  
        1. [Alexandra Papoutsaki](http://cs.brown.edu/~alexpap/), PhD in Computer Science from Brown University 2017, Currently: Associate Professor at Pomona College.  
        2. [Nediyana Daskalova](http://cs.brown.edu/people/nediyana/), PhD in Computer Science from Brown University, Currently: Research Scientist at Suno.  
