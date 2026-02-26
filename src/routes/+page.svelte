@@ -33,6 +33,7 @@
 	let numGenerations = $state(0);
 
 	const treeLayout = d3.tree();
+	const dragOffsets = new Map(); // keyed by node name, value = dy offset
 
 	const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -128,10 +129,31 @@
 			});
 		});
 
+		// Apply any manual drag offsets on top of computed positions
+		nodes.forEach((d) => {
+			const offset = dragOffsets.get(d.data.name);
+			if (offset) d.x += offset;
+		});
+
 		const maxDepth = d3.max(nodes, (d) => d.depth);
 
 		// Nodes
 		const node = svg.selectAll('g.node').data(nodes, (d) => d.id || (d.id = ++idCounter));
+
+		const drag = d3.drag()
+			.on('start', (event) => event.sourceEvent.stopPropagation())
+			.on('drag', (event, d) => {
+				const current = dragOffsets.get(d.data.name) ?? 0;
+				dragOffsets.set(d.data.name, current + event.dy);
+				d.x += event.dy;
+				d.x0 = d.x;
+				svg.selectAll('g.node')
+					.filter((n) => n === d)
+					.attr('transform', `translate(${d.y},${d.x})`);
+				svg.selectAll('path.link')
+					.filter((l) => l === d || l.parent === d)
+					.attr('d', connector);
+			});
 
 		const nodeEnter = node
 			.enter()
@@ -139,6 +161,7 @@
 			.attr('class', 'node')
 			.attr('transform', () => `translate(${source.y0},${source.x0})`)
 			.on('click', (event, d) => {
+				if (event.defaultPrevented) return;
 				if (d.children) {
 					d._children = d.children;
 					d.children = null;
@@ -160,8 +183,10 @@
 			.style('fill-opacity', 1e-6)
 			.style('font-size', (d) => getFontSize(d.depth, maxDepth));
 
-		const nodeUpdate = node
-			.merge(nodeEnter)
+		const nodeMerged = node.merge(nodeEnter);
+		nodeMerged.call(drag);
+
+		const nodeUpdate = nodeMerged
 			.transition()
 			.duration(dur)
 			.attr('transform', (d) => `translate(${d.y},${d.x})`)
@@ -234,6 +259,42 @@
 			if (g < numGenerations) await sleep(duration + pause);
 		}
 		playing = false;
+	}
+
+	function saveState() {
+		const state = {
+			dragOffsets: Object.fromEntries(dragOffsets),
+			blend, siblingGap, groupGap, colSpacing, treeHeight, nodeRadius, edgeThickness,
+			activeGen
+		};
+		const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
+		const a = document.createElement('a');
+		a.href = URL.createObjectURL(blob);
+		a.download = 'tree-layout.json';
+		a.click();
+		URL.revokeObjectURL(a.href);
+	}
+
+	function loadState(event) {
+		const file = event.target.files[0];
+		if (!file) return;
+		const reader = new FileReader();
+		reader.onload = (e) => {
+			const state = JSON.parse(e.target.result);
+			dragOffsets.clear();
+			for (const [k, v] of Object.entries(state.dragOffsets ?? {})) dragOffsets.set(k, v);
+			blend = state.blend ?? blend;
+			siblingGap = state.siblingGap ?? siblingGap;
+			groupGap = state.groupGap ?? groupGap;
+			colSpacing = state.colSpacing ?? colSpacing;
+			treeHeight = state.treeHeight ?? treeHeight;
+			nodeRadius = state.nodeRadius ?? nodeRadius;
+			edgeThickness = state.edgeThickness ?? edgeThickness;
+			if (state.activeGen) setGen(state.activeGen);
+			update(root, 0);
+		};
+		reader.readAsText(file);
+		event.target.value = ''; // reset so same file can be reloaded
 	}
 
 	onMount(async () => {
@@ -449,6 +510,30 @@
 					<label class="flex items-center gap-1">
 						<input type="checkbox" bind:checked={showLabels} />
 						labels
+					</label>
+				</div>
+
+				<div class="flex items-center gap-2">
+					<button
+						onclick={() => { dragOffsets.clear(); update(root, 0); }}
+						style="color: {purple}; border: 1px solid {purple};"
+						class="cursor-pointer rounded px-2 py-0.5"
+					>
+						Reset positions
+					</button>
+					<button
+						onclick={saveState}
+						style="color: {purple}; border: 1px solid {purple};"
+						class="cursor-pointer rounded px-2 py-0.5"
+					>
+						Save layout
+					</button>
+					<label
+						style="color: {purple}; border: 1px solid {purple};"
+						class="cursor-pointer rounded px-2 py-0.5"
+					>
+						Load layout
+						<input type="file" accept=".json" onchange={loadState} class="hidden" />
 					</label>
 				</div>
 			</div>
