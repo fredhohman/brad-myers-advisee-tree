@@ -4,7 +4,6 @@
 	import { base } from '$app/paths';
 
 	const margin = { top: 20, right: 120, bottom: 20, left: 140 };
-	const width = 1400 - margin.right - margin.left;
 	const duration = 500;
 	const pause = 200;
 
@@ -14,7 +13,7 @@
 	let blend = $state(0);
 	let siblingGap = $state(1);
 	let groupGap = $state(3);
-	let colSpacing = $state(200);
+	let colSpacing = $state(280);
 	let treeHeight = $state(3600);
 	let nodeRadius = $state(4.25);
 	let edgeThickness = $state(2.5);
@@ -31,6 +30,7 @@
 	let idCounter = 0;
 	let numStudents = $state(0);
 	let numGenerations = $state(0);
+	let width = $derived(numGenerations > 1 ? (numGenerations - 1) * colSpacing : 1400 - margin.right - margin.left);
 
 	const treeLayout = d3.tree();
 	const dragOffsets = new Map(); // keyed by node name, value = dy offset
@@ -342,7 +342,7 @@
 </svelte:head>
 
 <div class="mx-auto max-w-[1600px] px-4 py-4">
-	<h1 class="mb-2 text-2xl font-bold">Brad Myers's Advisee Tree</h1>
+	<h1 class="mb-2 text-3xl font-medium">Brad Myers's Advisee Tree</h1>
 
 	<p class="mb-2">
 		At the <a class="text-purple-700" href="https://chi2017.acm.org/">ACM CHI 2017</a>
@@ -449,7 +449,7 @@
 					<span class="font-bold">Column spacing:</span>
 					<input
 						type="range"
-						min="100"
+						min="50"
 						max="400"
 						step="10"
 						value={colSpacing}
@@ -541,7 +541,7 @@
 	</div>
 </div>
 
-<div class="flex justify-center">
+<div class="overflow-x-auto">
 <svg
 	bind:this={svgEl}
 	class:hide-nodes={!showNodes}
