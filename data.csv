@@ -199,7 +199,7 @@ id,name,parent,parent_id,direct_students,total_descendants
 17.6.8,Ranjay Krishna,Michael Bernstein,17.6,15,15
 17.6.8.1,Cheng-Yu Hsieh,Ranjay Krishna,17.6.8,0,0
 17.6.8.2,Jieyu Zhang,Ranjay Krishna,17.6.8,0,0
-17.6.8.3,Jae Sung Park (c*o-advised by Prof. Yejin Choi and Prof. Ali Farhadi*),Ranjay Krishna,17.6.8,0,0
+17.6.8.3,Jae Sung Park,Ranjay Krishna,17.6.8,0,0
 17.6.8.4,Benlin Liu,Ranjay Krishna,17.6.8,0,0
 17.6.8.5,George Stoica,Ranjay Krishna,17.6.8,0,0
 17.6.8.6,Ainaz Eftekhar,Ranjay Krishna,17.6.8,0,0
