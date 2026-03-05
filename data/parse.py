@@ -22,6 +22,9 @@ def clean_name(content):
     else:
         text = content.strip()
 
+    # Strip markdown inline formatting characters (bold/italic markers)
+    text = re.sub(r'[*_]', '', text)
+
     # Remove anything after a comma
     text = text.split(",")[0].strip()
 
